@@ -1,0 +1,2904 @@
+{
+    "__do_global_dtors_aux": {
+        "called_functions": []
+    },
+    "frame_dummy": {
+        "called_functions": [
+            "UnresolvableJumpTarget"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "UnresolvableJumpTarget": {
+        "called_functions": []
+    },
+    "sub_8000167": {
+        "called_functions": []
+    },
+    "memcpy": {
+        "called_functions": []
+    },
+    "sub_800021b": {
+        "called_functions": [
+            "memcpy"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "Reset_Handler": {
+        "called_functions": [
+            "SystemInit",
+            "__libc_init_array",
+            "main"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "SystemInit": {
+        "called_functions": []
+    },
+    "__libc_init_array": {
+        "called_functions": [
+            "_init",
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "main": {
+        "called_functions": [
+            "HAL_Init",
+            "Setup_HAL",
+            "HAL_IWDG_Refresh",
+            "setTipPWM",
+            "_ZN4OLED10initializeEv",
+            "_ZN4OLED7setFontEh",
+            "HAL_I2C_Mem_Read",
+            "_ZN9MMA8652FC9initalizeEv",
+            "_ZN8LIS2DH129initalizeEv",
+            "_Z15restoreSettingsv",
+            "setCalibrationOffset",
+            "controlSanitizer",
+            "osThreadCreate",
+            "osKernelStart"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_800029b": {
+        "called_functions": []
+    },
+    "USBWakeUp_IRQHandler": {
+        "called_functions": []
+    },
+    "_ZL22settings_displayUIMenuv": {
+        "called_functions": [
+            "_ZL11displayMenuj.lto_priv.64"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_ZL11displayMenuj.lto_priv.64": {
+        "called_functions": [
+            "_ZN4OLED7setFontEh",
+            "_ZN4OLED9setCursorEss",
+            "_ZN4OLED5printEPKc",
+            "_ZN4OLED8drawAreaEsahhPKh"
+        ],
+        "indegree": 4,
+        "outdegree": 4
+    },
+    "_ZL20settings_enterUIMenuv": {
+        "called_functions": [
+            "_Z8gui_MenuPK8menuitem"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_Z8gui_MenuPK8menuitem": {
+        "called_functions": [
+            "_ZN4OLED7setFontEh",
+            "_ZN4OLED9setCursorEss",
+            "xTaskGetTickCount",
+            "_ZN4OLED11clearScreenEv",
+            "strlen",
+            "UnresolvableCallTarget",
+            "_Z14getButtonStatev",
+            "_ZN4OLED5printEPKc",
+            "_ZN4OLED7refreshEv",
+            "osDelay"
+        ],
+        "indegree": 5,
+        "outdegree": 5
+    },
+    "_ZL28settings_displayAdvancedMenuv": {
+        "called_functions": [
+            "_ZL11displayMenuj.lto_priv.64"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_ZL26settings_enterAdvancedMenuv": {
+        "called_functions": [
+            "_Z8gui_MenuPK8menuitem"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_ZN4OLED7setFontEh": {
+        "called_functions": []
+    },
+    "_ZN4OLED9setCursorEss": {
+        "called_functions": []
+    },
+    "xTaskGetTickCount": {
+        "called_functions": []
+    },
+    "_ZN4OLED11clearScreenEv": {
+        "called_functions": [
+            "memset"
+        ],
+        "indegree": 10,
+        "outdegree": 10
+    },
+    "strlen": {
+        "called_functions": []
+    },
+    "UnresolvableCallTarget": {
+        "called_functions": []
+    },
+    "_Z14getButtonStatev": {
+        "called_functions": [
+            "HAL_GPIO_ReadPin",
+            "xTaskGetTickCount"
+        ],
+        "indegree": 10,
+        "outdegree": 10
+    },
+    "_ZN4OLED5printEPKc": {
+        "called_functions": [
+            "_ZN4OLED8drawCharEcc"
+        ],
+        "indegree": 19,
+        "outdegree": 19
+    },
+    "_ZN4OLED7refreshEv": {
+        "called_functions": [
+            "_ZN8FRToSI2C8TransmitEtPht"
+        ],
+        "indegree": 13,
+        "outdegree": 13
+    },
+    "osDelay": {
+        "called_functions": []
+    },
+    "sub_8000477": {
+        "called_functions": []
+    },
+    "sub_80005cf": {
+        "called_functions": []
+    },
+    "_Z17enterSettingsMenuv": {
+        "called_functions": [
+            "_Z8gui_MenuPK8menuitem",
+            "_Z12saveSettingsv"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_Z12saveSettingsv": {
+        "called_functions": [
+            "HAL_IWDG_Refresh",
+            "HAL_FLASH_Unlock",
+            "HAL_Delay",
+            "HAL_FLASHEx_Erase",
+            "HAL_FLASH_Lock"
+        ],
+        "indegree": 5,
+        "outdegree": 5
+    },
+    "_Z41__static_initialization_and_destruction_0ii": {
+        "called_functions": [
+            "_ZN8FRToSI2CC1EP17I2C_HandleTypeDef",
+            "_ZN4OLEDC2EP8FRToSI2C",
+            "_ZN9MMA8652FCC2EP8FRToSI2C.lto_priv.73",
+            "_ZN8LIS2DH12C2EP8FRToSI2C.lto_priv.72"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_80006bb": {
+        "called_functions": []
+    },
+    "_GLOBAL__sub_I_rootSettingsMenu": {
+        "called_functions": [
+            "_Z41__static_initialization_and_destruction_0ii"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_ZN4OLEDC2EP8FRToSI2C": {
+        "called_functions": []
+    },
+    "_ZN4OLED10initializeEv": {
+        "called_functions": [
+            "memcpy",
+            "HAL_Delay",
+            "HAL_GPIO_WritePin",
+            "_ZN8FRToSI2C8TransmitEtPht",
+            "_ZN4OLED12displayOnOffEb"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_Delay": {
+        "called_functions": []
+    },
+    "HAL_GPIO_WritePin": {
+        "called_functions": []
+    },
+    "_ZN8FRToSI2C8TransmitEtPht": {
+        "called_functions": [
+            "xTaskGetSchedulerState",
+            "xQueueGenericReceive",
+            "HAL_I2C_Master_Transmit",
+            "NVIC_SystemReset",
+            "HAL_I2C_Master_Transmit_DMA"
+        ],
+        "indegree": 4,
+        "outdegree": 4
+    },
+    "_ZN4OLED12displayOnOffEb": {
+        "called_functions": []
+    },
+    "sub_800079b": {
+        "called_functions": []
+    },
+    "_ZN4OLED8drawCharEcc": {
+        "called_functions": [
+            "_ZN4OLED8drawAreaEsahhPKh"
+        ],
+        "indegree": 12,
+        "outdegree": 12
+    },
+    "_ZN4OLED8drawAreaEsahhPKh": {
+        "called_functions": []
+    },
+    "sub_8000803": {
+        "called_functions": []
+    },
+    "_ZN4OLED11setRotationEb": {
+        "called_functions": [
+            "_ZN8FRToSI2C8TransmitEtPht"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "sub_800092b": {
+        "called_functions": []
+    },
+    "sub_80009db": {
+        "called_functions": []
+    },
+    "_ZN4OLED11printNumberEth": {
+        "called_functions": [
+            "_ZN4OLED5printEPKc"
+        ],
+        "indegree": 14,
+        "outdegree": 14
+    },
+    "sub_8000aff": {
+        "called_functions": []
+    },
+    "_ZN4OLED10drawSymbolEh": {
+        "called_functions": [
+            "_ZN4OLED7setFontEh",
+            "_ZN4OLED8drawCharEcc"
+        ],
+        "indegree": 7,
+        "outdegree": 7
+    },
+    "_ZN4OLED8fillAreaEsahhh": {
+        "called_functions": []
+    },
+    "_ZN4OLED14drawFilledRectEhhhhb": {
+        "called_functions": []
+    },
+    "_ZN4OLED14drawHeatSymbolEh": {
+        "called_functions": [
+            "_ZN4OLED10drawSymbolEh",
+            "_ZN4OLED14drawFilledRectEhhhhb"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8000f2b": {
+        "called_functions": []
+    },
+    "HAL_IWDG_Refresh": {
+        "called_functions": []
+    },
+    "HAL_FLASH_Unlock": {
+        "called_functions": []
+    },
+    "HAL_FLASHEx_Erase": {
+        "called_functions": [
+            "FLASH_WaitForLastOperation",
+            "FLASH_MassErase",
+            "FLASH_PageErase"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_FLASH_Lock": {
+        "called_functions": []
+    },
+    "sub_8000f9f": {
+        "called_functions": []
+    },
+    "_Z15restoreSettingsv": {
+        "called_functions": [
+            "_Z13resetSettingsv"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_Z13resetSettingsv": {
+        "called_functions": [
+            "memset",
+            "_Z12saveSettingsv"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_8001003": {
+        "called_functions": []
+    },
+    "_Z18lookupVoltageLevelh": {
+        "called_functions": []
+    },
+    "memset": {
+        "called_functions": []
+    },
+    "sub_80010ef": {
+        "called_functions": []
+    },
+    "NVIC_SystemReset": {
+        "called_functions": []
+    },
+    "_ZN8FRToSI2C12CpltCallbackEv": {
+        "called_functions": [
+            "xQueueGiveFromISR"
+        ],
+        "indegree": 6,
+        "outdegree": 6
+    },
+    "xQueueGiveFromISR": {
+        "called_functions": [
+            "vPortValidateInterruptPriority",
+            "xTaskRemoveFromEventList"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8001167": {
+        "called_functions": []
+    },
+    "_ZN8FRToSI2C8Mem_ReadEtttPht": {
+        "called_functions": [
+            "xTaskGetSchedulerState",
+            "xQueueGenericReceive",
+            "HAL_I2C_Mem_Read",
+            "NVIC_SystemReset",
+            "xQueueGenericSend"
+        ],
+        "indegree": 4,
+        "outdegree": 4
+    },
+    "xTaskGetSchedulerState": {
+        "called_functions": []
+    },
+    "xQueueGenericReceive": {
+        "called_functions": [
+            "xTaskGetSchedulerState",
+            "vPortEnterCritical",
+            "prvCopyDataFromQueue",
+            "vPortExitCritical",
+            "vTaskSetTimeOutState",
+            "vTaskSuspendAll",
+            "xTaskRemoveFromEventList",
+            "pvTaskIncrementMutexHeldCount",
+            "xTaskCheckForTimeOut",
+            "prvUnlockQueue.lto_priv.93",
+            "prvIsQueueEmpty",
+            "xTaskResumeAll",
+            "vTaskPlaceOnEventList",
+            "vTaskPriorityInherit"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "HAL_I2C_Mem_Read": {
+        "called_functions": [
+            "HAL_GetTick",
+            "I2C_WaitOnFlagUntilTimeout.lto_priv.221",
+            "I2C_RequestMemoryRead.lto_priv.222",
+            "I2C_WaitOnRXNEFlagUntilTimeout.lto_priv.224"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "xQueueGenericSend": {
+        "called_functions": [
+            "xTaskGetSchedulerState",
+            "vPortEnterCritical",
+            "prvCopyDataToQueue.lto_priv.92",
+            "xTaskRemoveFromEventList",
+            "vPortExitCritical",
+            "vTaskSetTimeOutState",
+            "vTaskSuspendAll",
+            "xTaskCheckForTimeOut",
+            "prvUnlockQueue.lto_priv.93",
+            "prvIsQueueFull.lto_priv.94",
+            "xTaskResumeAll",
+            "vTaskPlaceOnEventList"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "_ZN8FRToSI2C9Mem_WriteEtttPht": {
+        "called_functions": [
+            "xTaskGetSchedulerState",
+            "xQueueGenericReceive",
+            "HAL_I2C_Mem_Write",
+            "NVIC_SystemReset",
+            "xQueueGenericSend"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "HAL_I2C_Mem_Write": {
+        "called_functions": [
+            "HAL_GetTick",
+            "I2C_WaitOnFlagUntilTimeout.lto_priv.221",
+            "I2C_RequestMemoryWrite.lto_priv.223",
+            "I2C_WaitOnTXEFlagUntilTimeout.lto_priv.214",
+            "I2C_WaitOnBTFFlagUntilTimeout.lto_priv.225"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_I2C_Master_Transmit": {
+        "called_functions": [
+            "HAL_GetTick",
+            "I2C_WaitOnFlagUntilTimeout.lto_priv.221",
+            "I2C_MasterRequestWrite.lto_priv.228",
+            "I2C_WaitOnTXEFlagUntilTimeout.lto_priv.214",
+            "I2C_WaitOnBTFFlagUntilTimeout.lto_priv.225"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_I2C_Master_Transmit_DMA": {
+        "called_functions": [
+            "HAL_DMA_Start_IT"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_800137b": {
+        "called_functions": [
+            "_ZN8FRToSI2C8TransmitEtPht"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_Z12startGUITaskPKv": {
+        "called_functions": [
+            "_ZN8FRToSI2C9FRToSInitEv",
+            "getTipRawTemp",
+            "_ZN4OLED11setRotationEb",
+            "xTaskGetTickCount",
+            "_Z23showBootLogoIfavailablev",
+            "_Z14getButtonStatev",
+            "_ZL17gui_solderingModev.lto_priv.70",
+            "_Z8GUIDelayv",
+            "tipMeasurementToC",
+            "_Z11showVersionv",
+            "_ZL23gui_solderingTempAdjustv.lto_priv.71",
+            "_ZN4OLED7setFontEh",
+            "_Z12saveSettingsv",
+            "_ZN4OLED12displayOnOffEb",
+            "_Z17enterSettingsMenuv",
+            "_ZN4OLED11clearScreenEv",
+            "setCalibrationOffset",
+            "_ZN4OLED9setCursorEss",
+            "_ZNK4OLED11getRotationEv",
+            "_ZN4OLED5printEPKc",
+            "_ZN4OLED8drawAreaEsahhPKh",
+            "_ZL19gui_drawBatteryIconv.lto_priv.69",
+            "tipMeasurementToF",
+            "_ZN4OLED11printNumberEth",
+            "_Z12printVoltagev",
+            "_ZN4OLED7refreshEv",
+            "_ZN4OLED8fillAreaEsahhh",
+            "_Z15gui_drawTipTempb"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_ZN8FRToSI2C9FRToSInitEv": {
+        "called_functions": [
+            "xQueueGenericCreate",
+            "xQueueGenericSend"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "getTipRawTemp": {
+        "called_functions": [
+            "getTipInstantTemperature"
+        ],
+        "indegree": 7,
+        "outdegree": 7
+    },
+    "_Z23showBootLogoIfavailablev": {
+        "called_functions": [
+            "_ZN4OLED8drawAreaEsahhPKh",
+            "_ZN4OLED7refreshEv"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZL17gui_solderingModev.lto_priv.70": {
+        "called_functions": [
+            "getTipRawTemp",
+            "_Z14getButtonStatev",
+            "_ZN4OLED9setCursorEss",
+            "_ZN4OLED11clearScreenEv",
+            "_ZL23gui_solderingTempAdjustv.lto_priv.71",
+            "_ZN4OLED7setFontEh",
+            "_Z12saveSettingsv",
+            "_ZN4OLED5printEPKc",
+            "_ZNK4OLED11getRotationEv",
+            "_ZN4OLED7refreshEv",
+            "_ZL18waitForButtonPressv",
+            "getTipPWM",
+            "_ZL19gui_drawBatteryIconv.lto_priv.69",
+            "_ZN4OLED14drawHeatSymbolEh",
+            "_ZN4OLED8drawCharEcc",
+            "_ZN4OLED11printNumberEth",
+            "_Z15gui_drawTipTempb",
+            "_ZN4OLED10drawSymbolEh",
+            "_ZL17display_countdowni",
+            "ctoTipMeasurement",
+            "ftoTipMeasurement",
+            "_Z12printVoltagev",
+            "_ZL19checkVoltageForExitv",
+            "xTaskGetTickCount",
+            "_Z8GUIDelayv",
+            "_ZL25gui_SolderingSleepingModev"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_Z8GUIDelayv": {
+        "called_functions": [
+            "osDelay"
+        ],
+        "indegree": 7,
+        "outdegree": 7
+    },
+    "tipMeasurementToC": {
+        "called_functions": [
+            "getHandleTemperature"
+        ],
+        "indegree": 5,
+        "outdegree": 5
+    },
+    "_Z11showVersionv": {
+        "called_functions": [
+            "_ZN4OLED11clearScreenEv",
+            "_ZN4OLED9setCursorEss",
+            "_ZN4OLED7setFontEh",
+            "_ZN4OLED5printEPKc",
+            "_ZN4OLED11printNumberEth",
+            "_ZN4OLED7refreshEv",
+            "_Z14getButtonStatev",
+            "getTipRawTemp",
+            "xPortGetFreeHeapSize",
+            "xTaskGetTickCount",
+            "uxTaskGetStackHighWaterMark",
+            "_Z12printVoltagev",
+            "tipMeasurementToC",
+            "_Z8GUIDelayv"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZL23gui_solderingTempAdjustv.lto_priv.71": {
+        "called_functions": [
+            "xTaskGetTickCount",
+            "_ZN4OLED9setCursorEss",
+            "_ZN4OLED11clearScreenEv",
+            "_ZN4OLED7setFontEh",
+            "_Z14getButtonStatev",
+            "_ZNK4OLED11getRotationEv",
+            "_ZN4OLED8drawCharEcc",
+            "_ZN4OLED11printNumberEth",
+            "_ZN4OLED10drawSymbolEh",
+            "_ZN4OLED7refreshEv",
+            "_Z8GUIDelayv"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "setCalibrationOffset": {
+        "called_functions": []
+    },
+    "_ZNK4OLED11getRotationEv": {
+        "called_functions": []
+    },
+    "_ZL19gui_drawBatteryIconv.lto_priv.69": {
+        "called_functions": [
+            "_ZN4OLED10drawSymbolEh",
+            "getInputVoltageX10",
+            "_ZN4OLED11drawBatteryEh"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "tipMeasurementToF": {
+        "called_functions": [
+            "getHandleTemperature"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "_Z12printVoltagev": {
+        "called_functions": [
+            "getInputVoltageX10",
+            "_ZN4OLED11printNumberEth",
+            "_ZN4OLED8drawCharEcc"
+        ],
+        "indegree": 5,
+        "outdegree": 5
+    },
+    "_Z15gui_drawTipTempb": {
+        "called_functions": [
+            "getTipRawTemp",
+            "tipMeasurementToC",
+            "tipMeasurementToF",
+            "_ZN4OLED11printNumberEth",
+            "_ZN4OLED5printEPKc"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_800162f": {
+        "called_functions": []
+    },
+    "sub_80017b7": {
+        "called_functions": []
+    },
+    "_Z12startPIDTaskPKv": {
+        "called_functions": [
+            "setTipPWM",
+            "osDelay",
+            "xTaskGetCurrentTaskHandle",
+            "ulTaskNotifyTake",
+            "getTipRawTemp",
+            "ctoTipMeasurement",
+            "HAL_IWDG_Refresh"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "setTipPWM": {
+        "called_functions": []
+    },
+    "xTaskGetCurrentTaskHandle": {
+        "called_functions": []
+    },
+    "ulTaskNotifyTake": {
+        "called_functions": [
+            "vPortEnterCritical",
+            "vPortExitCritical",
+            "prvAddCurrentTaskToDelayedList"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "ctoTipMeasurement": {
+        "called_functions": [
+            "getHandleTemperature"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "_Z12startMOVTaskPKv": {
+        "called_functions": [
+            "osDelay",
+            "_ZN4OLED11setRotationEb",
+            "_ZN8LIS2DH1215getAxisReadingsEPsS0_S0_",
+            "_ZN9MMA8652FC15getAxisReadingsEPsS0_S0_",
+            "_ZN8LIS2DH1214getOrientationEv",
+            "_ZN9MMA8652FC14getOrientationEv",
+            "_ZSt3absl",
+            "xTaskGetTickCount"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_ZN8LIS2DH1215getAxisReadingsEPsS0_S0_": {
+        "called_functions": [
+            "_ZN8FRToSI2C8Mem_ReadEtttPht"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN9MMA8652FC15getAxisReadingsEPsS0_S0_": {
+        "called_functions": [
+            "_ZN8FRToSI2C8Mem_ReadEtttPht"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN8LIS2DH1214getOrientationEv": {
+        "called_functions": [
+            "_ZN8LIS2DH1216I2C_RegisterReadEh"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN9MMA8652FC14getOrientationEv": {
+        "called_functions": [
+            "_ZN9MMA8652FC16I2C_RegisterReadEh"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZSt3absl": {
+        "called_functions": []
+    },
+    "HAL_ADCEx_InjectedConvCpltCallback": {
+        "called_functions": [
+            "vTaskNotifyGiveFromISR"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "vTaskNotifyGiveFromISR": {
+        "called_functions": [
+            "vPortValidateInterruptPriority",
+            "vListInsertEnd",
+            "uxListRemove"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_I2C_MasterRxCpltCallback": {
+        "called_functions": [
+            "_ZN8FRToSI2C12CpltCallbackEv"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "HAL_I2C_MasterTxCpltCallback": {
+        "called_functions": [
+            "_ZN8FRToSI2C12CpltCallbackEv"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "HAL_I2C_MemTxCpltCallback": {
+        "called_functions": [
+            "_ZN8FRToSI2C12CpltCallbackEv"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "HAL_I2C_ErrorCallback": {
+        "called_functions": [
+            "_ZN8FRToSI2C12CpltCallbackEv"
+        ],
+        "indegree": 4,
+        "outdegree": 4
+    },
+    "HAL_I2C_AbortCpltCallback": {
+        "called_functions": [
+            "_ZN8FRToSI2C12CpltCallbackEv"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "HAL_I2C_MemRxCpltCallback": {
+        "called_functions": [
+            "_ZN8FRToSI2C12CpltCallbackEv"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "vApplicationStackOverflowHook": {
+        "called_functions": [
+            "NVIC_SystemReset.lto_priv.68"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "NVIC_SystemReset.lto_priv.68": {
+        "called_functions": []
+    },
+    "sub_8001dab": {
+        "called_functions": []
+    },
+    "_ZN8FRToSI2CC1EP17I2C_HandleTypeDef": {
+        "called_functions": []
+    },
+    "_ZN9MMA8652FCC2EP8FRToSI2C.lto_priv.73": {
+        "called_functions": []
+    },
+    "_ZN8LIS2DH12C2EP8FRToSI2C.lto_priv.72": {
+        "called_functions": []
+    },
+    "_GLOBAL__sub_I_i2cDev": {
+        "called_functions": [
+            "_Z41__static_initialization_and_destruction_0ii"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_ZN4OLED13setCharCursorEss": {
+        "called_functions": []
+    },
+    "_ZN4OLED12drawCheckboxEb": {
+        "called_functions": [
+            "_ZN4OLED10drawSymbolEh"
+        ],
+        "indegree": 5,
+        "outdegree": 5
+    },
+    "_ZL31printShortDescriptionSingleLinem": {
+        "called_functions": [
+            "_ZN4OLED7setFontEh",
+            "_ZN4OLED13setCharCursorEss",
+            "_ZN4OLED5printEPKc"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZL31printShortDescriptionDoubleLinem": {
+        "called_functions": [
+            "_ZN4OLED7setFontEh",
+            "_ZN4OLED13setCharCursorEss",
+            "_ZN4OLED5printEPKc"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZL21printShortDescriptionmt": {
+        "called_functions": [
+            "_ZL31printShortDescriptionSingleLinem",
+            "_ZL31printShortDescriptionDoubleLinem",
+            "_ZN4OLED7setFontEh",
+            "_ZN4OLED13setCharCursorEss"
+        ],
+        "indegree": 17,
+        "outdegree": 17
+    },
+    "sub_8001f47": {
+        "called_functions": []
+    },
+    "_ZL16userConfirmationPKc": {
+        "called_functions": [
+            "strlen",
+            "xTaskGetTickCount",
+            "_ZN4OLED7setFontEh",
+            "_ZN4OLED9setCursorEss",
+            "_Z14getButtonStatev",
+            "_ZN4OLED11clearScreenEv",
+            "_ZN4OLED5printEPKc",
+            "_ZN4OLED7refreshEv",
+            "osDelay"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_800203b": {
+        "called_functions": []
+    },
+    "_ZL23settings_setInputVRangev.lto_priv.56": {
+        "called_functions": []
+    },
+    "_ZL27settings_displayInputVRangev.lto_priv.57": {
+        "called_functions": [
+            "_ZL21printShortDescriptionmt",
+            "_ZN4OLED5printEPKc",
+            "_ZN4OLED8drawCharEcc"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_80020c3": {
+        "called_functions": []
+    },
+    "_ZL21settings_setSleepTempv.lto_priv.34": {
+        "called_functions": []
+    },
+    "_ZL25settings_displaySleepTempv.lto_priv.35": {
+        "called_functions": [
+            "_ZL21printShortDescriptionmt",
+            "_ZN4OLED11printNumberEth"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8002167": {
+        "called_functions": []
+    },
+    "_ZL21settings_setSleepTimev.lto_priv.36": {
+        "called_functions": []
+    },
+    "_ZL25settings_displaySleepTimev.lto_priv.37": {
+        "called_functions": [
+            "_ZL21printShortDescriptionmt",
+            "_ZN4OLED5printEPKc",
+            "_ZN4OLED11printNumberEth",
+            "_ZN4OLED8drawCharEcc"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_ZL24settings_setShutdownTimev.lto_priv.38": {
+        "called_functions": []
+    },
+    "_ZL28settings_displayShutdownTimev.lto_priv.39": {
+        "called_functions": [
+            "_ZL21printShortDescriptionmt",
+            "_ZN4OLED11printNumberEth",
+            "_ZN4OLED5printEPKc",
+            "_ZN4OLED8drawCharEcc"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_ZL17settings_setTempFv.lto_priv.42": {
+        "called_functions": []
+    },
+    "sub_800246b": {
+        "called_functions": []
+    },
+    "_ZL21settings_displayTempFv.lto_priv.43": {
+        "called_functions": [
+            "_ZL21printShortDescriptionmt",
+            "_ZN4OLED8drawCharEcc"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_ZL23settings_setSensitivityv.lto_priv.40": {
+        "called_functions": []
+    },
+    "sub_8002507": {
+        "called_functions": []
+    },
+    "_ZL27settings_displaySensitivityv.lto_priv.41": {
+        "called_functions": [
+            "_ZL21printShortDescriptionmt",
+            "_ZN4OLED11printNumberEth"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_ZL36settings_setAdvancedSolderingScreensv.lto_priv.26": {
+        "called_functions": []
+    },
+    "_ZL40settings_displayAdvancedSolderingScreensv.lto_priv.27": {
+        "called_functions": [
+            "_ZL21printShortDescriptionmt",
+            "_ZN4OLED12drawCheckboxEb"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_ZL31settings_setAdvancedIDLEScreensv.lto_priv.24": {
+        "called_functions": []
+    },
+    "_ZL35settings_displayAdvancedIDLEScreensv.lto_priv.25": {
+        "called_functions": [
+            "_ZL21printShortDescriptionmt",
+            "_ZN4OLED12drawCheckboxEb"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_ZL23settings_setScrollSpeedv.lto_priv.48": {
+        "called_functions": []
+    },
+    "_ZL27settings_displayScrollSpeedv.lto_priv.49": {
+        "called_functions": [
+            "_ZL21printShortDescriptionmt",
+            "_ZN4OLED8drawCharEcc"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_ZL27settings_setDisplayRotationv.lto_priv.44": {
+        "called_functions": [
+            "_ZN4OLED11setRotationEb"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_80026cf": {
+        "called_functions": []
+    },
+    "_ZL31settings_displayDisplayRotationv.lto_priv.45": {
+        "called_functions": [
+            "_ZL21printShortDescriptionmt",
+            "_ZN4OLED8drawCharEcc"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_800273f": {
+        "called_functions": []
+    },
+    "_ZL28settings_setBoostModeEnabledv.lto_priv.50": {
+        "called_functions": []
+    },
+    "_ZL32settings_displayBoostModeEnabledv.lto_priv.51": {
+        "called_functions": [
+            "_ZL21printShortDescriptionmt",
+            "_ZN4OLED12drawCheckboxEb"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_ZL21settings_setBoostTempv.lto_priv.52": {
+        "called_functions": []
+    },
+    "sub_800281f": {
+        "called_functions": []
+    },
+    "_ZL25settings_displayBoostTempv.lto_priv.53": {
+        "called_functions": [
+            "_ZL21printShortDescriptionmt",
+            "_ZN4OLED11printNumberEth"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8002843": {
+        "called_functions": []
+    },
+    "_ZL30settings_setAutomaticStartModev.lto_priv.54": {
+        "called_functions": []
+    },
+    "_ZL34settings_displayAutomaticStartModev.lto_priv.55": {
+        "called_functions": [
+            "_ZL21printShortDescriptionmt",
+            "_ZN4OLED12drawCheckboxEb"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_80028bb": {
+        "called_functions": []
+    },
+    "_ZL31settings_setCoolingBlinkEnabledv.lto_priv.46": {
+        "called_functions": []
+    },
+    "_ZL35settings_displayCoolingBlinkEnabledv.lto_priv.47": {
+        "called_functions": [
+            "_ZL21printShortDescriptionmt",
+            "_ZN4OLED12drawCheckboxEb"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_ZL25settings_setResetSettingsv.lto_priv.28": {
+        "called_functions": [
+            "_ZL16userConfirmationPKc",
+            "_Z13resetSettingsv",
+            "_ZN4OLED7setFontEh",
+            "_ZN4OLED9setCursorEss",
+            "_ZN4OLED5printEPKc",
+            "_ZN4OLED7refreshEv",
+            "_Z27waitForButtonPressOrTimeoutm"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_Z27waitForButtonPressOrTimeoutm": {
+        "called_functions": [
+            "xTaskGetTickCount",
+            "_Z14getButtonStatev",
+            "_Z8GUIDelayv"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_800295f": {
+        "called_functions": []
+    },
+    "_ZL29settings_displayResetSettingsv.lto_priv.29": {
+        "called_functions": [
+            "_ZL21printShortDescriptionmt"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_ZL21settings_setCalibratev.lto_priv.30": {
+        "called_functions": [
+            "_ZL16userConfirmationPKc",
+            "_ZN4OLED11clearScreenEv",
+            "_ZN4OLED9setCursorEss",
+            "_ZN4OLED5printEPKc",
+            "_ZN4OLED7refreshEv",
+            "setCalibrationOffset",
+            "osDelay",
+            "getTipRawTemp",
+            "tipMeasurementToC",
+            "getHandleTemperature"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "getHandleTemperature": {
+        "called_functions": [
+            "getADC"
+        ],
+        "indegree": 5,
+        "outdegree": 5
+    },
+    "sub_8002a2f": {
+        "called_functions": []
+    },
+    "_ZL25settings_displayCalibratev.lto_priv.31": {
+        "called_functions": [
+            "_ZL21printShortDescriptionmt"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_ZL24settings_setCalibrateVINv.lto_priv.32": {
+        "called_functions": [
+            "_ZN4OLED7setFontEh",
+            "_ZN4OLED11clearScreenEv",
+            "_ZN4OLED9setCursorEss",
+            "getInputVoltageX10",
+            "_ZN4OLED11printNumberEth",
+            "_ZN4OLED5printEPKc",
+            "_Z14getButtonStatev",
+            "_ZN4OLED7refreshEv",
+            "osDelay",
+            "_Z12saveSettingsv"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "getInputVoltageX10": {
+        "called_functions": [
+            "getADC"
+        ],
+        "indegree": 4,
+        "outdegree": 4
+    },
+    "sub_8002bab": {
+        "called_functions": []
+    },
+    "sub_8002c0b": {
+        "called_functions": []
+    },
+    "_ZL28settings_displayCalibrateVINv.lto_priv.33": {
+        "called_functions": [
+            "_ZL21printShortDescriptionmt"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_ZL29settings_displaySolderingMenuv.lto_priv.59": {
+        "called_functions": [
+            "_ZL11displayMenuj.lto_priv.64"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_ZL27settings_enterSolderingMenuv.lto_priv.58": {
+        "called_functions": [
+            "_Z8gui_MenuPK8menuitem"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_ZL25settings_displayPowerMenuv.lto_priv.61": {
+        "called_functions": [
+            "_ZL11displayMenuj.lto_priv.64"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_ZL23settings_enterPowerMenuv.lto_priv.60": {
+        "called_functions": [
+            "_Z8gui_MenuPK8menuitem"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "HAL_InitTick": {
+        "called_functions": [
+            "HAL_NVIC_SetPriority",
+            "HAL_NVIC_EnableIRQ",
+            "HAL_RCC_GetClockConfig",
+            "HAL_RCC_GetPCLK2Freq",
+            "HAL_TIM_Base_Init",
+            "HAL_TIM_Base_Start_IT"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "HAL_NVIC_SetPriority": {
+        "called_functions": [
+            "NVIC_GetPriorityGrouping",
+            "NVIC_EncodePriority",
+            "NVIC_SetPriority"
+        ],
+        "indegree": 6,
+        "outdegree": 6
+    },
+    "HAL_NVIC_EnableIRQ": {
+        "called_functions": [
+            "NVIC_EnableIRQ"
+        ],
+        "indegree": 5,
+        "outdegree": 5
+    },
+    "HAL_RCC_GetClockConfig": {
+        "called_functions": []
+    },
+    "HAL_RCC_GetPCLK2Freq": {
+        "called_functions": [
+            "HAL_RCC_GetHCLKFreq"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "HAL_TIM_Base_Init": {
+        "called_functions": [
+            "TIM_Base_SetConfig",
+            "HAL_TIM_Base_MspInit"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "HAL_TIM_Base_Start_IT": {
+        "called_functions": []
+    },
+    "_ZN8LIS2DH129initalizeEv": {
+        "called_functions": [
+            "_ZN8LIS2DH1217I2C_RegisterWriteEhh"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN8LIS2DH1217I2C_RegisterWriteEhh": {
+        "called_functions": [
+            "_ZN8FRToSI2C9Mem_WriteEtttPht"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8002d47": {
+        "called_functions": []
+    },
+    "_ZN8LIS2DH1216I2C_RegisterReadEh": {
+        "called_functions": [
+            "_ZN8FRToSI2C8Mem_ReadEtttPht"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN9MMA8652FC17I2C_RegisterWriteEhh": {
+        "called_functions": [
+            "_ZN8FRToSI2C9Mem_WriteEtttPht"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN9MMA8652FC16I2C_RegisterReadEh": {
+        "called_functions": [
+            "_ZN8FRToSI2C8Mem_ReadEtttPht"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN9MMA8652FC9initalizeEv": {
+        "called_functions": [
+            "_ZN9MMA8652FC17I2C_RegisterWriteEhh",
+            "HAL_Delay"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "xQueueGenericCreate": {
+        "called_functions": [
+            "pvPortMalloc",
+            "prvInitialiseNewQueue"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN4OLED11drawBatteryEh": {
+        "called_functions": [
+            "_ZN4OLED10drawSymbolEh"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_Init": {
+        "called_functions": [
+            "HAL_NVIC_SetPriorityGrouping",
+            "HAL_InitTick",
+            "HAL_MspInit"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "Setup_HAL": {
+        "called_functions": [
+            "SystemClock_Config",
+            "MX_GPIO_Init",
+            "MX_DMA_Init",
+            "MX_I2C1_Init",
+            "MX_ADC1_Init",
+            "MX_TIM3_Init",
+            "MX_TIM2_Init",
+            "MX_IWDG_Init",
+            "HAL_ADC_Start_DMA",
+            "HAL_ADCEx_InjectedStart"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "controlSanitizer": {
+        "called_functions": []
+    },
+    "osThreadCreate": {
+        "called_functions": [
+            "makeFreeRtosPriority.lto_priv.117",
+            "xTaskCreate"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "osKernelStart": {
+        "called_functions": [
+            "vTaskStartScheduler"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_800332b": {
+        "called_functions": []
+    },
+    "HAL_GPIO_ReadPin": {
+        "called_functions": []
+    },
+    "sub_80034cf": {
+        "called_functions": []
+    },
+    "_ZL18waitForButtonPressv": {
+        "called_functions": [
+            "_Z14getButtonStatev",
+            "_ZN4OLED7refreshEv",
+            "_Z8GUIDelayv"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "_ZL19checkVoltageForExitv": {
+        "called_functions": [
+            "getInputVoltageX10",
+            "_Z18lookupVoltageLevelh",
+            "_ZN4OLED11clearScreenEv",
+            "_ZN4OLED9setCursorEss",
+            "_ZN4OLED7setFontEh",
+            "_ZN4OLED5printEPKc",
+            "_ZN4OLED7refreshEv",
+            "_ZL18waitForButtonPressv",
+            "_Z12printVoltagev"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_800362f": {
+        "called_functions": []
+    },
+    "sub_800371f": {
+        "called_functions": []
+    },
+    "_ZL3mintt": {
+        "called_functions": []
+    },
+    "_ZL25gui_SolderingSleepingModev": {
+        "called_functions": [
+            "_Z14getButtonStatev",
+            "xTaskGetTickCount",
+            "_ZL19checkVoltageForExitv",
+            "_ZL3mintt",
+            "ctoTipMeasurement",
+            "ftoTipMeasurement",
+            "getTipRawTemp",
+            "tipMeasurementToC",
+            "tipMeasurementToF",
+            "_ZN4OLED11clearScreenEv",
+            "_ZN4OLED9setCursorEss",
+            "_ZN4OLED7setFontEh",
+            "_ZN4OLED5printEPKc",
+            "_ZN4OLED11printNumberEth",
+            "_ZN4OLED10drawSymbolEh",
+            "_ZN4OLED7refreshEv",
+            "_Z8GUIDelayv",
+            "_Z12printVoltagev",
+            "_ZN4OLED8drawCharEcc"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "ftoTipMeasurement": {
+        "called_functions": [
+            "getHandleTemperature"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "_ZL17display_countdowni": {
+        "called_functions": [
+            "xTaskGetTickCount",
+            "_ZN4OLED11printNumberEth",
+            "_ZN4OLED5printEPKc"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8003c77": {
+        "called_functions": []
+    },
+    "getTipPWM": {
+        "called_functions": []
+    },
+    "sub_8003cfb": {
+        "called_functions": []
+    },
+    "sub_8003f5f": {
+        "called_functions": []
+    },
+    "xPortGetFreeHeapSize": {
+        "called_functions": []
+    },
+    "uxTaskGetStackHighWaterMark": {
+        "called_functions": [
+            "prvTaskCheckFreeStackSpace"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_80040a3": {
+        "called_functions": []
+    },
+    "sub_80041d7": {
+        "called_functions": []
+    },
+    "vPortValidateInterruptPriority": {
+        "called_functions": []
+    },
+    "xTaskRemoveFromEventList": {
+        "called_functions": [
+            "uxListRemove",
+            "vListInsertEnd"
+        ],
+        "indegree": 5,
+        "outdegree": 5
+    },
+    "vPortEnterCritical": {
+        "called_functions": []
+    },
+    "prvCopyDataFromQueue": {
+        "called_functions": [
+            "memcpy"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "vPortExitCritical": {
+        "called_functions": []
+    },
+    "vTaskSetTimeOutState": {
+        "called_functions": []
+    },
+    "vTaskSuspendAll": {
+        "called_functions": []
+    },
+    "pvTaskIncrementMutexHeldCount": {
+        "called_functions": []
+    },
+    "xTaskCheckForTimeOut": {
+        "called_functions": [
+            "vPortEnterCritical",
+            "vPortExitCritical",
+            "vTaskSetTimeOutState"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "prvUnlockQueue.lto_priv.93": {
+        "called_functions": [
+            "vPortEnterCritical",
+            "vPortExitCritical",
+            "xTaskRemoveFromEventList",
+            "vTaskMissedYield"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "prvIsQueueEmpty": {
+        "called_functions": [
+            "vPortEnterCritical",
+            "vPortExitCritical"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "xTaskResumeAll": {
+        "called_functions": [
+            "vPortEnterCritical",
+            "vPortExitCritical",
+            "uxListRemove",
+            "prvResetNextTaskUnblockTime",
+            "vListInsertEnd",
+            "xTaskIncrementTick"
+        ],
+        "indegree": 4,
+        "outdegree": 4
+    },
+    "vTaskPlaceOnEventList": {
+        "called_functions": [
+            "vListInsert",
+            "prvAddCurrentTaskToDelayedList"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "vTaskPriorityInherit": {
+        "called_functions": [
+            "uxListRemove",
+            "vListInsertEnd"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "prvCopyDataToQueue.lto_priv.92": {
+        "called_functions": [
+            "memcpy",
+            "xTaskPriorityDisinherit"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "xTaskPriorityDisinherit": {
+        "called_functions": [
+            "uxListRemove",
+            "vListInsertEnd"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "vTaskMissedYield": {
+        "called_functions": []
+    },
+    "prvIsQueueFull.lto_priv.94": {
+        "called_functions": [
+            "vPortEnterCritical",
+            "vPortExitCritical"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "SystemClock_Config": {
+        "called_functions": [
+            "HAL_RCC_OscConfig",
+            "HAL_RCC_ClockConfig",
+            "HAL_RCCEx_PeriphCLKConfig",
+            "HAL_RCC_GetHCLKFreq",
+            "HAL_SYSTICK_Config",
+            "HAL_SYSTICK_CLKSourceConfig",
+            "HAL_NVIC_SetPriority"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "MX_GPIO_Init": {
+        "called_functions": [
+            "HAL_GPIO_WritePin",
+            "HAL_GPIO_Init"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "MX_DMA_Init": {
+        "called_functions": [
+            "HAL_NVIC_SetPriority",
+            "HAL_NVIC_EnableIRQ"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "MX_I2C1_Init": {
+        "called_functions": [
+            "HAL_I2C_Init"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "MX_ADC1_Init": {
+        "called_functions": [
+            "HAL_ADC_Init",
+            "HAL_ADC_ConfigChannel",
+            "HAL_ADCEx_InjectedConfigChannel",
+            "HAL_ADCEx_Calibration_Start"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "MX_TIM3_Init": {
+        "called_functions": [
+            "HAL_TIM_Base_Init",
+            "HAL_TIM_ConfigClockSource",
+            "HAL_TIM_PWM_Init",
+            "HAL_TIM_OC_Init",
+            "HAL_TIMEx_MasterConfigSynchronization",
+            "HAL_TIM_PWM_ConfigChannel",
+            "HAL_GPIO_Init",
+            "HAL_TIM_PWM_Start"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "MX_TIM2_Init": {
+        "called_functions": [
+            "HAL_TIM_Base_Init",
+            "HAL_TIM_ConfigClockSource",
+            "HAL_TIM_PWM_Init",
+            "HAL_TIM_OC_Init",
+            "HAL_TIMEx_MasterConfigSynchronization",
+            "HAL_TIM_PWM_ConfigChannel",
+            "HAL_TIM_OC_ConfigChannel",
+            "HAL_TIM_Base_Start_IT",
+            "HAL_TIM_PWM_Start",
+            "HAL_TIM_PWM_Start_IT",
+            "HAL_NVIC_EnableIRQ"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "MX_IWDG_Init": {
+        "called_functions": [
+            "HAL_IWDG_Init"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_ADC_Start_DMA": {
+        "called_functions": [
+            "ADC_Enable",
+            "HAL_DMA_Start_IT"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_ADCEx_InjectedStart": {
+        "called_functions": [
+            "ADC_Enable"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8004787": {
+        "called_functions": []
+    },
+    "getADC": {
+        "called_functions": []
+    },
+    "sub_80047d7": {
+        "called_functions": []
+    },
+    "HAL_RCC_OscConfig": {
+        "called_functions": [
+            "HAL_GetTick",
+            "RCC_Delay"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_RCC_ClockConfig": {
+        "called_functions": [
+            "HAL_GetTick",
+            "HAL_RCC_GetSysClockFreq",
+            "HAL_InitTick"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_RCCEx_PeriphCLKConfig": {
+        "called_functions": [
+            "HAL_GetTick"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_RCC_GetHCLKFreq": {
+        "called_functions": []
+    },
+    "HAL_SYSTICK_Config": {
+        "called_functions": [
+            "SysTick_Config"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_SYSTICK_CLKSourceConfig": {
+        "called_functions": []
+    },
+    "sub_800486b": {
+        "called_functions": []
+    },
+    "HAL_ADC_Init": {
+        "called_functions": [
+            "ADC_ConversionStop_Disable",
+            "HAL_ADC_MspInit"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_ADC_ConfigChannel": {
+        "called_functions": []
+    },
+    "HAL_ADCEx_InjectedConfigChannel": {
+        "called_functions": []
+    },
+    "HAL_ADCEx_Calibration_Start": {
+        "called_functions": [
+            "ADC_ConversionStop_Disable",
+            "HAL_RCCEx_GetPeriphCLKFreq",
+            "ADC_Enable",
+            "HAL_GetTick"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8004953": {
+        "called_functions": []
+    },
+    "HAL_I2C_Init": {
+        "called_functions": [
+            "HAL_RCC_GetPCLK1Freq",
+            "HAL_I2C_MspInit"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "HAL_IWDG_Init": {
+        "called_functions": [
+            "HAL_GetTick"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_80049cb": {
+        "called_functions": []
+    },
+    "HAL_TIM_ConfigClockSource": {
+        "called_functions": [
+            "TIM_TI1_ConfigInputStage.lto_priv.136",
+            "TIM_ITRx_SetConfig.lto_priv.135",
+            "TIM_ETR_SetConfig.lto_priv.138",
+            "TIM_TI2_ConfigInputStage.lto_priv.137"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "HAL_TIM_PWM_Init": {
+        "called_functions": [
+            "TIM_Base_SetConfig",
+            "HAL_TIM_PWM_MspInit"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "HAL_TIM_OC_Init": {
+        "called_functions": [
+            "TIM_Base_SetConfig",
+            "HAL_TIM_OC_MspInit"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "HAL_TIMEx_MasterConfigSynchronization": {
+        "called_functions": []
+    },
+    "HAL_TIM_PWM_ConfigChannel": {
+        "called_functions": [
+            "TIM_OC1_SetConfig.lto_priv.140",
+            "TIM_OC2_SetConfig",
+            "TIM_OC3_SetConfig.lto_priv.142",
+            "TIM_OC4_SetConfig.lto_priv.141"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "HAL_GPIO_Init": {
+        "called_functions": []
+    },
+    "HAL_TIM_PWM_Start": {
+        "called_functions": [
+            "TIM_CCxChannelCmd"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "sub_8004a93": {
+        "called_functions": []
+    },
+    "HAL_TIM_OC_ConfigChannel": {
+        "called_functions": [
+            "TIM_OC3_SetConfig.lto_priv.142",
+            "TIM_OC1_SetConfig.lto_priv.140",
+            "TIM_OC4_SetConfig.lto_priv.141",
+            "TIM_OC2_SetConfig"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_TIM_PWM_Start_IT": {
+        "called_functions": [
+            "TIM_CCxChannelCmd"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8004b67": {
+        "called_functions": []
+    },
+    "sub_8004d77": {
+        "called_functions": []
+    },
+    "NMI_Handler": {
+        "called_functions": [
+            "NVIC_SystemReset"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8004dc9": {
+        "called_functions": []
+    },
+    "HardFault_Handler": {
+        "called_functions": [
+            "NVIC_SystemReset"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8004dd3": {
+        "called_functions": []
+    },
+    "MemManage_Handler": {
+        "called_functions": [
+            "NVIC_SystemReset"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8004ddd": {
+        "called_functions": []
+    },
+    "BusFault_Handler": {
+        "called_functions": [
+            "NVIC_SystemReset"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8004de7": {
+        "called_functions": []
+    },
+    "UsageFault_Handler": {
+        "called_functions": [
+            "NVIC_SystemReset"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8004df1": {
+        "called_functions": []
+    },
+    "DebugMon_Handler": {
+        "called_functions": []
+    },
+    "SysTick_Handler": {
+        "called_functions": [
+            "osSystickHandler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "osSystickHandler": {
+        "called_functions": [
+            "xTaskGetSchedulerState",
+            "xPortSysTickHandler"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "DMA1_Channel1_IRQHandler": {
+        "called_functions": [
+            "HAL_DMA_IRQHandler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "HAL_DMA_IRQHandler": {
+        "called_functions": [
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "ADC1_2_IRQHandler": {
+        "called_functions": [
+            "HAL_ADC_IRQHandler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "HAL_ADC_IRQHandler": {
+        "called_functions": [
+            "HAL_ADC_LevelOutOfWindowCallback",
+            "HAL_ADC_ConvCpltCallback",
+            "HAL_ADCEx_InjectedConvCpltCallback"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "TIM1_UP_IRQHandler": {
+        "called_functions": [
+            "HAL_TIM_IRQHandler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "HAL_TIM_IRQHandler": {
+        "called_functions": [
+            "HAL_TIM_OC_DelayElapsedCallback",
+            "HAL_TIM_IC_CaptureCallback",
+            "HAL_TIM_PWM_PulseFinishedCallback",
+            "HAL_TIM_PeriodElapsedCallback",
+            "HAL_TIMEx_BreakCallback",
+            "HAL_TIM_TriggerCallback",
+            "HAL_TIMEx_CommutationCallback"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "TIM3_IRQHandler": {
+        "called_functions": [
+            "HAL_TIM_IRQHandler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "TIM2_IRQHandler": {
+        "called_functions": [
+            "HAL_TIM_IRQHandler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "I2C1_EV_IRQHandler": {
+        "called_functions": [
+            "HAL_I2C_EV_IRQHandler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "HAL_I2C_EV_IRQHandler": {
+        "called_functions": [
+            "I2C_Master_SB",
+            "I2C_Master_ADD10.lto_priv.220",
+            "I2C_Master_ADDR.lto_priv.219",
+            "I2C_MasterReceive_BTF",
+            "I2C_MasterReceive_RXNE",
+            "I2C_MasterTransmit_BTF",
+            "I2C_MasterTransmit_TXE"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "I2C1_ER_IRQHandler": {
+        "called_functions": [
+            "HAL_I2C_ER_IRQHandler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "HAL_I2C_ER_IRQHandler": {
+        "called_functions": [
+            "I2C_ITError.lto_priv.217",
+            "I2C_Slave_AF.lto_priv.218"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "DMA1_Channel6_IRQHandler": {
+        "called_functions": [
+            "HAL_DMA_IRQHandler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "DMA1_Channel7_IRQHandler": {
+        "called_functions": [
+            "HAL_DMA_IRQHandler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8004ef3": {
+        "called_functions": []
+    },
+    "sub_8005053": {
+        "called_functions": []
+    },
+    "getTipInstantTemperature": {
+        "called_functions": []
+    },
+    "sub_8005267": {
+        "called_functions": []
+    },
+    "HAL_TIM_PeriodElapsedCallback": {
+        "called_functions": [
+            "HAL_IncTick",
+            "HAL_TIM_PWM_Stop",
+            "HAL_TIM_PWM_Start"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_IncTick": {
+        "called_functions": []
+    },
+    "HAL_TIM_PWM_Stop": {
+        "called_functions": [
+            "TIM_CCxChannelCmd"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "HAL_TIM_PWM_PulseFinishedCallback": {
+        "called_functions": [
+            "HAL_TIM_PWM_Stop"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_MspInit": {
+        "called_functions": [
+            "HAL_NVIC_SetPriorityGrouping",
+            "HAL_NVIC_SetPriority"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_NVIC_SetPriorityGrouping": {
+        "called_functions": [
+            "NVIC_SetPriorityGrouping"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_80053b7": {
+        "called_functions": []
+    },
+    "HAL_ADC_MspInit": {
+        "called_functions": [
+            "HAL_GPIO_Init",
+            "HAL_DMA_Init",
+            "HAL_NVIC_SetPriority",
+            "HAL_NVIC_EnableIRQ"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_DMA_Init": {
+        "called_functions": []
+    },
+    "HAL_I2C_MspInit": {
+        "called_functions": [
+            "HAL_GPIO_Init",
+            "HAL_DMA_Init",
+            "HAL_NVIC_SetPriority",
+            "HAL_NVIC_EnableIRQ"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8005573": {
+        "called_functions": []
+    },
+    "HAL_TIM_Base_MspInit": {
+        "called_functions": []
+    },
+    "sub_80055e3": {
+        "called_functions": []
+    },
+    "pvPortMalloc": {
+        "called_functions": [
+            "controlSanitizer",
+            "vTaskSuspendAll",
+            "prvHeapInit",
+            "xTaskResumeAll",
+            "prvInsertBlockIntoFreeList"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "prvHeapInit": {
+        "called_functions": []
+    },
+    "prvInsertBlockIntoFreeList": {
+        "called_functions": []
+    },
+    "sub_8005767": {
+        "called_functions": []
+    },
+    "vPortFree": {
+        "called_functions": [
+            "vTaskSuspendAll",
+            "prvInsertBlockIntoFreeList",
+            "xTaskResumeAll"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8005823": {
+        "called_functions": []
+    },
+    "sub_80059a7": {
+        "called_functions": []
+    },
+    "pxPortInitialiseStack": {
+        "called_functions": []
+    },
+    "prvTaskExitError": {
+        "called_functions": []
+    },
+    "SVC_Handler": {
+        "called_functions": []
+    },
+    "prvPortStartFirstTask": {
+        "called_functions": []
+    },
+    "sub_8005a83": {
+        "called_functions": [
+            "sys_380"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sys_380": {
+        "called_functions": []
+    },
+    "xPortStartScheduler": {
+        "called_functions": [
+            "vPortSetupTimerInterrupt",
+            "prvPortStartFirstTask"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "vPortSetupTimerInterrupt": {
+        "called_functions": []
+    },
+    "sub_8005b2f": {
+        "called_functions": [
+            "prvTaskExitError"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8005b33": {
+        "called_functions": []
+    },
+    "sub_8005bef": {
+        "called_functions": []
+    },
+    "PendSV_Handler": {
+        "called_functions": [
+            "vTaskSwitchContext"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "vTaskSwitchContext": {
+        "called_functions": [
+            "vApplicationStackOverflowHook"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "xPortSysTickHandler": {
+        "called_functions": [
+            "xTaskIncrementTick"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "xTaskIncrementTick": {
+        "called_functions": [
+            "prvResetNextTaskUnblockTime",
+            "uxListRemove",
+            "vListInsertEnd"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_8005c7f": {
+        "called_functions": []
+    },
+    "sub_8005ca7": {
+        "called_functions": []
+    },
+    "sub_8005d1f": {
+        "called_functions": []
+    },
+    "vListInitialise": {
+        "called_functions": []
+    },
+    "vListInitialiseItem": {
+        "called_functions": []
+    },
+    "vListInsertEnd": {
+        "called_functions": []
+    },
+    "vListInsert": {
+        "called_functions": []
+    },
+    "uxListRemove": {
+        "called_functions": []
+    },
+    "xQueueGenericReset": {
+        "called_functions": [
+            "vPortEnterCritical",
+            "vListInitialise",
+            "vPortExitCritical",
+            "xTaskRemoveFromEventList"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8005f53": {
+        "called_functions": []
+    },
+    "prvInitialiseNewQueue": {
+        "called_functions": [
+            "xQueueGenericReset"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_80061fb": {
+        "called_functions": []
+    },
+    "prvInitialiseNewTask.lto_priv.114": {
+        "called_functions": [
+            "memset",
+            "vListInitialiseItem",
+            "pxPortInitialiseStack"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "prvAddNewTaskToReadyList.lto_priv.113": {
+        "called_functions": [
+            "vPortEnterCritical",
+            "vListInsertEnd",
+            "prvInitialiseTaskLists",
+            "vPortExitCritical"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "prvInitialiseTaskLists": {
+        "called_functions": [
+            "controlSanitizer",
+            "vListInitialise"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_80063bf": {
+        "called_functions": []
+    },
+    "vTaskStartScheduler": {
+        "called_functions": [
+            "xTaskCreate",
+            "xPortStartScheduler"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "xTaskCreate": {
+        "called_functions": [
+            "pvPortMalloc",
+            "prvInitialiseNewTask.lto_priv.114",
+            "prvAddNewTaskToReadyList.lto_priv.113",
+            "vPortFree"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_800644f": {
+        "called_functions": []
+    },
+    "sub_800645d": {
+        "called_functions": [
+            "vTaskSuspendAll"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "prvResetNextTaskUnblockTime": {
+        "called_functions": []
+    },
+    "sub_8006593": {
+        "called_functions": []
+    },
+    "prvAddCurrentTaskToDelayedList": {
+        "called_functions": [
+            "uxListRemove",
+            "vListInsert",
+            "vListInsertEnd"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_800693b": {
+        "called_functions": []
+    },
+    "sub_800698f": {
+        "called_functions": []
+    },
+    "prvIdleTask": {
+        "called_functions": [
+            "prvCheckTasksWaitingTermination"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "prvCheckTasksWaitingTermination": {
+        "called_functions": []
+    },
+    "sub_8006a8f": {
+        "called_functions": []
+    },
+    "sub_8006afb": {
+        "called_functions": []
+    },
+    "prvTaskCheckFreeStackSpace": {
+        "called_functions": []
+    },
+    "sub_8006b8b": {
+        "called_functions": []
+    },
+    "sub_8006bcf": {
+        "called_functions": []
+    },
+    "sub_8006c27": {
+        "called_functions": []
+    },
+    "sub_8006d0f": {
+        "called_functions": []
+    },
+    "sub_8006e17": {
+        "called_functions": []
+    },
+    "sub_8006e47": {
+        "called_functions": []
+    },
+    "makeFreeRtosPriority.lto_priv.117": {
+        "called_functions": []
+    },
+    "sub_800721b": {
+        "called_functions": []
+    },
+    "HAL_GetTick": {
+        "called_functions": []
+    },
+    "HAL_TIM_OC_DelayElapsedCallback": {
+        "called_functions": []
+    },
+    "HAL_TIM_IC_CaptureCallback": {
+        "called_functions": []
+    },
+    "HAL_TIM_TriggerCallback": {
+        "called_functions": []
+    },
+    "TIM_Base_SetConfig": {
+        "called_functions": []
+    },
+    "sub_800734b": {
+        "called_functions": []
+    },
+    "TIM_OC1_SetConfig.lto_priv.140": {
+        "called_functions": []
+    },
+    "TIM_OC2_SetConfig": {
+        "called_functions": []
+    },
+    "sub_8007507": {
+        "called_functions": []
+    },
+    "TIM_OC3_SetConfig.lto_priv.142": {
+        "called_functions": []
+    },
+    "TIM_OC4_SetConfig.lto_priv.141": {
+        "called_functions": []
+    },
+    "sub_800768b": {
+        "called_functions": []
+    },
+    "TIM_TI1_ConfigInputStage.lto_priv.136": {
+        "called_functions": []
+    },
+    "TIM_TI2_ConfigInputStage.lto_priv.137": {
+        "called_functions": []
+    },
+    "TIM_ITRx_SetConfig.lto_priv.135": {
+        "called_functions": []
+    },
+    "TIM_ETR_SetConfig.lto_priv.138": {
+        "called_functions": []
+    },
+    "TIM_CCxChannelCmd": {
+        "called_functions": []
+    },
+    "HAL_TIMEx_BreakCallback": {
+        "called_functions": []
+    },
+    "HAL_TIMEx_CommutationCallback": {
+        "called_functions": []
+    },
+    "sub_8007a5b": {
+        "called_functions": []
+    },
+    "HAL_TIM_PWM_MspInit": {
+        "called_functions": []
+    },
+    "sub_8007f83": {
+        "called_functions": []
+    },
+    "HAL_TIM_OC_MspInit": {
+        "called_functions": []
+    },
+    "sub_8008413": {
+        "called_functions": []
+    },
+    "ADC_Enable": {
+        "called_functions": [
+            "HAL_GetTick"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "HAL_DMA_Start_IT": {
+        "called_functions": [
+            "DMA_SetConfig"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "HAL_ADC_LevelOutOfWindowCallback": {
+        "called_functions": []
+    },
+    "HAL_ADC_ConvCpltCallback": {
+        "called_functions": []
+    },
+    "HAL_ADC_ConvHalfCpltCallback": {
+        "called_functions": []
+    },
+    "HAL_ADC_ErrorCallback": {
+        "called_functions": []
+    },
+    "ADC_ConversionStop_Disable": {
+        "called_functions": [
+            "HAL_GetTick"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "ADC_DMAConvCplt": {
+        "called_functions": [
+            "UnresolvableCallTarget",
+            "HAL_ADC_ConvCpltCallback"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "ADC_DMAHalfConvCplt": {
+        "called_functions": [
+            "HAL_ADC_ConvHalfCpltCallback"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "ADC_DMAError": {
+        "called_functions": [
+            "HAL_ADC_ErrorCallback"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "RCC_Delay": {
+        "called_functions": []
+    },
+    "HAL_RCC_GetSysClockFreq": {
+        "called_functions": []
+    },
+    "HAL_RCC_GetPCLK1Freq": {
+        "called_functions": [
+            "HAL_RCC_GetHCLKFreq"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_800946b": {
+        "called_functions": []
+    },
+    "sub_8009687": {
+        "called_functions": []
+    },
+    "sub_80096af": {
+        "called_functions": []
+    },
+    "FLASH_WaitForLastOperation": {
+        "called_functions": [
+            "HAL_GetTick",
+            "FLASH_SetErrorCode.lto_priv.194"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "FLASH_SetErrorCode.lto_priv.194": {
+        "called_functions": []
+    },
+    "sub_800973b": {
+        "called_functions": []
+    },
+    "HAL_RCCEx_GetPeriphCLKFreq": {
+        "called_functions": [
+            "HAL_RCC_GetPCLK2Freq"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "DMA_SetConfig": {
+        "called_functions": []
+    },
+    "HAL_DMA_Abort_IT": {
+        "called_functions": [
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_800a43f": {
+        "called_functions": []
+    },
+    "NVIC_SetPriorityGrouping": {
+        "called_functions": []
+    },
+    "NVIC_GetPriorityGrouping": {
+        "called_functions": []
+    },
+    "sub_800a627": {
+        "called_functions": []
+    },
+    "NVIC_EnableIRQ": {
+        "called_functions": []
+    },
+    "sub_800a657": {
+        "called_functions": []
+    },
+    "NVIC_SetPriority": {
+        "called_functions": []
+    },
+    "NVIC_EncodePriority": {
+        "called_functions": []
+    },
+    "SysTick_Config": {
+        "called_functions": [
+            "NVIC_SetPriority"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_800a74b": {
+        "called_functions": []
+    },
+    "I2C_WaitOnTXEFlagUntilTimeout.lto_priv.214": {
+        "called_functions": [
+            "I2C_IsAcknowledgeFailed",
+            "HAL_GetTick"
+        ],
+        "indegree": 4,
+        "outdegree": 4
+    },
+    "I2C_IsAcknowledgeFailed": {
+        "called_functions": []
+    },
+    "I2C_WaitOnBTFFlagUntilTimeout.lto_priv.225": {
+        "called_functions": [
+            "I2C_IsAcknowledgeFailed",
+            "HAL_GetTick"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "I2C_WaitOnRXNEFlagUntilTimeout.lto_priv.224": {
+        "called_functions": [
+            "HAL_GetTick"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "FLASH_MassErase": {
+        "called_functions": []
+    },
+    "FLASH_PageErase": {
+        "called_functions": []
+    },
+    "sub_800aaab": {
+        "called_functions": []
+    },
+    "sub_800aae3": {
+        "called_functions": []
+    },
+    "I2C_Master_ADD10.lto_priv.220": {
+        "called_functions": []
+    },
+    "I2C_Master_ADDR.lto_priv.219": {
+        "called_functions": []
+    },
+    "I2C_Slave_AF.lto_priv.218": {
+        "called_functions": [
+            "HAL_I2C_ListenCpltCallback",
+            "HAL_I2C_SlaveTxCpltCallback"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_I2C_ListenCpltCallback": {
+        "called_functions": []
+    },
+    "HAL_I2C_SlaveTxCpltCallback": {
+        "called_functions": []
+    },
+    "I2C_ITError.lto_priv.217": {
+        "called_functions": [
+            "HAL_DMA_Abort_IT",
+            "HAL_I2C_ErrorCallback",
+            "HAL_I2C_AbortCpltCallback",
+            "UnresolvableCallTarget",
+            "HAL_I2C_ListenCpltCallback"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "I2C_MasterRequestWrite.lto_priv.228": {
+        "called_functions": [
+            "I2C_WaitOnFlagUntilTimeout.lto_priv.221",
+            "I2C_WaitOnMasterAddressFlagUntilTimeout"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "I2C_WaitOnFlagUntilTimeout.lto_priv.221": {
+        "called_functions": [
+            "HAL_GetTick"
+        ],
+        "indegree": 6,
+        "outdegree": 6
+    },
+    "I2C_WaitOnMasterAddressFlagUntilTimeout": {
+        "called_functions": [
+            "HAL_GetTick"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "sub_800b213": {
+        "called_functions": []
+    },
+    "I2C_RequestMemoryWrite.lto_priv.223": {
+        "called_functions": [
+            "I2C_WaitOnFlagUntilTimeout.lto_priv.221",
+            "I2C_WaitOnMasterAddressFlagUntilTimeout",
+            "I2C_WaitOnTXEFlagUntilTimeout.lto_priv.214"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "I2C_RequestMemoryRead.lto_priv.222": {
+        "called_functions": [
+            "I2C_WaitOnFlagUntilTimeout.lto_priv.221",
+            "I2C_WaitOnMasterAddressFlagUntilTimeout",
+            "I2C_WaitOnTXEFlagUntilTimeout.lto_priv.214"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_800b4ff": {
+        "called_functions": []
+    },
+    "I2C_DMAXferCplt.lto_priv.215": {
+        "called_functions": [
+            "HAL_I2C_ErrorCallback",
+            "HAL_I2C_MasterRxCpltCallback",
+            "HAL_I2C_MemRxCpltCallback"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "I2C_DMAError.lto_priv.216": {
+        "called_functions": [
+            "HAL_I2C_ErrorCallback"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "I2C_DMAAbort": {
+        "called_functions": [
+            "HAL_I2C_ErrorCallback",
+            "HAL_I2C_AbortCpltCallback"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "I2C_Master_SB": {
+        "called_functions": []
+    },
+    "I2C_MasterReceive_BTF": {
+        "called_functions": [
+            "HAL_I2C_MasterRxCpltCallback",
+            "HAL_I2C_MemRxCpltCallback"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "I2C_MasterReceive_RXNE": {
+        "called_functions": [
+            "HAL_I2C_MasterRxCpltCallback",
+            "HAL_I2C_MemRxCpltCallback"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "I2C_MasterTransmit_BTF": {
+        "called_functions": [
+            "HAL_I2C_MasterTxCpltCallback",
+            "HAL_I2C_MemTxCpltCallback"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "I2C_MasterTransmit_TXE": {
+        "called_functions": [
+            "HAL_I2C_MasterTxCpltCallback",
+            "HAL_I2C_MemTxCpltCallback"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_800b973": {
+        "called_functions": []
+    },
+    "sub_800baeb": {
+        "called_functions": []
+    },
+    "sub_800c563": {
+        "called_functions": []
+    },
+    "sub_800c9b3": {
+        "called_functions": [
+            "HAL_I2C_Init"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_800cd8b": {
+        "called_functions": []
+    },
+    "_init": {
+        "called_functions": []
+    },
+    "sub_800cdd3": {
+        "called_functions": []
+    },
+    "sub_800ce7f": {
+        "called_functions": [
+            "strlen"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "register_fini": {
+        "called_functions": [
+            "atexit"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "atexit": {
+        "called_functions": [
+            "__register_exitproc"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "__register_exitproc": {
+        "called_functions": [
+            "__retarget_lock_acquire_recursive",
+            "__retarget_lock_release_recursive"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "__retarget_lock_acquire_recursive": {
+        "called_functions": []
+    },
+    "__retarget_lock_release_recursive": {
+        "called_functions": []
+    },
+    "__libc_fini_array": {
+        "called_functions": [
+            "_fini",
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_fini": {
+        "called_functions": []
+    },
+    "sub_800cf27": {
+        "called_functions": []
+    },
+    "sub_800cf33": {
+        "called_functions": [
+            "__retarget_lock_release_recursive"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_800cf37": {
+        "called_functions": [
+            "__register_exitproc"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_800cfef": {
+        "called_functions": []
+    }
+}

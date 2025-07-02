@@ -1,0 +1,2982 @@
+{
+    "gc_execute_line": {
+        "called_functions": [
+            "memset",
+            "next_statement",
+            "__aeabi_f2d",
+            "trunc",
+            "__aeabi_d2iz",
+            "__aeabi_fcmple",
+            "to_millimeters",
+            "__aeabi_fcmplt",
+            "spindle_run",
+            "select_plane",
+            "__aeabi_fmul",
+            "settings_read_coord_data",
+            "coolant_run",
+            "__aeabi_d2uiz",
+            "UnresolvableJumpTarget",
+            "plan_synchronize",
+            "mc_reset",
+            "__addsf3",
+            "mc_line",
+            "__aeabi_fcmpeq",
+            "__aeabi_fsub",
+            "hypot",
+            "__truncdfsf2",
+            "mc_arc",
+            "sqrt",
+            "__divdf3",
+            "mc_dwell",
+            "settings_write_coord_data"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "__do_global_dtors_aux": {
+        "called_functions": []
+    },
+    "frame_dummy": {
+        "called_functions": [
+            "UnresolvableJumpTarget"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "UnresolvableJumpTarget": {
+        "called_functions": []
+    },
+    "sub_80001df": {
+        "called_functions": []
+    },
+    "coolant_flood_on": {
+        "called_functions": []
+    },
+    "coolant_flood_off": {
+        "called_functions": []
+    },
+    "coolant_mist_on": {
+        "called_functions": []
+    },
+    "coolant_mist_off": {
+        "called_functions": []
+    },
+    "coolant_init": {
+        "called_functions": [
+            "coolant_stop"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "coolant_stop": {
+        "called_functions": [
+            "coolant_mist_off",
+            "coolant_flood_off"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "sub_8000237": {
+        "called_functions": []
+    },
+    "coolant_run": {
+        "called_functions": [
+            "plan_synchronize",
+            "coolant_flood_on",
+            "coolant_stop",
+            "coolant_mist_on"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "plan_synchronize": {
+        "called_functions": [
+            "plan_get_current_block",
+            "protocol_execute_runtime"
+        ],
+        "indegree": 5,
+        "outdegree": 5
+    },
+    "sub_800028f": {
+        "called_functions": []
+    },
+    "get_current_usecs": {
+        "called_functions": [
+            "HAL_GetTick"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_GetTick": {
+        "called_functions": []
+    },
+    "sub_80002c3": {
+        "called_functions": []
+    },
+    "_delay_ms": {
+        "called_functions": [
+            "HAL_Delay"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_Delay": {
+        "called_functions": [
+            "HAL_GetTick"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_delay_us": {
+        "called_functions": [
+            "get_current_usecs"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "eeprom_init": {
+        "called_functions": [
+            "memset"
+        ],
+        "indegree": 4,
+        "outdegree": 4
+    },
+    "memset": {
+        "called_functions": []
+    },
+    "eeprom_get_char": {
+        "called_functions": [
+            "eeprom_init"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_8000367": {
+        "called_functions": []
+    },
+    "eeprom_put_char": {
+        "called_functions": [
+            "eeprom_init"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "memcpy_to_eeprom_with_checksum": {
+        "called_functions": [
+            "eeprom_init",
+            "eeprom_put_char"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "memcpy_from_eeprom_with_checksum": {
+        "called_functions": [
+            "eeprom_init",
+            "eeprom_get_char"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "sub_800049f": {
+        "called_functions": []
+    },
+    "select_plane": {
+        "called_functions": []
+    },
+    "sub_80004d7": {
+        "called_functions": []
+    },
+    "gc_init": {
+        "called_functions": [
+            "memset",
+            "select_plane",
+            "settings_read_coord_data",
+            "report_status_message"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "settings_read_coord_data": {
+        "called_functions": [
+            "memcpy_from_eeprom_with_checksum",
+            "memset",
+            "settings_write_coord_data"
+        ],
+        "indegree": 4,
+        "outdegree": 4
+    },
+    "report_status_message": {
+        "called_functions": [
+            "printPgmString"
+        ],
+        "indegree": 6,
+        "outdegree": 6
+    },
+    "sub_800051f": {
+        "called_functions": []
+    },
+    "gc_set_current_position": {
+        "called_functions": [
+            "__floatsisf",
+            "__aeabi_fdiv"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "__floatsisf": {
+        "called_functions": []
+    },
+    "__aeabi_fdiv": {
+        "called_functions": [
+            "__aeabi_fmul"
+        ],
+        "indegree": 10,
+        "outdegree": 10
+    },
+    "to_millimeters": {
+        "called_functions": [
+            "__aeabi_f2d",
+            "__muldf3",
+            "__truncdfsf2"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "__aeabi_f2d": {
+        "called_functions": []
+    },
+    "__muldf3": {
+        "called_functions": [
+            "sub_80087b9"
+        ],
+        "indegree": 22,
+        "outdegree": 22
+    },
+    "__truncdfsf2": {
+        "called_functions": []
+    },
+    "sub_80005d7": {
+        "called_functions": []
+    },
+    "next_statement": {
+        "called_functions": [
+            "read_float"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "trunc": {
+        "called_functions": [
+            "__aeabi_dadd"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "__aeabi_d2iz": {
+        "called_functions": []
+    },
+    "__aeabi_fcmple": {
+        "called_functions": [
+            "__aeabi_cfcmpeq",
+            "UnresolvableJumpTarget"
+        ],
+        "indegree": 5,
+        "outdegree": 5
+    },
+    "__aeabi_fcmplt": {
+        "called_functions": [
+            "__aeabi_cfcmpeq",
+            "UnresolvableJumpTarget"
+        ],
+        "indegree": 7,
+        "outdegree": 7
+    },
+    "spindle_run": {
+        "called_functions": [
+            "plan_synchronize",
+            "spindle_stop",
+            "spindle_rev",
+            "spindle_fwd",
+            "spindle_on"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "__aeabi_fmul": {
+        "called_functions": []
+    },
+    "__aeabi_d2uiz": {
+        "called_functions": []
+    },
+    "mc_reset": {
+        "called_functions": [
+            "spindle_stop",
+            "coolant_stop",
+            "st_go_idle"
+        ],
+        "indegree": 5,
+        "outdegree": 5
+    },
+    "__addsf3": {
+        "called_functions": []
+    },
+    "mc_line": {
+        "called_functions": [
+            "protocol_execute_runtime",
+            "plan_check_full_buffer",
+            "plan_buffer_line",
+            "st_cycle_start"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "__aeabi_fcmpeq": {
+        "called_functions": [
+            "__aeabi_cfcmpeq",
+            "UnresolvableJumpTarget"
+        ],
+        "indegree": 6,
+        "outdegree": 6
+    },
+    "__aeabi_fsub": {
+        "called_functions": [
+            "__addsf3"
+        ],
+        "indegree": 9,
+        "outdegree": 9
+    },
+    "hypot": {
+        "called_functions": [
+            "__ieee754_hypot",
+            "finite",
+            "matherr",
+            "__errno"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "mc_arc": {
+        "called_functions": [
+            "__addsf3",
+            "__aeabi_fsub",
+            "__aeabi_fmul",
+            "__aeabi_f2d",
+            "atan2",
+            "__truncdfsf2",
+            "__aeabi_fcmple",
+            "__aeabi_fcmpge",
+            "__aeabi_dadd",
+            "__subdf3",
+            "hypot",
+            "__aeabi_fcmpeq",
+            "__aeabi_fdiv",
+            "floor",
+            "__aeabi_d2uiz",
+            "__floatsisf",
+            "__muldf3",
+            "mc_line",
+            "cos",
+            "sin"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sqrt": {
+        "called_functions": [
+            "__ieee754_sqrt",
+            "__unorddf2",
+            "__aeabi_dcmplt",
+            "matherr",
+            "__divdf3",
+            "__errno"
+        ],
+        "indegree": 4,
+        "outdegree": 4
+    },
+    "__divdf3": {
+        "called_functions": [
+            "sub_800899f",
+            "__muldf3"
+        ],
+        "indegree": 7,
+        "outdegree": 7
+    },
+    "sub_800068b": {
+        "called_functions": []
+    },
+    "sub_800085b": {
+        "called_functions": []
+    },
+    "sub_8000a7b": {
+        "called_functions": []
+    },
+    "mc_dwell": {
+        "called_functions": [
+            "__aeabi_fmul",
+            "__aeabi_f2d",
+            "floor",
+            "__aeabi_d2uiz",
+            "plan_synchronize",
+            "__floatsisf",
+            "__aeabi_fsub",
+            "delay_ms",
+            "protocol_execute_runtime",
+            "_delay_ms"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "settings_write_coord_data": {
+        "called_functions": [
+            "memcpy_to_eeprom_with_checksum"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_80018c7": {
+        "called_functions": []
+    },
+    "read_float": {
+        "called_functions": [
+            "__floatunsisf",
+            "__aeabi_fcmpeq",
+            "__aeabi_f2d",
+            "__muldf3",
+            "__truncdfsf2",
+            "__aeabi_fmul"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "step_wr": {
+        "called_functions": []
+    },
+    "sub_800197f": {
+        "called_functions": []
+    },
+    "dirn_wr": {
+        "called_functions": []
+    },
+    "sub_80019af": {
+        "called_functions": []
+    },
+    "limits_init": {
+        "called_functions": [
+            "controlSanitizer"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "controlSanitizer": {
+        "called_functions": []
+    },
+    "limits_isr": {
+        "called_functions": [
+            "mc_reset"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8001a1f": {
+        "called_functions": []
+    },
+    "homing_cycle": {
+        "called_functions": [
+            "memset",
+            "__aeabi_f2d",
+            "lround",
+            "__floatunsidf",
+            "sqrt",
+            "__divdf3",
+            "__truncdfsf2",
+            "__aeabi_fmul",
+            "__aeabi_fdiv",
+            "ceil",
+            "__aeabi_d2uiz",
+            "__muldf3",
+            "dirn_wr",
+            "step_wr",
+            "debounce_rd",
+            "delay_us"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "lround": {
+        "called_functions": [
+            "__aeabi_d2iz"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "__floatunsidf": {
+        "called_functions": []
+    },
+    "ceil": {
+        "called_functions": [
+            "__aeabi_dadd",
+            "__aeabi_dcmpgt"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "debounce_rd": {
+        "called_functions": []
+    },
+    "delay_us": {
+        "called_functions": []
+    },
+    "limits_go_home": {
+        "called_functions": [
+            "st_wake_up",
+            "homing_cycle",
+            "delay_ms",
+            "st_go_idle"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "st_wake_up": {
+        "called_functions": [
+            "stepper_motor_enable",
+            "set_step_pulse_delay",
+            "set_step_pulse_time",
+            "step_isr_enable"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "delay_ms": {
+        "called_functions": []
+    },
+    "st_go_idle": {
+        "called_functions": [
+            "step_isr_disable",
+            "stepper_motor_disable"
+        ],
+        "indegree": 4,
+        "outdegree": 4
+    },
+    "sub_8001e63": {
+        "called_functions": []
+    },
+    "grbl_main": {
+        "called_functions": [
+            "serial_init",
+            "settings_init",
+            "st_init",
+            "memset",
+            "protocol_execute_runtime",
+            "plan_init",
+            "protocol_process",
+            "gc_init",
+            "protocol_init",
+            "spindle_init",
+            "coolant_init",
+            "limits_init",
+            "st_reset",
+            "sys_sync_current_position",
+            "protocol_execute_startup",
+            "report_feedback_message"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "serial_init": {
+        "called_functions": []
+    },
+    "settings_init": {
+        "called_functions": [
+            "read_global_settings",
+            "report_status_message",
+            "settings_reset",
+            "settings_read_coord_data",
+            "report_grbl_settings"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "st_init": {
+        "called_functions": [
+            "step_wr",
+            "st_wake_up",
+            "st_go_idle"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "protocol_execute_runtime": {
+        "called_functions": [
+            "report_alarm_message",
+            "report_realtime_status",
+            "report_feedback_message",
+            "st_feed_hold",
+            "st_cycle_reinitialize",
+            "st_cycle_start"
+        ],
+        "indegree": 6,
+        "outdegree": 6
+    },
+    "plan_init": {
+        "called_functions": [
+            "plan_reset_buffer",
+            "memset"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "protocol_process": {
+        "called_functions": [
+            "serial_read",
+            "protocol_execute_runtime",
+            "report_status_message",
+            "protocol_execute_line",
+            "protocol_reset_line_buffer"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "protocol_init": {
+        "called_functions": [
+            "protocol_reset_line_buffer",
+            "report_init_message"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "spindle_init": {
+        "called_functions": [
+            "spindle_stop"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "st_reset": {
+        "called_functions": [
+            "memset",
+            "set_step_events_per_minute"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sys_sync_current_position": {
+        "called_functions": [
+            "plan_set_current_position",
+            "gc_set_current_position"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "protocol_execute_startup": {
+        "called_functions": [
+            "settings_read_startup_line",
+            "report_status_message",
+            "printString",
+            "gc_execute_line"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "report_feedback_message": {
+        "called_functions": [
+            "printPgmString"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "sub_8001f17": {
+        "called_functions": []
+    },
+    "plan_check_full_buffer": {
+        "called_functions": []
+    },
+    "plan_buffer_line": {
+        "called_functions": [
+            "__aeabi_fmul",
+            "__aeabi_f2d",
+            "lround",
+            "__floatsisf",
+            "__aeabi_fdiv",
+            "__addsf3",
+            "sqrt",
+            "__truncdfsf2",
+            "ceil",
+            "__aeabi_d2uiz",
+            "__aeabi_d2iz",
+            "max_allowable_speed",
+            "__aeabi_fcmpgt",
+            "__aeabi_fcmplt",
+            "__aeabi_fcmple",
+            "__aeabi_fsub",
+            "next_block_index",
+            "planner_recalculate",
+            "__aeabi_dcmplt",
+            "__aeabi_dcmpgt",
+            "__subdf3",
+            "__muldf3",
+            "__divdf3"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "st_cycle_start": {
+        "called_functions": [
+            "st_wake_up"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "atan2": {
+        "called_functions": [
+            "__ieee754_atan2"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "__aeabi_fcmpge": {
+        "called_functions": [
+            "__aeabi_cfrcmple",
+            "UnresolvableJumpTarget"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "__aeabi_dadd": {
+        "called_functions": []
+    },
+    "__subdf3": {
+        "called_functions": [
+            "__aeabi_dadd"
+        ],
+        "indegree": 14,
+        "outdegree": 14
+    },
+    "floor": {
+        "called_functions": [
+            "__aeabi_dadd",
+            "__aeabi_dcmpgt"
+        ],
+        "indegree": 4,
+        "outdegree": 4
+    },
+    "cos": {
+        "called_functions": [
+            "__kernel_cos",
+            "__ieee754_rem_pio2",
+            "__subdf3",
+            "__kernel_sin"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sin": {
+        "called_functions": [
+            "__kernel_sin",
+            "__ieee754_rem_pio2",
+            "__subdf3",
+            "__kernel_cos"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_80022cd": {
+        "called_functions": []
+    },
+    "sub_8002493": {
+        "called_functions": []
+    },
+    "sub_8002547": {
+        "called_functions": []
+    },
+    "mc_go_home": {
+        "called_functions": [
+            "limits_go_home",
+            "protocol_execute_runtime",
+            "memset",
+            "sys_sync_current_position",
+            "__floatsisf",
+            "__aeabi_fmul",
+            "mc_line",
+            "st_cycle_start",
+            "plan_synchronize"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_800266b": {
+        "called_functions": []
+    },
+    "spindle_stop": {
+        "called_functions": [
+            "spindle_off"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "__floatunsisf": {
+        "called_functions": []
+    },
+    "sub_8002899": {
+        "called_functions": []
+    },
+    "sub_80028a1": {
+        "called_functions": []
+    },
+    "plan_set_current_position": {
+        "called_functions": []
+    },
+    "sub_80028ff": {
+        "called_functions": []
+    },
+    "next_block_index": {
+        "called_functions": []
+    },
+    "prev_block_index": {
+        "called_functions": []
+    },
+    "estimate_acceleration_distance": {
+        "called_functions": [
+            "__aeabi_fmul",
+            "__aeabi_fsub",
+            "__addsf3",
+            "__aeabi_fdiv"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "intersection_distance": {
+        "called_functions": [
+            "__addsf3",
+            "__aeabi_fmul",
+            "__aeabi_fsub",
+            "__aeabi_fdiv"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "max_allowable_speed": {
+        "called_functions": [
+            "__aeabi_fmul",
+            "__addsf3",
+            "__aeabi_fsub",
+            "__aeabi_f2d",
+            "sqrt",
+            "__truncdfsf2"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "planner_reverse_pass_kernel": {
+        "called_functions": [
+            "__aeabi_fcmpeq",
+            "__aeabi_fcmpgt",
+            "max_allowable_speed",
+            "__aeabi_fcmplt"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "__aeabi_fcmpgt": {
+        "called_functions": [
+            "__aeabi_cfrcmple",
+            "UnresolvableJumpTarget"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "sub_8002b27": {
+        "called_functions": []
+    },
+    "planner_reverse_pass": {
+        "called_functions": [
+            "prev_block_index",
+            "planner_reverse_pass_kernel"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "planner_forward_pass_kernel": {
+        "called_functions": [
+            "__aeabi_fcmplt",
+            "max_allowable_speed",
+            "__aeabi_fcmpeq"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8002c37": {
+        "called_functions": []
+    },
+    "planner_forward_pass": {
+        "called_functions": [
+            "planner_forward_pass_kernel",
+            "next_block_index"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "calculate_trapezoid_for_block": {
+        "called_functions": [
+            "__floatunsisf",
+            "__aeabi_fmul",
+            "__aeabi_f2d",
+            "ceil",
+            "__aeabi_d2uiz",
+            "__aeabi_i2d",
+            "__muldf3",
+            "__aeabi_d2iz",
+            "__floatsisf",
+            "estimate_acceleration_distance",
+            "floor",
+            "intersection_distance"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "__aeabi_i2d": {
+        "called_functions": []
+    },
+    "planner_recalculate_trapezoids": {
+        "called_functions": [
+            "__aeabi_fdiv",
+            "next_block_index",
+            "calculate_trapezoid_for_block"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "planner_recalculate": {
+        "called_functions": [
+            "planner_reverse_pass",
+            "planner_forward_pass",
+            "planner_recalculate_trapezoids"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "plan_reset_buffer": {
+        "called_functions": [
+            "next_block_index"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8002fab": {
+        "called_functions": []
+    },
+    "sub_8002fcf": {
+        "called_functions": []
+    },
+    "plan_discard_current_block": {
+        "called_functions": [
+            "next_block_index"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "plan_get_current_block": {
+        "called_functions": []
+    },
+    "sub_8003093": {
+        "called_functions": []
+    },
+    "__aeabi_dcmplt": {
+        "called_functions": [
+            "__aeabi_cdcmpeq",
+            "UnresolvableJumpTarget"
+        ],
+        "indegree": 4,
+        "outdegree": 4
+    },
+    "__aeabi_dcmpgt": {
+        "called_functions": [
+            "__aeabi_cdrcmple",
+            "UnresolvableJumpTarget"
+        ],
+        "indegree": 5,
+        "outdegree": 5
+    },
+    "sub_80032c3": {
+        "called_functions": []
+    },
+    "sub_80035e9": {
+        "called_functions": []
+    },
+    "sub_80035f1": {
+        "called_functions": []
+    },
+    "sub_8003677": {
+        "called_functions": []
+    },
+    "plan_cycle_reinitialize": {
+        "called_functions": [
+            "__floatsisf",
+            "__aeabi_fmul",
+            "__aeabi_fdiv",
+            "planner_recalculate"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "printString": {
+        "called_functions": [
+            "serial_write"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "serial_write": {
+        "called_functions": [
+            "usart_putc"
+        ],
+        "indegree": 6,
+        "outdegree": 6
+    },
+    "printPgmString": {
+        "called_functions": [
+            "serial_write"
+        ],
+        "indegree": 10,
+        "outdegree": 10
+    },
+    "print_base2": {
+        "called_functions": [
+            "serial_write"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "print_uint8_base2": {
+        "called_functions": [
+            "print_base2"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "print_uint16_base2": {
+        "called_functions": [
+            "print_base2"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "print_uint32_base10": {
+        "called_functions": [
+            "serial_write"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_800388b": {
+        "called_functions": []
+    },
+    "printInteger": {
+        "called_functions": [
+            "print_uint32_base10",
+            "serial_write"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "printFloat": {
+        "called_functions": [
+            "__aeabi_fcmplt",
+            "serial_write",
+            "__aeabi_fmul",
+            "__addsf3",
+            "__aeabi_f2iz"
+        ],
+        "indegree": 4,
+        "outdegree": 4
+    },
+    "__aeabi_f2iz": {
+        "called_functions": []
+    },
+    "sub_8003a03": {
+        "called_functions": []
+    },
+    "protocol_reset_line_buffer": {
+        "called_functions": []
+    },
+    "report_init_message": {
+        "called_functions": [
+            "printPgmString"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8003a4b": {
+        "called_functions": []
+    },
+    "settings_read_startup_line": {
+        "called_functions": [
+            "memcpy_from_eeprom_with_checksum",
+            "settings_store_startup_line"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "buttons_isr": {
+        "called_functions": [
+            "mc_reset"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8003aff": {
+        "called_functions": []
+    },
+    "report_alarm_message": {
+        "called_functions": [
+            "printPgmString",
+            "delay_ms"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "report_realtime_status": {
+        "called_functions": [
+            "printPgmString",
+            "__floatsisf",
+            "__aeabi_fdiv",
+            "printFloat",
+            "__aeabi_f2d",
+            "__muldf3",
+            "__addsf3",
+            "__truncdfsf2",
+            "__aeabi_fsub",
+            "__subdf3"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "st_feed_hold": {
+        "called_functions": []
+    },
+    "st_cycle_reinitialize": {
+        "called_functions": [
+            "plan_cycle_reinitialize",
+            "set_step_events_per_minute"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "protocol_execute_line": {
+        "called_functions": [
+            "gc_execute_line",
+            "mc_reset",
+            "report_feedback_message",
+            "report_gcode_parameters",
+            "mc_go_home",
+            "report_grbl_settings",
+            "report_grbl_help",
+            "read_float",
+            "report_gcode_modes",
+            "protocol_execute_startup",
+            "settings_read_startup_line",
+            "report_startup_line",
+            "report_status_message",
+            "__aeabi_f2iz",
+            "__aeabi_f2d",
+            "settings_store_global_setting",
+            "trunc",
+            "__aeabi_d2uiz",
+            "settings_store_startup_line"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "report_gcode_parameters": {
+        "called_functions": [
+            "settings_read_coord_data",
+            "printPgmString",
+            "report_status_message",
+            "printFloat",
+            "__aeabi_f2d",
+            "__muldf3",
+            "__truncdfsf2"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "report_grbl_settings": {
+        "called_functions": [
+            "printPgmString",
+            "printFloat",
+            "printInteger",
+            "print_uint16_base2",
+            "__aeabi_fdiv"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "report_grbl_help": {
+        "called_functions": [
+            "printPgmString"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "report_gcode_modes": {
+        "called_functions": [
+            "printPgmString",
+            "printInteger",
+            "printFloat",
+            "__aeabi_f2d",
+            "__muldf3",
+            "__truncdfsf2"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "report_startup_line": {
+        "called_functions": [
+            "printPgmString",
+            "printInteger",
+            "printString"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "settings_store_global_setting": {
+        "called_functions": [
+            "__aeabi_fcmpeq",
+            "__aeabi_fmul",
+            "__aeabi_f2d",
+            "__aeabi_fcmple",
+            "__aeabi_fcmplt",
+            "write_global_settings",
+            "trunc",
+            "round",
+            "__aeabi_d2uiz",
+            "limits_init"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "settings_store_startup_line": {
+        "called_functions": [
+            "memcpy_to_eeprom_with_checksum"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_8003eef": {
+        "called_functions": []
+    },
+    "serial_read": {
+        "called_functions": [
+            "usart_tstc",
+            "usart_getc",
+            "serial_rx_hook"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8003fdf": {
+        "called_functions": []
+    },
+    "sub_80040c7": {
+        "called_functions": []
+    },
+    "sub_800414f": {
+        "called_functions": []
+    },
+    "sub_800417f": {
+        "called_functions": []
+    },
+    "sub_80041cb": {
+        "called_functions": []
+    },
+    "sub_80041f7": {
+        "called_functions": []
+    },
+    "sub_800420b": {
+        "called_functions": []
+    },
+    "sub_800442f": {
+        "called_functions": []
+    },
+    "sub_800464f": {
+        "called_functions": []
+    },
+    "sub_80046a3": {
+        "called_functions": []
+    },
+    "sub_8004835": {
+        "called_functions": []
+    },
+    "sub_8004913": {
+        "called_functions": []
+    },
+    "sub_8004b25": {
+        "called_functions": []
+    },
+    "write_global_settings": {
+        "called_functions": [
+            "eeprom_put_char",
+            "memcpy_to_eeprom_with_checksum"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "settings_reset": {
+        "called_functions": [
+            "write_global_settings"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "read_global_settings": {
+        "called_functions": [
+            "eeprom_get_char",
+            "memcpy_from_eeprom_with_checksum",
+            "settings_reset"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "round": {
+        "called_functions": [
+            "__aeabi_dadd"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_800514f": {
+        "called_functions": []
+    },
+    "sub_80051af": {
+        "called_functions": [
+            "spindle_on"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "spindle_on": {
+        "called_functions": []
+    },
+    "spindle_off": {
+        "called_functions": []
+    },
+    "spindle_fwd": {
+        "called_functions": []
+    },
+    "spindle_rev": {
+        "called_functions": []
+    },
+    "sub_80051f3": {
+        "called_functions": []
+    },
+    "sub_800527f": {
+        "called_functions": []
+    },
+    "sub_80052af": {
+        "called_functions": []
+    },
+    "stepper_motor_disable": {
+        "called_functions": []
+    },
+    "stepper_motor_enable": {
+        "called_functions": []
+    },
+    "set_step_events_per_minute": {
+        "called_functions": [
+            "set_step_period"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "set_step_period": {
+        "called_functions": []
+    },
+    "iterate_trapezoid_cycle_counter": {
+        "called_functions": []
+    },
+    "step_period_isr": {
+        "called_functions": [
+            "dirn_wr",
+            "plan_get_current_block",
+            "st_go_idle",
+            "set_step_events_per_minute",
+            "plan_discard_current_block",
+            "iterate_trapezoid_cycle_counter"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "step_pulse_isr": {
+        "called_functions": [
+            "step_wr"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_800571b": {
+        "called_functions": []
+    },
+    "step_delay_isr": {
+        "called_functions": [
+            "step_wr"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8005733": {
+        "called_functions": []
+    },
+    "set_step_pulse_delay": {
+        "called_functions": []
+    },
+    "set_step_pulse_time": {
+        "called_functions": []
+    },
+    "step_isr_enable": {
+        "called_functions": []
+    },
+    "step_isr_disable": {
+        "called_functions": []
+    },
+    "sub_80057ff": {
+        "called_functions": []
+    },
+    "sub_800581f": {
+        "called_functions": []
+    },
+    "sub_8005897": {
+        "called_functions": []
+    },
+    "serial_rx_hook": {
+        "called_functions": [
+            "mc_reset"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "aflCall": {
+        "called_functions": [
+            "sys_380"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sys_380": {
+        "called_functions": []
+    },
+    "sub_8005925": {
+        "called_functions": [
+            "startForkserver"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "startForkserver": {
+        "called_functions": [
+            "aflCall"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8005953": {
+        "called_functions": []
+    },
+    "HAL_Init": {
+        "called_functions": [
+            "HAL_SYSTICK_Config",
+            "HAL_NVIC_SetPriorityGrouping",
+            "HAL_MspInit"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_SYSTICK_Config": {
+        "called_functions": [
+            "SysTick_Config"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_NVIC_SetPriorityGrouping": {
+        "called_functions": [
+            "NVIC_SetPriorityGrouping"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_MspInit": {
+        "called_functions": []
+    },
+    "HAL_DeInit": {
+        "called_functions": [
+            "HAL_MspDeInit"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "HAL_MspDeInit": {
+        "called_functions": []
+    },
+    "HAL_IncTick": {
+        "called_functions": []
+    },
+    "sub_8005a37": {
+        "called_functions": []
+    },
+    "HAL_GetHalVersion": {
+        "called_functions": []
+    },
+    "HAL_GetREVID": {
+        "called_functions": []
+    },
+    "HAL_GetDEVID": {
+        "called_functions": []
+    },
+    "HAL_EnableDBGSleepMode": {
+        "called_functions": []
+    },
+    "HAL_DisableDBGSleepMode": {
+        "called_functions": []
+    },
+    "HAL_EnableDBGStopMode": {
+        "called_functions": []
+    },
+    "HAL_DisableDBGStopMode": {
+        "called_functions": []
+    },
+    "HAL_EnableDBGStandbyMode": {
+        "called_functions": []
+    },
+    "HAL_DisableDBGStandbyMode": {
+        "called_functions": []
+    },
+    "HAL_EnableCompensationCell": {
+        "called_functions": []
+    },
+    "sub_8005b73": {
+        "called_functions": []
+    },
+    "HAL_DisableCompensationCell": {
+        "called_functions": []
+    },
+    "sub_8005b8b": {
+        "called_functions": []
+    },
+    "NVIC_SetPriority": {
+        "called_functions": []
+    },
+    "sub_8005bdb": {
+        "called_functions": []
+    },
+    "SysTick_Config": {
+        "called_functions": [
+            "NVIC_SetPriority",
+            "NVIC_SetPriority"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8005c23": {
+        "called_functions": []
+    },
+    "HAL_RCC_DeInit": {
+        "called_functions": []
+    },
+    "sub_8005c97": {
+        "called_functions": []
+    },
+    "HAL_RCC_OscConfig": {
+        "called_functions": [
+            "HAL_GetTick"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8005f5f": {
+        "called_functions": []
+    },
+    "HAL_RCC_ClockConfig": {
+        "called_functions": [
+            "HAL_GetTick",
+            "HAL_RCC_GetHCLKFreq",
+            "SysTick_Config"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_RCC_GetHCLKFreq": {
+        "called_functions": [
+            "HAL_RCC_GetSysClockFreq"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "HAL_RCC_MCOConfig": {
+        "called_functions": [
+            "HAL_GPIO_Init"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "HAL_GPIO_Init": {
+        "called_functions": []
+    },
+    "sub_8006463": {
+        "called_functions": []
+    },
+    "HAL_RCC_EnableCSS": {
+        "called_functions": []
+    },
+    "sub_8006483": {
+        "called_functions": []
+    },
+    "HAL_RCC_DisableCSS": {
+        "called_functions": []
+    },
+    "sub_800649b": {
+        "called_functions": []
+    },
+    "HAL_RCC_GetSysClockFreq": {
+        "called_functions": []
+    },
+    "sub_80065cb": {
+        "called_functions": []
+    },
+    "sub_8006623": {
+        "called_functions": []
+    },
+    "HAL_RCC_GetPCLK1Freq": {
+        "called_functions": [
+            "HAL_RCC_GetHCLKFreq"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_RCC_GetPCLK2Freq": {
+        "called_functions": [
+            "HAL_RCC_GetHCLKFreq"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_RCC_GetOscConfig": {
+        "called_functions": []
+    },
+    "sub_8006867": {
+        "called_functions": []
+    },
+    "HAL_RCC_GetClockConfig": {
+        "called_functions": []
+    },
+    "HAL_RCC_NMI_IRQHandler": {
+        "called_functions": [
+            "HAL_RCC_CCSCallback"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "HAL_RCC_CCSCallback": {
+        "called_functions": []
+    },
+    "sub_80068eb": {
+        "called_functions": []
+    },
+    "NVIC_SetPriorityGrouping": {
+        "called_functions": []
+    },
+    "sub_8006943": {
+        "called_functions": []
+    },
+    "NVIC_GetPriorityGrouping": {
+        "called_functions": []
+    },
+    "sub_800695f": {
+        "called_functions": []
+    },
+    "NVIC_EnableIRQ": {
+        "called_functions": []
+    },
+    "NVIC_DisableIRQ": {
+        "called_functions": []
+    },
+    "sub_80069c3": {
+        "called_functions": []
+    },
+    "NVIC_GetPendingIRQ": {
+        "called_functions": []
+    },
+    "sub_8006a03": {
+        "called_functions": []
+    },
+    "NVIC_SetPendingIRQ": {
+        "called_functions": []
+    },
+    "sub_8006a37": {
+        "called_functions": []
+    },
+    "NVIC_ClearPendingIRQ": {
+        "called_functions": []
+    },
+    "sub_8006a6b": {
+        "called_functions": []
+    },
+    "NVIC_GetActive": {
+        "called_functions": []
+    },
+    "sub_8006aab": {
+        "called_functions": []
+    },
+    "sub_8006afb": {
+        "called_functions": []
+    },
+    "NVIC_GetPriority": {
+        "called_functions": []
+    },
+    "NVIC_EncodePriority": {
+        "called_functions": []
+    },
+    "NVIC_DecodePriority": {
+        "called_functions": []
+    },
+    "NVIC_SystemReset": {
+        "called_functions": []
+    },
+    "sub_8006c3f": {
+        "called_functions": []
+    },
+    "sub_8006c87": {
+        "called_functions": []
+    },
+    "HAL_NVIC_SetPriority": {
+        "called_functions": [
+            "NVIC_GetPriorityGrouping",
+            "NVIC_EncodePriority",
+            "NVIC_SetPriority"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_NVIC_EnableIRQ": {
+        "called_functions": [
+            "NVIC_EnableIRQ"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "HAL_NVIC_DisableIRQ": {
+        "called_functions": [
+            "NVIC_DisableIRQ"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "HAL_NVIC_SystemReset": {
+        "called_functions": [
+            "NVIC_SystemReset"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8006d1b": {
+        "called_functions": []
+    },
+    "HAL_NVIC_GetPriorityGrouping": {
+        "called_functions": [
+            "NVIC_GetPriorityGrouping"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "HAL_NVIC_GetPriority": {
+        "called_functions": [
+            "NVIC_GetPriority",
+            "NVIC_DecodePriority"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "HAL_NVIC_SetPendingIRQ": {
+        "called_functions": [
+            "NVIC_SetPendingIRQ"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "HAL_NVIC_GetPendingIRQ": {
+        "called_functions": [
+            "NVIC_GetPendingIRQ"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "HAL_NVIC_ClearPendingIRQ": {
+        "called_functions": [
+            "NVIC_ClearPendingIRQ"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "HAL_NVIC_GetActive": {
+        "called_functions": [
+            "NVIC_GetActive"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "HAL_SYSTICK_CLKSourceConfig": {
+        "called_functions": []
+    },
+    "sub_8006e17": {
+        "called_functions": []
+    },
+    "HAL_SYSTICK_IRQHandler": {
+        "called_functions": [
+            "HAL_SYSTICK_Callback"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "HAL_SYSTICK_Callback": {
+        "called_functions": []
+    },
+    "sub_8007143": {
+        "called_functions": []
+    },
+    "HAL_GPIO_DeInit": {
+        "called_functions": []
+    },
+    "HAL_GPIO_ReadPin": {
+        "called_functions": []
+    },
+    "HAL_GPIO_WritePin": {
+        "called_functions": []
+    },
+    "HAL_GPIO_TogglePin": {
+        "called_functions": []
+    },
+    "HAL_GPIO_EXTI_IRQHandler": {
+        "called_functions": [
+            "HAL_GPIO_EXTI_Callback"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "HAL_GPIO_EXTI_Callback": {
+        "called_functions": []
+    },
+    "sub_800735f": {
+        "called_functions": []
+    },
+    "gpio_clr": {
+        "called_functions": []
+    },
+    "gpio_set": {
+        "called_functions": []
+    },
+    "Error_Handler": {
+        "called_functions": []
+    },
+    "SystemClock_Config": {
+        "called_functions": [
+            "HAL_RCC_OscConfig",
+            "HAL_RCC_ClockConfig",
+            "Error_Handler"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "debounce_on_handler": {
+        "called_functions": [
+            "gpio_set",
+            "limits_isr",
+            "buttons_isr"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_80074c3": {
+        "called_functions": []
+    },
+    "debounce_off_handler": {
+        "called_functions": [
+            "gpio_clr"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "main": {
+        "called_functions": [
+            "HAL_Init",
+            "SystemClock_Config",
+            "gpio_init",
+            "timers_init",
+            "debounce_init",
+            "usart_init",
+            "controlSanitizer",
+            "grbl_main"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "gpio_init": {
+        "called_functions": [
+            "HAL_GPIO_Init",
+            "HAL_GPIO_WritePin"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "timers_init": {
+        "called_functions": [
+            "step_timer_init",
+            "g540_timer_init",
+            "g540_timer_start"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "debounce_init": {
+        "called_functions": [
+            "memset"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "usart_init": {
+        "called_functions": [
+            "enable_usart_clock",
+            "set_baud_rate"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8007513": {
+        "called_functions": []
+    },
+    "SystemInit": {
+        "called_functions": []
+    },
+    "sub_8007567": {
+        "called_functions": []
+    },
+    "SystemCoreClockUpdate": {
+        "called_functions": []
+    },
+    "gpio_toggle": {
+        "called_functions": []
+    },
+    "NMI_Handler": {
+        "called_functions": []
+    },
+    "HardFault_Handler": {
+        "called_functions": []
+    },
+    "MemManage_Handler": {
+        "called_functions": []
+    },
+    "BusFault_Handler": {
+        "called_functions": []
+    },
+    "UsageFault_Handler": {
+        "called_functions": []
+    },
+    "SVC_Handler": {
+        "called_functions": []
+    },
+    "DebugMon_Handler": {
+        "called_functions": []
+    },
+    "PendSV_Handler": {
+        "called_functions": []
+    },
+    "SysTick_Handler": {
+        "called_functions": [
+            "HAL_GetTick",
+            "gpio_toggle",
+            "HAL_IncTick",
+            "debounce_isr"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "debounce_isr": {
+        "called_functions": [
+            "debounce_input",
+            "debounce_rd",
+            "debounce_on_handler",
+            "debounce_off_handler"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "gpio_rd": {
+        "called_functions": []
+    },
+    "debounce_input": {
+        "called_functions": [
+            "gpio_rd"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8007869": {
+        "called_functions": []
+    },
+    "sub_800787b": {
+        "called_functions": []
+    },
+    "sub_80078c3": {
+        "called_functions": []
+    },
+    "enable_tim_clock": {
+        "called_functions": []
+    },
+    "sub_80079fb": {
+        "called_functions": []
+    },
+    "enable_tim_interrupt": {
+        "called_functions": [
+            "HAL_NVIC_SetPriority",
+            "NVIC_EnableIRQ"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8007a5f": {
+        "called_functions": []
+    },
+    "step_timer_init": {
+        "called_functions": [
+            "enable_tim_clock",
+            "enable_tim_interrupt"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8007aff": {
+        "called_functions": []
+    },
+    "TIM2_IRQHandler": {
+        "called_functions": [
+            "step_delay_isr",
+            "step_pulse_isr",
+            "step_period_isr"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "g540_timer_init": {
+        "called_functions": [
+            "enable_tim_clock"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8007d33": {
+        "called_functions": []
+    },
+    "g540_timer_start": {
+        "called_functions": []
+    },
+    "g540_timer_stop": {
+        "called_functions": []
+    },
+    "usart_putc": {
+        "called_functions": []
+    },
+    "usart_flush": {
+        "called_functions": []
+    },
+    "usart_tstc": {
+        "called_functions": []
+    },
+    "sub_8007e17": {
+        "called_functions": []
+    },
+    "usart_getc": {
+        "called_functions": []
+    },
+    "sub_8007e37": {
+        "called_functions": []
+    },
+    "enable_usart_clock": {
+        "called_functions": []
+    },
+    "set_baud_rate": {
+        "called_functions": [
+            "HAL_RCC_GetPCLK2Freq",
+            "HAL_RCC_GetPCLK1Freq"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_80081d7": {
+        "called_functions": []
+    },
+    "__io_putchar": {
+        "called_functions": [
+            "usart_putc"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "serial_reset_read_buffer": {
+        "called_functions": [
+            "usart_tstc",
+            "usart_getc"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_800826b": {
+        "called_functions": [
+            "__aeabi_drsub"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__aeabi_drsub": {
+        "called_functions": [
+            "__aeabi_dadd"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8008273": {
+        "called_functions": [
+            "__subdf3"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_80082d1": {
+        "called_functions": []
+    },
+    "sub_8008409": {
+        "called_functions": []
+    },
+    "sub_8008497": {
+        "called_functions": []
+    },
+    "sub_80084b5": {
+        "called_functions": []
+    },
+    "sub_80084ef": {
+        "called_functions": [
+            "__floatunsidf"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_80084fb": {
+        "called_functions": [
+            "sub_80082d1"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_800850f": {
+        "called_functions": [
+            "__aeabi_i2d"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_800851b": {
+        "called_functions": [
+            "sub_80082d1"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8008533": {
+        "called_functions": [
+            "__aeabi_f2d"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8008553": {
+        "called_functions": []
+    },
+    "sub_800855f": {
+        "called_functions": [
+            "sub_80082d1"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_800856f": {
+        "called_functions": [
+            "__floatundidf"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__floatundidf": {
+        "called_functions": []
+    },
+    "sub_8008579": {
+        "called_functions": [
+            "sub_80082d1"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "__aeabi_l2d": {
+        "called_functions": []
+    },
+    "sub_8008589": {
+        "called_functions": [
+            "sub_8008579",
+            "sub_80082d1"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_80085db": {
+        "called_functions": [
+            "__muldf3"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_80087b9": {
+        "called_functions": []
+    },
+    "sub_80086b1": {
+        "called_functions": [
+            "__muldf3"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_80086cd": {
+        "called_functions": []
+    },
+    "sub_800899f": {
+        "called_functions": [
+            "sub_80087b9"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_800898d": {
+        "called_functions": [
+            "__muldf3"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8008999": {
+        "called_functions": [
+            "__muldf3"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__gedf2": {
+        "called_functions": []
+    },
+    "sub_8008a07": {
+        "called_functions": [
+            "__ledf2"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__ledf2": {
+        "called_functions": [
+            "__gedf2"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8008a0f": {
+        "called_functions": [
+            "__nedf2"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__nedf2": {
+        "called_functions": [
+            "__gedf2"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_8008a47": {
+        "called_functions": []
+    },
+    "sub_8008a8b": {
+        "called_functions": [
+            "__aeabi_cdrcmple"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__aeabi_cdrcmple": {
+        "called_functions": [
+            "__aeabi_cdcmpeq"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "__aeabi_cdcmpeq": {
+        "called_functions": [
+            "__nedf2"
+        ],
+        "indegree": 5,
+        "outdegree": 5
+    },
+    "sub_8008a9b": {
+        "called_functions": [
+            "__aeabi_cdcmpeq"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__aeabi_dcmpeq": {
+        "called_functions": [
+            "__aeabi_cdcmpeq",
+            "UnresolvableJumpTarget"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_8008abf": {
+        "called_functions": [
+            "__aeabi_dcmplt"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8008ad3": {
+        "called_functions": [
+            "__aeabi_dcmple"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__aeabi_dcmple": {
+        "called_functions": [
+            "__aeabi_cdcmpeq",
+            "UnresolvableJumpTarget"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8008ae7": {
+        "called_functions": [
+            "__aeabi_dcmpge"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__aeabi_dcmpge": {
+        "called_functions": [
+            "__aeabi_cdrcmple",
+            "UnresolvableJumpTarget"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_8008afb": {
+        "called_functions": [
+            "__aeabi_dcmpgt"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8008b0f": {
+        "called_functions": [
+            "__unorddf2"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__unorddf2": {
+        "called_functions": []
+    },
+    "sub_8008b8b": {
+        "called_functions": [
+            "__aeabi_d2uiz"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8008c0f": {
+        "called_functions": [
+            "__truncdfsf2"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8008c6b": {
+        "called_functions": [
+            "__aeabi_frsub"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__aeabi_frsub": {
+        "called_functions": [
+            "__addsf3"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8008c73": {
+        "called_functions": [
+            "__aeabi_fsub"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8008cab": {
+        "called_functions": []
+    },
+    "sub_8008d8f": {
+        "called_functions": []
+    },
+    "sub_8008dab": {
+        "called_functions": []
+    },
+    "sub_8008ddf": {
+        "called_functions": [
+            "__floatsisf"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8008df1": {
+        "called_functions": []
+    },
+    "__aeabi_ul2f": {
+        "called_functions": []
+    },
+    "sub_8008e05": {
+        "called_functions": [
+            "sub_8008df1"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8008e0b": {
+        "called_functions": [
+            "__aeabi_l2f"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__aeabi_l2f": {
+        "called_functions": []
+    },
+    "sub_8008e15": {
+        "called_functions": [
+            "sub_8008e05",
+            "sub_8008df1"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8008f11": {
+        "called_functions": [
+            "__aeabi_fmul"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8008f29": {
+        "called_functions": []
+    },
+    "sub_800909f": {
+        "called_functions": [
+            "__aeabi_fmul"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8009127": {
+        "called_functions": [
+            "__gesf2"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__gesf2": {
+        "called_functions": []
+    },
+    "sub_800912f": {
+        "called_functions": [
+            "__ltsf2"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__ltsf2": {
+        "called_functions": [
+            "__gesf2"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8009137": {
+        "called_functions": [
+            "__cmpsf2"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__cmpsf2": {
+        "called_functions": [
+            "__gesf2"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_8009197": {
+        "called_functions": [
+            "__aeabi_cfrcmple"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__aeabi_cfrcmple": {
+        "called_functions": [
+            "__aeabi_cfcmpeq"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "__aeabi_cfcmpeq": {
+        "called_functions": [
+            "__cmpsf2"
+        ],
+        "indegree": 4,
+        "outdegree": 4
+    },
+    "sub_80091c3": {
+        "called_functions": [
+            "__aeabi_fcmplt"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_80091d7": {
+        "called_functions": [
+            "__aeabi_fcmple"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_80091eb": {
+        "called_functions": [
+            "__aeabi_fcmpge"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_80091ff": {
+        "called_functions": [
+            "__aeabi_fcmpgt"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8009213": {
+        "called_functions": [
+            "__aeabi_f2iz"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "Reset_Handler": {
+        "called_functions": [
+            "SystemInit",
+            "__libc_init_array",
+            "main"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__libc_init_array": {
+        "called_functions": [
+            "_init",
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "DMA1_Stream3_IRQHandler": {
+        "called_functions": []
+    },
+    "sub_80093c3": {
+        "called_functions": []
+    },
+    "__kernel_cos": {
+        "called_functions": [
+            "__muldf3",
+            "__aeabi_d2iz",
+            "__aeabi_dadd",
+            "__subdf3"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "__ieee754_rem_pio2": {
+        "called_functions": [
+            "fabs",
+            "__aeabi_dadd",
+            "__subdf3",
+            "__muldf3",
+            "__aeabi_d2iz",
+            "__aeabi_i2d",
+            "__aeabi_dcmpeq",
+            "__kernel_rem_pio2"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "__kernel_sin": {
+        "called_functions": [
+            "__muldf3",
+            "__aeabi_d2iz",
+            "__subdf3",
+            "__aeabi_dadd"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_8009463": {
+        "called_functions": []
+    },
+    "sub_8009575": {
+        "called_functions": []
+    },
+    "sub_80096b3": {
+        "called_functions": []
+    },
+    "sub_80097a7": {
+        "called_functions": []
+    },
+    "__ieee754_atan2": {
+        "called_functions": [
+            "__aeabi_dadd",
+            "atan",
+            "atan",
+            "__divdf3",
+            "fabs",
+            "__subdf3"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "atan": {
+        "called_functions": [
+            "fabs",
+            "__aeabi_dadd",
+            "__muldf3",
+            "__aeabi_dcmpgt",
+            "__divdf3",
+            "__subdf3"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "fabs": {
+        "called_functions": []
+    },
+    "__ieee754_hypot": {
+        "called_functions": [
+            "__aeabi_dadd",
+            "__subdf3",
+            "__aeabi_dcmplt",
+            "__muldf3",
+            "__ieee754_sqrt"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "finite": {
+        "called_functions": []
+    },
+    "matherr": {
+        "called_functions": []
+    },
+    "__errno": {
+        "called_functions": []
+    },
+    "__ieee754_sqrt": {
+        "called_functions": [
+            "__muldf3",
+            "__aeabi_dadd",
+            "__subdf3",
+            "__divdf3"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_8009917": {
+        "called_functions": []
+    },
+    "sub_8009aa3": {
+        "called_functions": []
+    },
+    "sub_8009ab1": {
+        "called_functions": []
+    },
+    "sub_8009ab9": {
+        "called_functions": []
+    },
+    "sub_8009ac1": {
+        "called_functions": []
+    },
+    "sub_8009ac9": {
+        "called_functions": []
+    },
+    "sub_8009ad1": {
+        "called_functions": []
+    },
+    "sub_8009ad9": {
+        "called_functions": []
+    },
+    "sub_8009ae1": {
+        "called_functions": []
+    },
+    "sub_8009ae9": {
+        "called_functions": []
+    },
+    "__kernel_rem_pio2": {
+        "called_functions": [
+            "scalbn",
+            "__muldf3",
+            "__aeabi_i2d",
+            "__aeabi_d2iz",
+            "__aeabi_dadd",
+            "floor",
+            "__subdf3",
+            "__aeabi_dcmpge",
+            "__aeabi_dcmpeq"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8009f83": {
+        "called_functions": []
+    },
+    "sub_8009f89": {
+        "called_functions": []
+    },
+    "sub_8009f93": {
+        "called_functions": []
+    },
+    "sub_8009f99": {
+        "called_functions": []
+    },
+    "sub_8009fa1": {
+        "called_functions": []
+    },
+    "sub_800a14b": {
+        "called_functions": []
+    },
+    "sub_800a159": {
+        "called_functions": []
+    },
+    "sub_800a169": {
+        "called_functions": []
+    },
+    "sub_800a171": {
+        "called_functions": []
+    },
+    "sub_800a2ef": {
+        "called_functions": []
+    },
+    "sub_800a4f5": {
+        "called_functions": []
+    },
+    "sub_800a501": {
+        "called_functions": []
+    },
+    "sub_800a509": {
+        "called_functions": []
+    },
+    "sub_800a511": {
+        "called_functions": []
+    },
+    "sub_800a519": {
+        "called_functions": []
+    },
+    "sub_800a521": {
+        "called_functions": []
+    },
+    "scalbn": {
+        "called_functions": [
+            "__aeabi_dadd",
+            "__muldf3",
+            "copysign"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_800af07": {
+        "called_functions": [
+            "atan"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_800af11": {
+        "called_functions": []
+    },
+    "sub_800af1b": {
+        "called_functions": []
+    },
+    "sub_800af21": {
+        "called_functions": []
+    },
+    "sub_800af29": {
+        "called_functions": []
+    },
+    "sub_800af31": {
+        "called_functions": []
+    },
+    "sub_800b1f1": {
+        "called_functions": []
+    },
+    "sub_800b1f9": {
+        "called_functions": []
+    },
+    "sub_800b201": {
+        "called_functions": []
+    },
+    "sub_800b209": {
+        "called_functions": []
+    },
+    "sub_800b211": {
+        "called_functions": []
+    },
+    "sub_800b219": {
+        "called_functions": []
+    },
+    "sub_800b221": {
+        "called_functions": []
+    },
+    "sub_800b229": {
+        "called_functions": []
+    },
+    "sub_800b231": {
+        "called_functions": []
+    },
+    "sub_800b239": {
+        "called_functions": []
+    },
+    "sub_800b240": {
+        "called_functions": [
+            "UnresolvableJumpTarget"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_800b28b": {
+        "called_functions": [
+            "finite"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "copysign": {
+        "called_functions": []
+    },
+    "sub_800b37d": {
+        "called_functions": []
+    },
+    "sub_800b389": {
+        "called_functions": []
+    },
+    "sub_800b3ab": {
+        "called_functions": [
+            "__errno"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_800b3b3": {
+        "called_functions": []
+    },
+    "_init": {
+        "called_functions": []
+    },
+    "UnresolvableCallTarget": {
+        "called_functions": []
+    },
+    "sub_800b3f7": {
+        "called_functions": []
+    },
+    "sub_800b4a3": {
+        "called_functions": [
+            "register_fini"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "register_fini": {
+        "called_functions": [
+            "atexit"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "atexit": {
+        "called_functions": [
+            "__register_exitproc"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "__register_exitproc": {
+        "called_functions": [
+            "__retarget_lock_acquire_recursive",
+            "__retarget_lock_release_recursive"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "__retarget_lock_acquire_recursive": {
+        "called_functions": []
+    },
+    "__retarget_lock_release_recursive": {
+        "called_functions": []
+    },
+    "__libc_fini_array": {
+        "called_functions": [
+            "_fini",
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_fini": {
+        "called_functions": []
+    },
+    "sub_800b4ef": {
+        "called_functions": []
+    },
+    "sub_800b4fb": {
+        "called_functions": [
+            "__retarget_lock_release_recursive"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_800b4ff": {
+        "called_functions": [
+            "__register_exitproc"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_800b5b7": {
+        "called_functions": []
+    }
+}

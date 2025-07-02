@@ -1,0 +1,1986 @@
+{
+    "sub_85680": {
+        "called_functions": [
+            "sys_380"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "exception_table": {
+        "called_functions": []
+    },
+    "sub_80007": {
+        "called_functions": [
+            "__do_global_dtors_aux"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__do_global_dtors_aux": {
+        "called_functions": []
+    },
+    "frame_dummy": {
+        "called_functions": [
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "UnresolvableCallTarget": {
+        "called_functions": []
+    },
+    "_Z15straightAndStopv": {
+        "called_functions": [
+            "_ZN5Servo5writeEi",
+            "_ZN5Servo5writeEi"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "_ZN5Servo5writeEi": {
+        "called_functions": [
+            "_ZN5Servo17writeMicrosecondsEi",
+            "_Z3maplllll"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "_ZN5Servo17writeMicrosecondsEi": {
+        "called_functions": []
+    },
+    "_Z3maplllll": {
+        "called_functions": []
+    },
+    "sub_8015f": {
+        "called_functions": []
+    },
+    "_GLOBAL__sub_I_steering": {
+        "called_functions": [
+            "_ZN5ServoC1Ev",
+            "_ZN6StringC2EPKc",
+            "__aeabi_atexit",
+            "__aeabi_atexit"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_ZN5ServoC1Ev": {
+        "called_functions": []
+    },
+    "_ZN6StringC2EPKc": {
+        "called_functions": [
+            "strlen",
+            "_ZN6String4copyEPKcj"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "__aeabi_atexit": {
+        "called_functions": [
+            "__cxa_atexit"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "__cxa_atexit": {
+        "called_functions": [
+            "__register_exitproc"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "__register_exitproc": {
+        "called_functions": [
+            "malloc"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "malloc": {
+        "called_functions": [
+            "_malloc_r"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "setup": {
+        "called_functions": [
+            "_ZN9UARTClass5beginEm",
+            "pinMode",
+            "_ZN5Servo6attachEi",
+            "_Z15straightAndStopv",
+            "delay"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN9UARTClass5beginEm": {
+        "called_functions": [
+            "_ZN9UARTClass4initEmm"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "pinMode": {
+        "called_functions": [
+            "adc_disable_channel",
+            "PIO_Configure",
+            "pmc_enable_periph_clk",
+            "pmc_disable_periph_clk"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "_ZN5Servo6attachEi": {
+        "called_functions": [
+            "_ZN5Servo6attachEiii"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "delay": {
+        "called_functions": []
+    },
+    "loop": {
+        "called_functions": [
+            "pulseIn",
+            "delay",
+            "digitalWrite",
+            "_Z15straightAndStopv",
+            "_ZN5Print7printlnEPKc",
+            "_ZN9UARTClass9availableEv",
+            "_ZN6Stream15readStringUntilEc",
+            "_Z3maplllll",
+            "_ZN6StringaSEOS_",
+            "_ZN6StringD2Ev",
+            "_ZN5Servo5writeEi",
+            "_ZN9UARTClass4readEv",
+            "_ZN5Print5printEii",
+            "_ZN5Print5printEPKc",
+            "_ZNK6String6equalsEPKc",
+            "_ZN5Print7printlnEii",
+            "_ZNK6String5toIntEv"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "pulseIn": {
+        "called_functions": [
+            "countPulseASM"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "digitalWrite": {
+        "called_functions": [
+            "PIO_GetOutputDataStatus",
+            "pinMode",
+            "PIO_SetOutput",
+            "PIO_PullUp"
+        ],
+        "indegree": 4,
+        "outdegree": 4
+    },
+    "_ZN5Print7printlnEPKc": {
+        "called_functions": [
+            "_ZN5Print5writeEPKc",
+            "_ZN5Print7printlnEv"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN9UARTClass9availableEv": {
+        "called_functions": []
+    },
+    "_ZN6Stream15readStringUntilEc": {
+        "called_functions": [
+            "_ZN6StringC2EPKc",
+            "_ZN6Stream9timedReadEv",
+            "_ZN6String6concatEc"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN6StringaSEOS_": {
+        "called_functions": [
+            "_ZN6String4moveERS_"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN6StringD2Ev": {
+        "called_functions": [
+            "free"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN9UARTClass4readEv": {
+        "called_functions": []
+    },
+    "_ZN5Print5printEii": {
+        "called_functions": [
+            "_ZN5Print5printEli"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN5Print5printEPKc": {
+        "called_functions": [
+            "_ZN5Print5writeEPKc"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZNK6String6equalsEPKc": {
+        "called_functions": [
+            "strcmp"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN5Print7printlnEii": {
+        "called_functions": [
+            "_ZN5Print5printEli",
+            "_ZN5Print7printlnEv"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZNK6String5toIntEv": {
+        "called_functions": [
+            "atol"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZL8_initISRP2Tcmm4IRQn": {
+        "called_functions": [
+            "pmc_enable_periph_clk",
+            "TC_Configure",
+            "TC_SetRA",
+            "TC_Start"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "pmc_enable_periph_clk": {
+        "called_functions": []
+    },
+    "TC_Configure": {
+        "called_functions": [
+            "__assert_func"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "TC_SetRA": {
+        "called_functions": []
+    },
+    "TC_Start": {
+        "called_functions": [
+            "__assert_func"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "__assert_func": {
+        "called_functions": [
+            "fiprintf",
+            "abort"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "_Z13Servo_Handler18timer16_Sequence_tP2Tch": {
+        "called_functions": [
+            "digitalWrite",
+            "digitalWrite"
+        ],
+        "indegree": 5,
+        "outdegree": 5
+    },
+    "PIO_GetOutputDataStatus": {
+        "called_functions": []
+    },
+    "PIO_SetOutput": {
+        "called_functions": []
+    },
+    "PIO_PullUp": {
+        "called_functions": []
+    },
+    "sub_8051f": {
+        "called_functions": []
+    },
+    "TC3_Handler": {
+        "called_functions": [
+            "_Z13Servo_Handler18timer16_Sequence_tP2Tch"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8053f": {
+        "called_functions": []
+    },
+    "TC4_Handler": {
+        "called_functions": [
+            "_Z13Servo_Handler18timer16_Sequence_tP2Tch"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8054f": {
+        "called_functions": []
+    },
+    "TC5_Handler": {
+        "called_functions": [
+            "_Z13Servo_Handler18timer16_Sequence_tP2Tch"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8055f": {
+        "called_functions": []
+    },
+    "TC2_Handler": {
+        "called_functions": [
+            "_Z13Servo_Handler18timer16_Sequence_tP2Tch"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8056f": {
+        "called_functions": []
+    },
+    "TC0_Handler": {
+        "called_functions": [
+            "_Z13Servo_Handler18timer16_Sequence_tP2Tch"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8057f": {
+        "called_functions": []
+    },
+    "_ZN5Servo6attachEiii": {
+        "called_functions": [
+            "pinMode",
+            "_ZL8_initISRP2Tcmm4IRQn"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8066f": {
+        "called_functions": []
+    },
+    "sub_806c7": {
+        "called_functions": []
+    },
+    "_Z11serialEventv": {
+        "called_functions": []
+    },
+    "UART_Handler": {
+        "called_functions": [
+            "_ZN9UARTClass10IrqHandlerEv"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_ZN9UARTClass10IrqHandlerEv": {
+        "called_functions": [
+            "_ZN10RingBuffer10store_charEh"
+        ],
+        "indegree": 4,
+        "outdegree": 4
+    },
+    "_ZN10RingBuffer10store_charEh": {
+        "called_functions": []
+    },
+    "sub_8071f": {
+        "called_functions": []
+    },
+    "_Z12serialEvent1v": {
+        "called_functions": []
+    },
+    "_Z12serialEvent2v": {
+        "called_functions": []
+    },
+    "_Z12serialEvent3v": {
+        "called_functions": []
+    },
+    "USART0_Handler": {
+        "called_functions": [
+            "_ZN9UARTClass10IrqHandlerEv"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_80733": {
+        "called_functions": []
+    },
+    "USART1_Handler": {
+        "called_functions": [
+            "_ZN9UARTClass10IrqHandlerEv"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8073f": {
+        "called_functions": []
+    },
+    "USART3_Handler": {
+        "called_functions": [
+            "_ZN9UARTClass10IrqHandlerEv"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8074b": {
+        "called_functions": []
+    },
+    "init": {
+        "called_functions": [
+            "SystemInit",
+            "__libc_init_array",
+            "digitalWrite",
+            "PIO_Configure",
+            "pmc_enable_periph_clk",
+            "adc_init",
+            "adc_configure_timing",
+            "adc_configure_trigger",
+            "adc_disable_interrupt",
+            "adc_disable_all_channel",
+            "analogOutputInit"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "SystemInit": {
+        "called_functions": []
+    },
+    "__libc_init_array": {
+        "called_functions": [
+            "_init",
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "PIO_Configure": {
+        "called_functions": [
+            "PIO_SetInput",
+            "PIO_SetOutput",
+            "PIO_SetPeripheral"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "adc_init": {
+        "called_functions": []
+    },
+    "adc_configure_timing": {
+        "called_functions": []
+    },
+    "adc_configure_trigger": {
+        "called_functions": []
+    },
+    "adc_disable_interrupt": {
+        "called_functions": []
+    },
+    "adc_disable_all_channel": {
+        "called_functions": []
+    },
+    "analogOutputInit": {
+        "called_functions": []
+    },
+    "sub_80853": {
+        "called_functions": []
+    },
+    "_GLOBAL__sub_I_g_APinDescription": {
+        "called_functions": [
+            "_ZN10RingBufferC2Ev",
+            "_ZN9UARTClassC2EP4Uart4IRQnmP10RingBufferS4_",
+            "_ZN10USARTClassC2EP5Usart4IRQnmP10RingBufferS4_"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_ZN10RingBufferC2Ev": {
+        "called_functions": [
+            "memset"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN9UARTClassC2EP4Uart4IRQnmP10RingBufferS4_": {
+        "called_functions": []
+    },
+    "_ZN10USARTClassC2EP5Usart4IRQnmP10RingBufferS4_": {
+        "called_functions": [
+            "_ZN9UARTClassC2EP4Uart4IRQnmP10RingBufferS4_"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8090b": {
+        "called_functions": []
+    },
+    "_Z14serialEventRunv": {
+        "called_functions": [
+            "_ZN9UARTClass9availableEv",
+            "_Z11serialEventv",
+            "_Z12serialEvent1v",
+            "_Z12serialEvent2v",
+            "_Z12serialEvent3v"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "PIO_SetPeripheral": {
+        "called_functions": []
+    },
+    "PIO_SetInput": {
+        "called_functions": []
+    },
+    "sub_80a63": {
+        "called_functions": []
+    },
+    "pmc_disable_periph_clk": {
+        "called_functions": []
+    },
+    "sub_80b2f": {
+        "called_functions": []
+    },
+    "sub_80b5b": {
+        "called_functions": []
+    },
+    "Reset_Handler": {
+        "called_functions": [
+            "main"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "main": {
+        "called_functions": [
+            "_watchdogDefaultSetup",
+            "init",
+            "initVariant",
+            "delay",
+            "setup",
+            "loop",
+            "_Z14serialEventRunv"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "adc_disable_channel": {
+        "called_functions": []
+    },
+    "UOTGHS_Handler": {
+        "called_functions": [
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "PIOA_Handler": {
+        "called_functions": [
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_80d8b": {
+        "called_functions": []
+    },
+    "PIOB_Handler": {
+        "called_functions": [
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_80dc3": {
+        "called_functions": []
+    },
+    "PIOC_Handler": {
+        "called_functions": [
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_80dfb": {
+        "called_functions": []
+    },
+    "PIOD_Handler": {
+        "called_functions": [
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_80e33": {
+        "called_functions": []
+    },
+    "SPI0_Handler": {
+        "called_functions": []
+    },
+    "SVC_Handler": {
+        "called_functions": [
+            "svcHook"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "svcHook": {
+        "called_functions": []
+    },
+    "PendSV_Handler": {
+        "called_functions": [
+            "svcHook"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "SysTick_Handler": {
+        "called_functions": [
+            "sysTickHook",
+            "tickReset",
+            "TimeTick_Increment"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sysTickHook": {
+        "called_functions": []
+    },
+    "tickReset": {
+        "called_functions": [
+            "banzai"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "TimeTick_Increment": {
+        "called_functions": []
+    },
+    "_sbrk": {
+        "called_functions": []
+    },
+    "link": {
+        "called_functions": []
+    },
+    "_close": {
+        "called_functions": []
+    },
+    "_fstat": {
+        "called_functions": []
+    },
+    "_isatty": {
+        "called_functions": []
+    },
+    "_lseek": {
+        "called_functions": []
+    },
+    "_read": {
+        "called_functions": []
+    },
+    "_write": {
+        "called_functions": []
+    },
+    "sub_80ec3": {
+        "called_functions": []
+    },
+    "_exit": {
+        "called_functions": [
+            "iprintf"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "iprintf": {
+        "called_functions": [
+            "_vfiprintf_r"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_kill": {
+        "called_functions": []
+    },
+    "_getpid": {
+        "called_functions": []
+    },
+    "millis": {
+        "called_functions": [
+            "GetTickCount"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "GetTickCount": {
+        "called_functions": []
+    },
+    "_ZN5Print5writeEPKhj": {
+        "called_functions": [
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_ZN5Print5writeEPKc": {
+        "called_functions": [
+            "strlen",
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 4,
+        "outdegree": 4
+    },
+    "strlen": {
+        "called_functions": []
+    },
+    "_ZN5Print5printEc": {
+        "called_functions": [
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN5Print7printlnEv": {
+        "called_functions": [
+            "_ZN5Print5writeEPKc"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_810bf": {
+        "called_functions": []
+    },
+    "_ZN5Print11printNumberEmh": {
+        "called_functions": [
+            "_ZN5Print5writeEPKc"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "_ZN5Print5printEli": {
+        "called_functions": [
+            "UnresolvableCallTarget",
+            "_ZN5Print11printNumberEmh",
+            "_ZN5Print11printNumberEmh",
+            "_ZN5Print5printEc"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "banzai": {
+        "called_functions": []
+    },
+    "sub_81183": {
+        "called_functions": []
+    },
+    "memset": {
+        "called_functions": []
+    },
+    "_ZN6Stream9timedReadEv": {
+        "called_functions": [
+            "millis",
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN6String6concatEc": {
+        "called_functions": [
+            "_ZN6String6concatEPKcj"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8121b": {
+        "called_functions": []
+    },
+    "_ZN9UARTClasscvbEv": {
+        "called_functions": []
+    },
+    "_ZN9UARTClass4peekEv": {
+        "called_functions": []
+    },
+    "_ZN9UARTClass5flushEv": {
+        "called_functions": []
+    },
+    "_ZN9UARTClass5writeEh": {
+        "called_functions": []
+    },
+    "_ZN9UARTClass3endEv": {
+        "called_functions": [
+            "UnresolvableCallTarget",
+            "pmc_disable_periph_clk"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8131f": {
+        "called_functions": []
+    },
+    "_ZN9UARTClass4initEmm": {
+        "called_functions": [
+            "pmc_enable_periph_clk"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_813af": {
+        "called_functions": []
+    },
+    "_ZN10USARTClass5beginEm": {
+        "called_functions": [
+            "_ZN9UARTClass4initEmm"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_81433": {
+        "called_functions": []
+    },
+    "_ZNK6String14StringIfHelperEv": {
+        "called_functions": []
+    },
+    "free": {
+        "called_functions": [
+            "_free_r"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "_ZN6String10invalidateEv": {
+        "called_functions": [
+            "free"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN6String12changeBufferEj": {
+        "called_functions": [
+            "realloc"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "realloc": {
+        "called_functions": [
+            "_realloc_r"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "_ZN6String7reserveEj": {
+        "called_functions": [
+            "_ZN6String12changeBufferEj"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "_ZN6String4copyEPKcj": {
+        "called_functions": [
+            "_ZN6String7reserveEj",
+            "strcpy",
+            "_ZN6String10invalidateEv"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "strcpy": {
+        "called_functions": []
+    },
+    "_ZN6String4moveERS_": {
+        "called_functions": [
+            "free",
+            "strcpy"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN6String6concatEPKcj": {
+        "called_functions": [
+            "_ZN6String7reserveEj",
+            "strcpy"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "strcmp": {
+        "called_functions": []
+    },
+    "atol": {
+        "called_functions": [
+            "strtol"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "strtol": {
+        "called_functions": [
+            "_strtol_r"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_strtol_r": {
+        "called_functions": []
+    },
+    "initVariant": {
+        "called_functions": []
+    },
+    "_watchdogDefaultSetup": {
+        "called_functions": [
+            "WDT_Disable"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "WDT_Disable": {
+        "called_functions": []
+    },
+    "sub_815fb": {
+        "called_functions": []
+    },
+    "countPulseASM": {
+        "called_functions": []
+    },
+    "sub_81653": {
+        "called_functions": []
+    },
+    "sub_816a3": {
+        "called_functions": [
+            "TimeTick_Increment"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_816af": {
+        "called_functions": []
+    },
+    "sub_816bb": {
+        "called_functions": []
+    },
+    "sub_816d3": {
+        "called_functions": [
+            "__assert_func"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "fiprintf": {
+        "called_functions": [
+            "_vfiprintf_r"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "abort": {
+        "called_functions": [
+            "raise",
+            "_exit"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_816ff": {
+        "called_functions": []
+    },
+    "_vfiprintf_r": {
+        "called_functions": [
+            "__sinit",
+            "__swsetup_r",
+            "__sbprintf",
+            "__sprint_r.part.0",
+            "strlen",
+            "memchr",
+            "__aeabi_uldivmod"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "_init": {
+        "called_functions": []
+    },
+    "sub_81793": {
+        "called_functions": []
+    },
+    "_malloc_r": {
+        "called_functions": [
+            "__malloc_lock",
+            "__malloc_unlock",
+            "_sbrk_r",
+            "_free_r"
+        ],
+        "indegree": 5,
+        "outdegree": 5
+    },
+    "__malloc_lock": {
+        "called_functions": []
+    },
+    "__malloc_unlock": {
+        "called_functions": []
+    },
+    "_sbrk_r": {
+        "called_functions": [
+            "_sbrk"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "_free_r": {
+        "called_functions": [
+            "__malloc_lock",
+            "__malloc_unlock",
+            "_malloc_trim_r"
+        ],
+        "indegree": 7,
+        "outdegree": 7
+    },
+    "sub_817d7": {
+        "called_functions": []
+    },
+    "_malloc_trim_r": {
+        "called_functions": [
+            "__malloc_lock",
+            "__malloc_unlock",
+            "_sbrk_r"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_817e7": {
+        "called_functions": []
+    },
+    "sub_81b17": {
+        "called_functions": []
+    },
+    "sub_81d1f": {
+        "called_functions": []
+    },
+    "memcpy": {
+        "called_functions": []
+    },
+    "sub_81dc3": {
+        "called_functions": [
+            "memcpy"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "memmove": {
+        "called_functions": []
+    },
+    "sub_81edb": {
+        "called_functions": [
+            "memset"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_81f73": {
+        "called_functions": [
+            "__malloc_unlock"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_81f77": {
+        "called_functions": [
+            "realloc"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_realloc_r": {
+        "called_functions": [
+            "_malloc_r",
+            "_malloc_r",
+            "__malloc_lock",
+            "_free_r",
+            "__malloc_unlock",
+            "memmove"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_825a7": {
+        "called_functions": [
+            "strcpy"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_82663": {
+        "called_functions": [
+            "strlen"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_826c3": {
+        "called_functions": [
+            "_strtol_r"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_827d3": {
+        "called_functions": []
+    },
+    "kill": {
+        "called_functions": [
+            "_kill_r"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_kill_r": {
+        "called_functions": [
+            "_kill"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "__sprint_r.part.0": {
+        "called_functions": [
+            "__sfvwrite_r",
+            "_fputwc_r"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "__sfvwrite_r": {
+        "called_functions": [
+            "__swsetup_r",
+            "UnresolvableCallTarget",
+            "memchr",
+            "memmove",
+            "_fflush_r",
+            "_realloc_r",
+            "_malloc_r",
+            "_free_r",
+            "memcpy"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_fputwc_r": {
+        "called_functions": [
+            "__locale_mb_cur_max",
+            "_wcrtomb_r",
+            "__swbuf_r"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "__sinit": {
+        "called_functions": [
+            "memset"
+        ],
+        "indegree": 5,
+        "outdegree": 5
+    },
+    "__swsetup_r": {
+        "called_functions": [
+            "__sinit",
+            "__smakebuf_r",
+            "_free_r"
+        ],
+        "indegree": 4,
+        "outdegree": 4
+    },
+    "__sbprintf": {
+        "called_functions": [
+            "_vfiprintf_r",
+            "_fflush_r"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "memchr": {
+        "called_functions": []
+    },
+    "__aeabi_uldivmod": {
+        "called_functions": [
+            "__gnu_uldivmod_helper",
+            "__aeabi_idiv0"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_83103": {
+        "called_functions": []
+    },
+    "_fflush_r": {
+        "called_functions": [
+            "__sflush_r",
+            "__sinit"
+        ],
+        "indegree": 5,
+        "outdegree": 5
+    },
+    "sub_83547": {
+        "called_functions": [
+            "__swsetup_r"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__smakebuf_r": {
+        "called_functions": [
+            "_malloc_r",
+            "_fstat_r",
+            "_isatty_r"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_83607": {
+        "called_functions": []
+    },
+    "sub_836ab": {
+        "called_functions": []
+    },
+    "register_fini": {
+        "called_functions": [
+            "atexit"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "atexit": {
+        "called_functions": [
+            "__register_exitproc"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "raise": {
+        "called_functions": [
+            "_raise_r"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_836d7": {
+        "called_functions": [
+            "atexit"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__sflush_r": {
+        "called_functions": [
+            "UnresolvableCallTarget",
+            "_free_r"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8382b": {
+        "called_functions": [
+            "_fflush_r"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_cleanup_r": {
+        "called_functions": [
+            "_fwalk"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_fwalk": {
+        "called_functions": [
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8385f": {
+        "called_functions": []
+    },
+    "__sfp_lock_acquire": {
+        "called_functions": []
+    },
+    "sub_8395b": {
+        "called_functions": [
+            "__sfp_lock_release"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__sfp_lock_release": {
+        "called_functions": []
+    },
+    "sub_8395f": {
+        "called_functions": [
+            "__libc_fini_array"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__libc_fini_array": {
+        "called_functions": [
+            "_fini",
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_fini": {
+        "called_functions": []
+    },
+    "sub_83987": {
+        "called_functions": []
+    },
+    "__locale_mb_cur_max": {
+        "called_functions": []
+    },
+    "_wcrtomb_r": {
+        "called_functions": [
+            "__locale_charset",
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "__swbuf_r": {
+        "called_functions": [
+            "__swsetup_r",
+            "__sinit",
+            "_fflush_r"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_83a4f": {
+        "called_functions": [
+            "_malloc_trim_r"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_83c73": {
+        "called_functions": []
+    },
+    "sub_83f93": {
+        "called_functions": []
+    },
+    "__locale_charset": {
+        "called_functions": []
+    },
+    "sub_83fef": {
+        "called_functions": []
+    },
+    "_fstat_r": {
+        "called_functions": [
+            "_fstat"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_isatty_r": {
+        "called_functions": [
+            "_isatty"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_840cb": {
+        "called_functions": []
+    },
+    "sub_84167": {
+        "called_functions": [
+            "_raise_r"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_raise_r": {
+        "called_functions": [
+            "_getpid_r",
+            "_kill_r",
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "_getpid_r": {
+        "called_functions": [
+            "_getpid"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_841bf": {
+        "called_functions": [
+            "raise"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_841cb": {
+        "called_functions": []
+    },
+    "sub_841f3": {
+        "called_functions": []
+    },
+    "__sread": {
+        "called_functions": [
+            "_read_r"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_read_r": {
+        "called_functions": [
+            "_read"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8421f": {
+        "called_functions": [
+            "__swrite"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__swrite": {
+        "called_functions": [
+            "_write_r",
+            "_lseek_r"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_write_r": {
+        "called_functions": [
+            "_write"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "_lseek_r": {
+        "called_functions": [
+            "_lseek"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "__sseek": {
+        "called_functions": [
+            "_lseek_r"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__sclose": {
+        "called_functions": [
+            "_close_r"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_close_r": {
+        "called_functions": [
+            "_close"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "__ascii_wctomb": {
+        "called_functions": []
+    },
+    "sub_84393": {
+        "called_functions": [
+            "_write_r"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_fclose_r": {
+        "called_functions": [
+            "_fflush_r",
+            "__sinit",
+            "UnresolvableCallTarget",
+            "_free_r",
+            "__sfp_lock_acquire",
+            "__sfp_lock_release"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "fclose": {
+        "called_functions": [
+            "_fclose_r"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8446b": {
+        "called_functions": []
+    },
+    "sub_84493": {
+        "called_functions": []
+    },
+    "__gnu_uldivmod_helper": {
+        "called_functions": [
+            "__udivdi3"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "__aeabi_idiv0": {
+        "called_functions": []
+    },
+    "__gnu_ldivmod_helper": {
+        "called_functions": [
+            "__divdi3"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__divdi3": {
+        "called_functions": []
+    },
+    "__udivdi3": {
+        "called_functions": []
+    },
+    "sub_8459b": {
+        "called_functions": [
+            "__divdi3"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_84acc": {
+        "called_functions": [
+            "sys_380"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sys_380": {
+        "called_functions": []
+    },
+    "sub_84b18": {
+        "called_functions": [
+            "sys_380"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_84b3a": {
+        "called_functions": []
+    },
+    "sub_84b40": {
+        "called_functions": []
+    },
+    "sub_84b58": {
+        "called_functions": []
+    },
+    "sub_84b74": {
+        "called_functions": []
+    },
+    "sub_84bd0": {
+        "called_functions": []
+    },
+    "sub_84be3": {
+        "called_functions": []
+    },
+    "sub_84bff": {
+        "called_functions": []
+    },
+    "sub_84c1b": {
+        "called_functions": []
+    },
+    "sub_84c38": {
+        "called_functions": []
+    },
+    "sub_84c70": {
+        "called_functions": []
+    },
+    "sub_84c8c": {
+        "called_functions": []
+    },
+    "sub_84c94": {
+        "called_functions": []
+    },
+    "sub_84ca8": {
+        "called_functions": []
+    },
+    "sub_84cc4": {
+        "called_functions": []
+    },
+    "sub_84cde": {
+        "called_functions": []
+    },
+    "sub_84ce4": {
+        "called_functions": []
+    },
+    "sub_84cfa": {
+        "called_functions": []
+    },
+    "sub_84d00": {
+        "called_functions": []
+    },
+    "sub_84d16": {
+        "called_functions": []
+    },
+    "sub_84d1c": {
+        "called_functions": []
+    },
+    "sub_84d32": {
+        "called_functions": []
+    },
+    "sub_84d38": {
+        "called_functions": []
+    },
+    "sub_84d50": {
+        "called_functions": []
+    },
+    "sub_84d6c": {
+        "called_functions": []
+    },
+    "sub_84d88": {
+        "called_functions": []
+    },
+    "sub_84da2": {
+        "called_functions": []
+    },
+    "sub_84da8": {
+        "called_functions": []
+    },
+    "sub_84dbe": {
+        "called_functions": []
+    },
+    "sub_84dc4": {
+        "called_functions": []
+    },
+    "sub_84ddc": {
+        "called_functions": []
+    },
+    "sub_84df8": {
+        "called_functions": []
+    },
+    "sub_84e14": {
+        "called_functions": []
+    },
+    "sub_84e30": {
+        "called_functions": []
+    },
+    "sub_84e4c": {
+        "called_functions": []
+    },
+    "sub_84e68": {
+        "called_functions": []
+    },
+    "sub_84e82": {
+        "called_functions": []
+    },
+    "sub_84e88": {
+        "called_functions": []
+    },
+    "sub_84ea0": {
+        "called_functions": []
+    },
+    "sub_84ebc": {
+        "called_functions": []
+    },
+    "sub_84ed8": {
+        "called_functions": []
+    },
+    "sub_84ef4": {
+        "called_functions": []
+    },
+    "sub_84f10": {
+        "called_functions": []
+    },
+    "sub_84f2c": {
+        "called_functions": []
+    },
+    "sub_84f48": {
+        "called_functions": []
+    },
+    "sub_84f64": {
+        "called_functions": []
+    },
+    "sub_84f80": {
+        "called_functions": []
+    },
+    "sub_84f9c": {
+        "called_functions": []
+    },
+    "sub_84fb6": {
+        "called_functions": []
+    },
+    "sub_84fbc": {
+        "called_functions": []
+    },
+    "sub_84fd2": {
+        "called_functions": []
+    },
+    "sub_84fd8": {
+        "called_functions": []
+    },
+    "sub_84ff0": {
+        "called_functions": []
+    },
+    "sub_8500c": {
+        "called_functions": []
+    },
+    "sub_85028": {
+        "called_functions": []
+    },
+    "sub_85044": {
+        "called_functions": []
+    },
+    "sub_85060": {
+        "called_functions": []
+    },
+    "sub_8507c": {
+        "called_functions": []
+    },
+    "sub_85098": {
+        "called_functions": []
+    },
+    "sub_850b4": {
+        "called_functions": []
+    },
+    "sub_850d0": {
+        "called_functions": []
+    },
+    "sub_850ec": {
+        "called_functions": []
+    },
+    "sub_85106": {
+        "called_functions": []
+    },
+    "sub_8510c": {
+        "called_functions": []
+    },
+    "sub_85122": {
+        "called_functions": []
+    },
+    "sub_8512c": {
+        "called_functions": []
+    },
+    "sub_8513e": {
+        "called_functions": []
+    },
+    "sub_85144": {
+        "called_functions": []
+    },
+    "sub_8515a": {
+        "called_functions": []
+    },
+    "sub_85160": {
+        "called_functions": []
+    },
+    "sub_85176": {
+        "called_functions": []
+    },
+    "sub_8517c": {
+        "called_functions": []
+    },
+    "sub_85193": {
+        "called_functions": []
+    },
+    "sub_851b1": {
+        "called_functions": []
+    },
+    "sub_85205": {
+        "called_functions": []
+    },
+    "sub_85221": {
+        "called_functions": []
+    },
+    "sub_8523d": {
+        "called_functions": []
+    },
+    "sub_85259": {
+        "called_functions": []
+    },
+    "sub_85275": {
+        "called_functions": []
+    },
+    "sub_85290": {
+        "called_functions": []
+    },
+    "sub_852aa": {
+        "called_functions": []
+    },
+    "sub_852b0": {
+        "called_functions": []
+    },
+    "sub_852c6": {
+        "called_functions": []
+    },
+    "sub_852cc": {
+        "called_functions": []
+    },
+    "sub_852e2": {
+        "called_functions": []
+    },
+    "sub_852e8": {
+        "called_functions": []
+    },
+    "sub_85300": {
+        "called_functions": []
+    },
+    "sub_8531a": {
+        "called_functions": []
+    },
+    "sub_85320": {
+        "called_functions": []
+    },
+    "sub_85336": {
+        "called_functions": []
+    },
+    "sub_8533c": {
+        "called_functions": []
+    },
+    "sub_85352": {
+        "called_functions": []
+    },
+    "sub_85358": {
+        "called_functions": []
+    },
+    "sub_8536e": {
+        "called_functions": []
+    },
+    "sub_85378": {
+        "called_functions": []
+    },
+    "sub_8538a": {
+        "called_functions": []
+    },
+    "sub_85390": {
+        "called_functions": []
+    },
+    "sub_853a8": {
+        "called_functions": []
+    },
+    "sub_853c2": {
+        "called_functions": []
+    },
+    "sub_853c8": {
+        "called_functions": []
+    },
+    "sub_853e0": {
+        "called_functions": []
+    },
+    "sub_853fa": {
+        "called_functions": []
+    },
+    "sub_85400": {
+        "called_functions": []
+    },
+    "sub_85416": {
+        "called_functions": []
+    },
+    "sub_85420": {
+        "called_functions": []
+    },
+    "sub_85432": {
+        "called_functions": []
+    },
+    "sub_85438": {
+        "called_functions": []
+    },
+    "sub_85450": {
+        "called_functions": []
+    },
+    "sub_8546c": {
+        "called_functions": []
+    },
+    "sub_85488": {
+        "called_functions": []
+    },
+    "sub_854a2": {
+        "called_functions": []
+    },
+    "sub_854a8": {
+        "called_functions": []
+    },
+    "sub_854c0": {
+        "called_functions": []
+    },
+    "sub_854dc": {
+        "called_functions": []
+    },
+    "sub_854f6": {
+        "called_functions": []
+    },
+    "sub_854fc": {
+        "called_functions": []
+    },
+    "sub_85514": {
+        "called_functions": []
+    },
+    "sub_85568": {
+        "called_functions": []
+    },
+    "sub_855b8": {
+        "called_functions": []
+    },
+    "sub_855f8": {
+        "called_functions": []
+    },
+    "sub_85613": {
+        "called_functions": []
+    },
+    "sub_856c0": {
+        "called_functions": []
+    },
+    "blanks.6717": {
+        "called_functions": []
+    },
+    "sub_85700": {
+        "called_functions": []
+    },
+    "sub_8575b": {
+        "called_functions": [
+            "_init"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8582b": {
+        "called_functions": [
+            "_fini"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__fini_array_start": {
+        "called_functions": []
+    },
+    "sub_2007003d": {
+        "called_functions": []
+    },
+    "sub_200700f1": {
+        "called_functions": []
+    },
+    "sub_200700f3": {
+        "called_functions": []
+    },
+    "sub_20070471": {
+        "called_functions": []
+    },
+    "sub_2007089d": {
+        "called_functions": []
+    },
+    "sub_80c53": {
+        "called_functions": []
+    }
+}

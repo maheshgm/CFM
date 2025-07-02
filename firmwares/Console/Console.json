@@ -1,0 +1,2264 @@
+{
+    "sub_661c": {
+        "called_functions": []
+    },
+    "sub_672c": {
+        "called_functions": [
+            "sys_380"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_6868": {
+        "called_functions": []
+    },
+    "sub_6cd0": {
+        "called_functions": [
+            "sys_380"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_71d8": {
+        "called_functions": [
+            "sys_380",
+            "sub_71f0"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_7218": {
+        "called_functions": [
+            "sys_380",
+            "sub_7264"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_7394": {
+        "called_functions": [
+            "sys_380"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_init": {
+        "called_functions": [
+            "uart_stdio_init"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "uart_stdio_init": {
+        "called_functions": [
+            "uart_init"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_fini": {
+        "called_functions": []
+    },
+    "_sbrk_r": {
+        "called_functions": [
+            "irq_disable",
+            "irq_restore"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "irq_disable": {
+        "called_functions": []
+    },
+    "irq_restore": {
+        "called_functions": []
+    },
+    "_read_r": {
+        "called_functions": [
+            "uart_stdio_read"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "uart_stdio_read": {
+        "called_functions": [
+            "isrpipe_read"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_write_r": {
+        "called_functions": [
+            "uart_stdio_write"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "uart_stdio_write": {
+        "called_functions": [
+            "uart_write"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_close_r": {
+        "called_functions": []
+    },
+    "_lseek_r": {
+        "called_functions": []
+    },
+    "_fstat_r": {
+        "called_functions": []
+    },
+    "_isatty_r": {
+        "called_functions": []
+    },
+    "bitarithm_lsb": {
+        "called_functions": []
+    },
+    "clist_rpush": {
+        "called_functions": []
+    },
+    "clist_lpop": {
+        "called_functions": []
+    },
+    "sched_run": {
+        "called_functions": [
+            "bitarithm_lsb"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_683": {
+        "called_functions": []
+    },
+    "sched_set_status": {
+        "called_functions": [
+            "clist_lpop",
+            "clist_rpush"
+        ],
+        "indegree": 4,
+        "outdegree": 4
+    },
+    "sub_72f": {
+        "called_functions": []
+    },
+    "sched_switch": {
+        "called_functions": [
+            "irq_is_in",
+            "thread_yield_higher"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "irq_is_in": {
+        "called_functions": []
+    },
+    "thread_yield_higher": {
+        "called_functions": []
+    },
+    "sched_task_exit": {
+        "called_functions": [
+            "irq_disable",
+            "sched_set_status",
+            "cpu_switch_context_exit"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "cpu_switch_context_exit": {
+        "called_functions": [
+            "irq_enable",
+            "sys_380"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "thread_stack_init": {
+        "called_functions": []
+    },
+    "thread_isr_stack_usage": {
+        "called_functions": []
+    },
+    "thread_isr_stack_pointer": {
+        "called_functions": []
+    },
+    "thread_isr_stack_start": {
+        "called_functions": []
+    },
+    "sub_92b": {
+        "called_functions": []
+    },
+    "irq_enable": {
+        "called_functions": []
+    },
+    "sys_380": {
+        "called_functions": []
+    },
+    "sub_939": {
+        "called_functions": [
+            "thread_yield_higher"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "isr_pendsv": {
+        "called_functions": [
+            "isr_svc"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "isr_svc": {
+        "called_functions": [
+            "sched_run",
+            "sched_run"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_96f": {
+        "called_functions": []
+    },
+    "context_restore": {
+        "called_functions": [
+            "UnresolvableJumpTarget"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "UnresolvableJumpTarget": {
+        "called_functions": []
+    },
+    "sub_98b": {
+        "called_functions": []
+    },
+    "post_startup": {
+        "called_functions": []
+    },
+    "reset_handler_default": {
+        "called_functions": [
+            "pre_startup",
+            "post_startup",
+            "board_init",
+            "__libc_init_array",
+            "kernel_init"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "pre_startup": {
+        "called_functions": [
+            "wdog_disable",
+            "cpu_errata_fixes"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "board_init": {
+        "called_functions": [
+            "cpu_init",
+            "gpio_init",
+            "gpio_set"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "__libc_init_array": {
+        "called_functions": [
+            "UnresolvableCallTarget",
+            "_init"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "kernel_init": {
+        "called_functions": [
+            "irq_disable",
+            "thread_create",
+            "cpu_switch_context_exit"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "nmi_default": {
+        "called_functions": [
+            "core_panic"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "core_panic": {
+        "called_functions": [
+            "irq_disable",
+            "panic_arch",
+            "iprintf",
+            "cpu_print_last_instruction",
+            "pm_off",
+            "ps"
+        ],
+        "indegree": 11,
+        "outdegree": 11
+    },
+    "_stack_size_left": {
+        "called_functions": []
+    },
+    "hard_fault_default": {
+        "called_functions": [
+            "hard_fault_handler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "hard_fault_handler": {
+        "called_functions": [
+            "puts",
+            "iprintf",
+            "_stack_size_left"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_a9b": {
+        "called_functions": []
+    },
+    "puts": {
+        "called_functions": [
+            "_puts_r"
+        ],
+        "indegree": 15,
+        "outdegree": 15
+    },
+    "iprintf": {
+        "called_functions": [
+            "_vfprintf_r",
+            "__sinit"
+        ],
+        "indegree": 15,
+        "outdegree": 15
+    },
+    "sub_c1b": {
+        "called_functions": [
+            "core_panic"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_c23": {
+        "called_functions": []
+    },
+    "mem_manage_default": {
+        "called_functions": [
+            "core_panic"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "bus_fault_default": {
+        "called_functions": [
+            "core_panic"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "usage_fault_default": {
+        "called_functions": [
+            "core_panic"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "debug_mon_default": {
+        "called_functions": [
+            "core_panic"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "isr_systick": {
+        "called_functions": [
+            "core_panic"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "bitband_addr": {
+        "called_functions": []
+    },
+    "bit_clear32": {
+        "called_functions": [
+            "bitband_addr"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "cpu_errata_fixes": {
+        "called_functions": [
+            "bit_clear32"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "wdog_disable": {
+        "called_functions": []
+    },
+    "isr_wdog_ewm": {
+        "called_functions": [
+            "isr_systick"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_de7": {
+        "called_functions": []
+    },
+    "uart_init": {
+        "called_functions": [
+            "uart_init_pins",
+            "core_panic",
+            "bit_set32",
+            "uart_init_uart"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_e03": {
+        "called_functions": []
+    },
+    "isrpipe_read": {
+        "called_functions": [
+            "tsrb_get",
+            "mutex_lock"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "uart_write": {
+        "called_functions": []
+    },
+    "pm_off": {
+        "called_functions": [
+            "irq_disable"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "cpu_init": {
+        "called_functions": [
+            "cortexm_init",
+            "kinetis_mcg_init",
+            "periph_init"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "gpio_init": {
+        "called_functions": [
+            "gpio_init_port",
+            "pin_num",
+            "gpio",
+            "port"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "gpio_set": {
+        "called_functions": [
+            "gpio",
+            "pin_num"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_ec7": {
+        "called_functions": []
+    },
+    "cpu_print_last_instruction": {
+        "called_functions": [
+            "iprintf"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_eeb": {
+        "called_functions": []
+    },
+    "panic_arch": {
+        "called_functions": []
+    },
+    "ps": {
+        "called_functions": [
+            "iprintf",
+            "thread_isr_stack_usage",
+            "thread_isr_stack_start",
+            "thread_isr_stack_pointer",
+            "thread_measure_stack_free"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "main_trampoline": {
+        "called_functions": [
+            "auto_init",
+            "iprintf",
+            "main"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "auto_init": {
+        "called_functions": []
+    },
+    "main": {
+        "called_functions": [
+            "puts",
+            "shell_run"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "idle_thread": {
+        "called_functions": []
+    },
+    "thread_create": {
+        "called_functions": [
+            "irq_disable",
+            "thread_stack_init",
+            "irq_restore",
+            "cib_init",
+            "sched_set_status",
+            "sched_switch"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_fcb": {
+        "called_functions": []
+    },
+    "cib_init": {
+        "called_functions": [
+            "core_panic"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "thread_add_to_list": {
+        "called_functions": [
+            "core_panic"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "thread_measure_stack_free": {
+        "called_functions": []
+    },
+    "sub_1263": {
+        "called_functions": []
+    },
+    "cortexm_init": {
+        "called_functions": [
+            "NVIC_SetPriority"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "kinetis_mcg_init": {
+        "called_functions": [
+            "irq_disable",
+            "kinetis_mcg_set_safe_mode",
+            "kinetis_mcg_init_mcgirclk",
+            "kinetis_mcg_init_erclk32k",
+            "kinetis_mcg_set_mode",
+            "irq_restore"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "periph_init": {
+        "called_functions": [
+            "rtc_init"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "mutex_lock": {
+        "called_functions": [
+            "_mutex_lock"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_mutex_lock": {
+        "called_functions": [
+            "irq_disable",
+            "irq_restore",
+            "sched_set_status",
+            "thread_add_to_list",
+            "thread_yield_higher"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "isrpipe_write_one": {
+        "called_functions": [
+            "tsrb_add_one",
+            "mutex_unlock"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "tsrb_add_one": {
+        "called_functions": [
+            "tsrb_full",
+            "_push"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "mutex_unlock": {
+        "called_functions": [
+            "irq_disable",
+            "irq_restore",
+            "list_remove_head",
+            "sched_set_status",
+            "sched_switch"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "tsrb_get": {
+        "called_functions": [
+            "tsrb_empty",
+            "_pop"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "NVIC_EnableIRQ": {
+        "called_functions": []
+    },
+    "cortexm_isr_end": {
+        "called_functions": [
+            "thread_yield_higher",
+            "thread_yield_higher",
+            "thread_yield_higher"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "bit_set32": {
+        "called_functions": [
+            "bitband_addr",
+            "bitband_addr",
+            "bitband_addr"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "uart_init_pins": {
+        "called_functions": [
+            "gpio_init_port"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "uart_init_uart": {
+        "called_functions": [
+            "NVIC_EnableIRQ"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "gpio_init_port": {
+        "called_functions": [
+            "clk_en",
+            "port",
+            "pin_num",
+            "port_num",
+            "ctx_clear"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "irq_handler_uart": {
+        "called_functions": [
+            "cortexm_isr_end",
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "UnresolvableCallTarget": {
+        "called_functions": []
+    },
+    "isr_uart0_rx_tx": {
+        "called_functions": [
+            "irq_handler_uart"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "bit_set8": {
+        "called_functions": [
+            "bitband_addr"
+        ],
+        "indegree": 5,
+        "outdegree": 5
+    },
+    "bit_clear8": {
+        "called_functions": [
+            "bitband_addr"
+        ],
+        "indegree": 8,
+        "outdegree": 8
+    },
+    "kinetis_mcg_disable_pll": {
+        "called_functions": [
+            "bit_clear8"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "kinetis_mcg_set_fll_factor": {
+        "called_functions": []
+    },
+    "sub_175f": {
+        "called_functions": []
+    },
+    "kinetis_mcg_enable_osc": {
+        "called_functions": [
+            "bit_clear8",
+            "bit_set8"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_17bb": {
+        "called_functions": []
+    },
+    "kinetis_mcg_init_erclk32k": {
+        "called_functions": [
+            "bit_set32"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_180b": {
+        "called_functions": []
+    },
+    "kinetis_mcg_init_mcgirclk": {
+        "called_functions": [
+            "bit_clear8",
+            "bit_set8"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_189f": {
+        "called_functions": []
+    },
+    "kinetis_mcg_set_fei": {
+        "called_functions": [
+            "kinetis_mcg_set_fll_factor",
+            "bit_clear8"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "kinetis_mcg_set_fee": {
+        "called_functions": [
+            "kinetis_mcg_enable_osc",
+            "kinetis_mcg_set_fll_factor"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_1943": {
+        "called_functions": []
+    },
+    "kinetis_mcg_set_fbi": {
+        "called_functions": [
+            "kinetis_mcg_set_fll_factor",
+            "bit_clear8"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "kinetis_mcg_set_fbe": {
+        "called_functions": [
+            "kinetis_mcg_enable_osc",
+            "kinetis_mcg_set_fll_factor",
+            "bit_clear8",
+            "kinetis_mcg_disable_pll"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "kinetis_mcg_set_blpi": {
+        "called_functions": [
+            "bit_set8",
+            "kinetis_mcg_disable_pll"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_1a1f": {
+        "called_functions": []
+    },
+    "kinetis_mcg_set_blpe": {
+        "called_functions": [
+            "bit_set8",
+            "kinetis_mcg_disable_pll"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_1a43": {
+        "called_functions": []
+    },
+    "kinetis_mcg_set_pbe": {
+        "called_functions": [
+            "bit_clear8",
+            "bit_set8"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "kinetis_mcg_set_pee": {
+        "called_functions": []
+    },
+    "sub_1af3": {
+        "called_functions": []
+    },
+    "kinetis_mcg_set_mode": {
+        "called_functions": [
+            "kinetis_mcg_set_fbe",
+            "kinetis_mcg_set_blpi",
+            "kinetis_mcg_set_blpe",
+            "kinetis_mcg_set_fei",
+            "kinetis_mcg_set_pee",
+            "kinetis_mcg_set_fee",
+            "kinetis_mcg_set_pbe",
+            "kinetis_mcg_set_fbi"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_1b2f": {
+        "called_functions": []
+    },
+    "sub_1b9b": {
+        "called_functions": []
+    },
+    "kinetis_mcg_set_safe_mode": {
+        "called_functions": [
+            "bit_clear8",
+            "kinetis_mcg_set_fll_factor"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_1c5f": {
+        "called_functions": []
+    },
+    "port": {
+        "called_functions": []
+    },
+    "gpio": {
+        "called_functions": []
+    },
+    "port_num": {
+        "called_functions": []
+    },
+    "pin_num": {
+        "called_functions": []
+    },
+    "clk_en": {
+        "called_functions": [
+            "port_num",
+            "bit_set32"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_1df3": {
+        "called_functions": []
+    },
+    "get_ctx": {
+        "called_functions": []
+    },
+    "write_map": {
+        "called_functions": []
+    },
+    "ctx_clear": {
+        "called_functions": [
+            "get_ctx",
+            "write_map"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "irq_handler": {
+        "called_functions": [
+            "cortexm_isr_end",
+            "get_ctx"
+        ],
+        "indegree": 5,
+        "outdegree": 5
+    },
+    "sub_2093": {
+        "called_functions": []
+    },
+    "isr_porta": {
+        "called_functions": [
+            "irq_handler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "isr_portb": {
+        "called_functions": [
+            "irq_handler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "isr_portc": {
+        "called_functions": [
+            "irq_handler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "isr_portd": {
+        "called_functions": [
+            "irq_handler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "isr_porte": {
+        "called_functions": [
+            "irq_handler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_2227": {
+        "called_functions": []
+    },
+    "tsrb_empty": {
+        "called_functions": []
+    },
+    "tsrb_full": {
+        "called_functions": []
+    },
+    "_push": {
+        "called_functions": []
+    },
+    "_pop": {
+        "called_functions": []
+    },
+    "rtc_init": {
+        "called_functions": [
+            "rtt_init"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "shell_run": {
+        "called_functions": [
+            "print_prompt",
+            "readline",
+            "handle_input_line"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "list_remove_head": {
+        "called_functions": []
+    },
+    "NVIC_SetPriority": {
+        "called_functions": []
+    },
+    "sub_2527": {
+        "called_functions": []
+    },
+    "sub_258f": {
+        "called_functions": []
+    },
+    "rtt_init": {
+        "called_functions": [
+            "rtt_poweron"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "rtc_set_time": {
+        "called_functions": [
+            "mktime",
+            "rtt_set_counter"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "mktime": {
+        "called_functions": [
+            "__gettzinfo",
+            "validate_structure",
+            "__tz_lock",
+            "_tzset_unlocked",
+            "__tz_unlock",
+            "__tzcalc_limits"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "rtt_set_counter": {
+        "called_functions": []
+    },
+    "rtc_get_time": {
+        "called_functions": [
+            "rtt_get_counter",
+            "gmtime_r"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "rtt_get_counter": {
+        "called_functions": []
+    },
+    "gmtime_r": {
+        "called_functions": []
+    },
+    "rtc_set_alarm": {
+        "called_functions": [
+            "mktime",
+            "rtt_set_alarm"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "rtt_set_alarm": {
+        "called_functions": [
+            "NVIC_SetPriority",
+            "NVIC_EnableIRQ"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "rtc_get_alarm": {
+        "called_functions": [
+            "rtt_get_alarm",
+            "gmtime_r"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "rtt_get_alarm": {
+        "called_functions": []
+    },
+    "rtc_clear_alarm": {
+        "called_functions": [
+            "rtt_clear_alarm"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "rtt_clear_alarm": {
+        "called_functions": []
+    },
+    "sub_265f": {
+        "called_functions": []
+    },
+    "rtc_poweron": {
+        "called_functions": [
+            "rtt_poweron"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "rtt_poweron": {
+        "called_functions": []
+    },
+    "rtc_poweroff": {
+        "called_functions": [
+            "rtt_poweroff"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "rtt_poweroff": {
+        "called_functions": []
+    },
+    "rtc_cb": {
+        "called_functions": [
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_271b": {
+        "called_functions": []
+    },
+    "sub_279f": {
+        "called_functions": []
+    },
+    "sub_2873": {
+        "called_functions": []
+    },
+    "sub_2897": {
+        "called_functions": []
+    },
+    "sub_28cf": {
+        "called_functions": []
+    },
+    "isr_rtc": {
+        "called_functions": [
+            "cortexm_isr_end",
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_2983": {
+        "called_functions": []
+    },
+    "__sputc_r": {
+        "called_functions": [
+            "__swbuf_r"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "__swbuf_r": {
+        "called_functions": [
+            "__sinit",
+            "__swsetup_r",
+            "_fflush_r"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "_putchar": {
+        "called_functions": [
+            "__sputc_r"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_2a0b": {
+        "called_functions": []
+    },
+    "find_handler": {
+        "called_functions": [
+            "strcmp"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "strcmp": {
+        "called_functions": []
+    },
+    "print_help": {
+        "called_functions": [
+            "iprintf",
+            "puts"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "handle_input_line": {
+        "called_functions": [
+            "puts",
+            "find_handler",
+            "strcmp",
+            "UnresolvableCallTarget",
+            "iprintf",
+            "print_help"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "readline": {
+        "called_functions": [
+            "__srget_r",
+            "_putchar"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "__srget_r": {
+        "called_functions": [
+            "__srefill_r",
+            "__sinit"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_2e63": {
+        "called_functions": []
+    },
+    "print_prompt": {
+        "called_functions": [
+            "_putchar",
+            "fflush"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "fflush": {
+        "called_functions": [
+            "_fflush_r",
+            "_fwalk_reent"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "_reboot_handler": {
+        "called_functions": [
+            "pm_reboot"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "pm_reboot": {
+        "called_functions": [
+            "NVIC_SystemReset"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ps_handler": {
+        "called_functions": [
+            "ps"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "probe": {
+        "called_functions": [
+            "saul_reg_read",
+            "saul_class_to_str",
+            "iprintf",
+            "phydat_dump"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "saul_reg_read": {
+        "called_functions": [
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "saul_class_to_str": {
+        "called_functions": []
+    },
+    "phydat_dump": {
+        "called_functions": [
+            "puts",
+            "iprintf",
+            "phydat_prefix_from_scale",
+            "phydat_unit_to_str",
+            "fmt_s16_dfp"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_2f47": {
+        "called_functions": []
+    },
+    "probe_all": {
+        "called_functions": [
+            "probe",
+            "puts"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_2f8b": {
+        "called_functions": []
+    },
+    "list": {
+        "called_functions": [
+            "puts",
+            "saul_class_to_str",
+            "iprintf"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_2fef": {
+        "called_functions": []
+    },
+    "read": {
+        "called_functions": [
+            "strcmp",
+            "iprintf",
+            "atoi",
+            "probe_all",
+            "saul_reg_find_nth",
+            "probe",
+            "puts"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "atoi": {
+        "called_functions": [
+            "strtol"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "saul_reg_find_nth": {
+        "called_functions": []
+    },
+    "write": {
+        "called_functions": [
+            "atoi",
+            "iprintf",
+            "saul_reg_find_nth",
+            "memset",
+            "puts",
+            "phydat_dump",
+            "saul_reg_write"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "memset": {
+        "called_functions": []
+    },
+    "saul_reg_write": {
+        "called_functions": [
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_3173": {
+        "called_functions": []
+    },
+    "_saul": {
+        "called_functions": [
+            "strcmp",
+            "list",
+            "read",
+            "iprintf",
+            "write"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_alarm_handler": {
+        "called_functions": [
+            "puts"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_3217": {
+        "called_functions": []
+    },
+    "dow": {
+        "called_functions": []
+    },
+    "sub_329f": {
+        "called_functions": []
+    },
+    "_parse_time": {
+        "called_functions": [
+            "strtol",
+            "dow"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "strtol": {
+        "called_functions": [
+            "_strtol_l.isra.0"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "_print_time": {
+        "called_functions": [
+            "iprintf"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_33db": {
+        "called_functions": []
+    },
+    "_rtc_getalarm": {
+        "called_functions": [
+            "rtc_get_alarm",
+            "puts",
+            "_print_time"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_rtc_setalarm": {
+        "called_functions": [
+            "_parse_time",
+            "rtc_set_alarm",
+            "puts"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_rtc_gettime": {
+        "called_functions": [
+            "rtc_get_time",
+            "puts",
+            "_print_time"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_rtc_settime": {
+        "called_functions": [
+            "_parse_time",
+            "rtc_set_time",
+            "puts"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_rtc_usage": {
+        "called_functions": [
+            "puts"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_rtc_handler": {
+        "called_functions": [
+            "strncmp",
+            "_rtc_usage",
+            "rtc_poweron",
+            "rtc_poweroff",
+            "rtc_clear_alarm",
+            "_rtc_getalarm",
+            "_rtc_setalarm",
+            "_rtc_gettime",
+            "iprintf",
+            "_rtc_settime"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "strncmp": {
+        "called_functions": []
+    },
+    "NVIC_SystemReset": {
+        "called_functions": []
+    },
+    "sub_36a9": {
+        "called_functions": []
+    },
+    "phydat_prefix_from_scale": {
+        "called_functions": []
+    },
+    "phydat_unit_to_str": {
+        "called_functions": []
+    },
+    "fmt_s16_dfp": {
+        "called_functions": [
+            "fmt_s32_dfp"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_36e7": {
+        "called_functions": []
+    },
+    "sub_3833": {
+        "called_functions": []
+    },
+    "sub_397f": {
+        "called_functions": []
+    },
+    "sub_3bd7": {
+        "called_functions": []
+    },
+    "fmt_u32_dec": {
+        "called_functions": []
+    },
+    "fmt_s32_dec": {
+        "called_functions": [
+            "fmt_u32_dec"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "fmt_s32_dfp": {
+        "called_functions": [
+            "core_panic",
+            "fmt_s32_dec",
+            "memset",
+            "fmt_lpad"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "fmt_lpad": {
+        "called_functions": [
+            "memmove",
+            "memset"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "memmove": {
+        "called_functions": []
+    },
+    "_strtol_l.isra.0": {
+        "called_functions": [
+            "__locale_ctype_ptr_l"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "__sflush_r": {
+        "called_functions": [
+            "UnresolvableCallTarget",
+            "_free_r"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "_free_r": {
+        "called_functions": [
+            "__malloc_lock",
+            "__malloc_unlock"
+        ],
+        "indegree": 6,
+        "outdegree": 6
+    },
+    "_fflush_r": {
+        "called_functions": [
+            "__sinit",
+            "__sflush_r"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "__sinit": {
+        "called_functions": [
+            "__sfp",
+            "std.isra.0"
+        ],
+        "indegree": 9,
+        "outdegree": 9
+    },
+    "sub_401b": {
+        "called_functions": []
+    },
+    "_fwalk_reent": {
+        "called_functions": [
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_403f": {
+        "called_functions": []
+    },
+    "_cleanup_r": {
+        "called_functions": [
+            "_fwalk_reent"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_4053": {
+        "called_functions": []
+    },
+    "std.isra.0": {
+        "called_functions": [
+            "memset"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_408f": {
+        "called_functions": []
+    },
+    "__sfmoreglue": {
+        "called_functions": [
+            "_malloc_r",
+            "memset"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_malloc_r": {
+        "called_functions": [
+            "__malloc_lock",
+            "_sbrk_r",
+            "__malloc_unlock"
+        ],
+        "indegree": 6,
+        "outdegree": 6
+    },
+    "__sfp": {
+        "called_functions": [
+            "__sinit",
+            "memset",
+            "__sfmoreglue"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_fwalk": {
+        "called_functions": [
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_433b": {
+        "called_functions": []
+    },
+    "validate_structure": {
+        "called_functions": [
+            "div"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "div": {
+        "called_functions": []
+    },
+    "__gettzinfo": {
+        "called_functions": []
+    },
+    "__tz_lock": {
+        "called_functions": []
+    },
+    "_tzset_unlocked": {
+        "called_functions": [
+            "_tzset_unlocked_r"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "__tz_unlock": {
+        "called_functions": []
+    },
+    "__tzcalc_limits": {
+        "called_functions": [
+            "__gettzinfo"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "__malloc_lock": {
+        "called_functions": []
+    },
+    "__malloc_unlock": {
+        "called_functions": []
+    },
+    "sub_4927": {
+        "called_functions": []
+    },
+    "sub_49df": {
+        "called_functions": []
+    },
+    "_vfprintf_r": {
+        "called_functions": [
+            "__sinit",
+            "__swsetup_r",
+            "__sfputs_r",
+            "memchr",
+            "_printf_i"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_puts_r": {
+        "called_functions": [
+            "__sinit",
+            "__swsetup_r",
+            "__swbuf_r"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "__swsetup_r": {
+        "called_functions": [
+            "__sinit",
+            "__smakebuf_r",
+            "_free_r"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "sub_4ac3": {
+        "called_functions": []
+    },
+    "sub_4adb": {
+        "called_functions": []
+    },
+    "__srefill_r": {
+        "called_functions": [
+            "__sinit",
+            "__smakebuf_r",
+            "_free_r",
+            "_fflush_r",
+            "UnresolvableCallTarget",
+            "_fwalk",
+            "__sflush_r"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "__sread": {
+        "called_functions": [
+            "_read_r"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__seofread": {
+        "called_functions": []
+    },
+    "__swrite": {
+        "called_functions": [
+            "_write_r",
+            "_lseek_r"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__sseek": {
+        "called_functions": [
+            "_lseek_r"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__sclose": {
+        "called_functions": [
+            "_close_r"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__locale_ctype_ptr_l": {
+        "called_functions": []
+    },
+    "_strtol_r": {
+        "called_functions": [
+            "_strtol_l.isra.0"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_4d17": {
+        "called_functions": []
+    },
+    "sub_4d43": {
+        "called_functions": []
+    },
+    "_tzset_unlocked_r": {
+        "called_functions": [
+            "__gettzinfo",
+            "_getenv_r",
+            "free",
+            "strcmp",
+            "strlen",
+            "_malloc_r",
+            "strcpy",
+            "siscanf",
+            "strtoul",
+            "__tzcalc_limits"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_getenv_r": {
+        "called_functions": [
+            "_findenv_r"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "free": {
+        "called_functions": [
+            "_free_r"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "strlen": {
+        "called_functions": []
+    },
+    "strcpy": {
+        "called_functions": []
+    },
+    "siscanf": {
+        "called_functions": [
+            "strlen",
+            "__ssvfiscanf_r"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "strtoul": {
+        "called_functions": [
+            "_strtoul_l.isra.0"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_5247": {
+        "called_functions": []
+    },
+    "__smakebuf_r": {
+        "called_functions": [
+            "__swhatbuf_r",
+            "_malloc_r",
+            "_isatty_r"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_531f": {
+        "called_functions": []
+    },
+    "_findenv_r": {
+        "called_functions": [
+            "__env_lock",
+            "__env_unlock",
+            "strncmp"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "__env_lock": {
+        "called_functions": []
+    },
+    "__env_unlock": {
+        "called_functions": []
+    },
+    "sub_53d3": {
+        "called_functions": []
+    },
+    "__locale_ctype_ptr": {
+        "called_functions": []
+    },
+    "__swhatbuf_r": {
+        "called_functions": [
+            "_fstat_r"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_54e7": {
+        "called_functions": []
+    },
+    "__ascii_mbtowc": {
+        "called_functions": []
+    },
+    "__sfputc_r": {
+        "called_functions": [
+            "__swbuf_r"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "__sfputs_r": {
+        "called_functions": [
+            "__sfputc_r"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "memchr": {
+        "called_functions": []
+    },
+    "_printf_i": {
+        "called_functions": [
+            "memchr",
+            "_printf_common",
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_576f": {
+        "called_functions": []
+    },
+    "_printf_common": {
+        "called_functions": [
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "lflush": {
+        "called_functions": [
+            "fflush"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__ssvfiscanf_r": {
+        "called_functions": [
+            "__locale_ctype_ptr",
+            "UnresolvableCallTarget",
+            "memchr",
+            "__sccl",
+            "_scanf_chars",
+            "_scanf_i"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_strtoul_l.isra.0": {
+        "called_functions": [
+            "__locale_ctype_ptr_l"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "_strtoul_r": {
+        "called_functions": [
+            "_strtoul_l.isra.0"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_5d6f": {
+        "called_functions": []
+    },
+    "sub_5d9b": {
+        "called_functions": []
+    },
+    "__ascii_wctomb": {
+        "called_functions": []
+    },
+    "sub_5e6f": {
+        "called_functions": [
+            "memcpy"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "memcpy": {
+        "called_functions": []
+    },
+    "_realloc_r": {
+        "called_functions": [
+            "_malloc_r",
+            "_malloc_r",
+            "_malloc_usable_size_r",
+            "_free_r",
+            "memcpy"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_malloc_usable_size_r": {
+        "called_functions": []
+    },
+    "_sungetc_r": {
+        "called_functions": [
+            "__submore"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__submore": {
+        "called_functions": [
+            "_realloc_r",
+            "_malloc_r",
+            "memcpy"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "__ssrefill_r": {
+        "called_functions": [
+            "_free_r"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__sccl": {
+        "called_functions": []
+    },
+    "_scanf_chars": {
+        "called_functions": [
+            "UnresolvableCallTarget",
+            "__locale_ctype_ptr"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_scanf_i": {
+        "called_functions": [
+            "memchr",
+            "__sccl",
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_64cf": {
+        "called_functions": []
+    },
+    "sub_65c8": {
+        "called_functions": []
+    },
+    "sub_66b8": {
+        "called_functions": [
+            "sys_380",
+            "sub_66c4"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_66c4": {
+        "called_functions": [
+            "sub_66d4"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_66d4": {
+        "called_functions": [
+            "sub_66e4"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_66e4": {
+        "called_functions": [
+            "sub_66f4"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_66f4": {
+        "called_functions": []
+    },
+    "sub_6774": {
+        "called_functions": []
+    },
+    "sub_679c": {
+        "called_functions": []
+    },
+    "sub_67cc": {
+        "called_functions": [
+            "sub_67e0"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_67e0": {
+        "called_functions": []
+    },
+    "sub_67f4": {
+        "called_functions": []
+    },
+    "sub_681c": {
+        "called_functions": [
+            "sys_380"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_6830": {
+        "called_functions": []
+    },
+    "sub_6848": {
+        "called_functions": []
+    },
+    "sub_6890": {
+        "called_functions": []
+    },
+    "uart_config": {
+        "called_functions": []
+    },
+    "sub_6937": {
+        "called_functions": []
+    },
+    "sub_69a8": {
+        "called_functions": [
+            "sub_69b8"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_69b8": {
+        "called_functions": []
+    },
+    "sub_6a00": {
+        "called_functions": []
+    },
+    "sub_6a88": {
+        "called_functions": []
+    },
+    "sub_6ad4": {
+        "called_functions": []
+    },
+    "sub_6ae8": {
+        "called_functions": []
+    },
+    "sub_6b5c": {
+        "called_functions": []
+    },
+    "sub_6b9c": {
+        "called_functions": []
+    },
+    "_shell_command_list": {
+        "called_functions": []
+    },
+    "sub_6c07": {
+        "called_functions": []
+    },
+    "sub_6c38": {
+        "called_functions": [
+            "sys_380"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_6c60": {
+        "called_functions": []
+    },
+    "sub_6c7c": {
+        "called_functions": []
+    },
+    "sub_6c90": {
+        "called_functions": []
+    },
+    "sub_6ca4": {
+        "called_functions": []
+    },
+    "sub_6d34": {
+        "called_functions": [
+            "sys_380"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_6d54": {
+        "called_functions": []
+    },
+    "sub_6d70": {
+        "called_functions": [
+            "sys_380"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_6d94": {
+        "called_functions": [
+            "sys_380"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_6de8": {
+        "called_functions": []
+    },
+    "sub_6e10": {
+        "called_functions": []
+    },
+    "sub_6e20": {
+        "called_functions": []
+    },
+    "sub_6e40": {
+        "called_functions": []
+    },
+    "sub_6e5c": {
+        "called_functions": []
+    },
+    "sub_6e78": {
+        "called_functions": []
+    },
+    "sub_6e90": {
+        "called_functions": []
+    },
+    "sub_6ecc": {
+        "called_functions": []
+    },
+    "sub_6f20": {
+        "called_functions": []
+    },
+    "sub_6f4c": {
+        "called_functions": []
+    },
+    "sub_6fc0": {
+        "called_functions": []
+    },
+    "sub_701c": {
+        "called_functions": []
+    },
+    "sub_7054": {
+        "called_functions": [
+            "sub_7064"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_7064": {
+        "called_functions": []
+    },
+    "sub_70b8": {
+        "called_functions": [
+            "sys_380"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_7160": {
+        "called_functions": [
+            "sys_380"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_71f0": {
+        "called_functions": []
+    },
+    "sub_7213": {
+        "called_functions": []
+    },
+    "sub_7264": {
+        "called_functions": []
+    },
+    "DAYS_IN_MONTH": {
+        "called_functions": []
+    },
+    "sub_7348": {
+        "called_functions": []
+    },
+    "sub_7434": {
+        "called_functions": []
+    },
+    "sub_7477": {
+        "called_functions": []
+    },
+    "sub_7550": {
+        "called_functions": []
+    },
+    "sub_7557": {
+        "called_functions": []
+    },
+    "sub_7558": {
+        "called_functions": []
+    },
+    "sub_dc1": {
+        "called_functions": []
+    }
+}

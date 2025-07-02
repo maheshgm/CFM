@@ -1,0 +1,2581 @@
+{
+    "__do_global_dtors_aux": {
+        "called_functions": []
+    },
+    "frame_dummy": {
+        "called_functions": [
+            "UnresolvableJumpTarget"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "UnresolvableJumpTarget": {
+        "called_functions": []
+    },
+    "sub_8000163": {
+        "called_functions": []
+    },
+    "strlen": {
+        "called_functions": []
+    },
+    "__aeabi_drsub": {
+        "called_functions": [
+            "__aeabi_dadd"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__aeabi_dadd": {
+        "called_functions": []
+    },
+    "sub_800018f": {
+        "called_functions": [
+            "__subdf3"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__subdf3": {
+        "called_functions": [
+            "__aeabi_dadd"
+        ],
+        "indegree": 5,
+        "outdegree": 5
+    },
+    "sub_80001ed": {
+        "called_functions": []
+    },
+    "sub_8000325": {
+        "called_functions": []
+    },
+    "sub_80003b3": {
+        "called_functions": []
+    },
+    "sub_80003d1": {
+        "called_functions": []
+    },
+    "sub_800040b": {
+        "called_functions": [
+            "__floatunsidf"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__floatunsidf": {
+        "called_functions": []
+    },
+    "sub_8000417": {
+        "called_functions": [
+            "sub_80001ed"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_800042b": {
+        "called_functions": [
+            "__floatsidf"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__floatsidf": {
+        "called_functions": []
+    },
+    "sub_8000437": {
+        "called_functions": [
+            "sub_80001ed"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_800044f": {
+        "called_functions": [
+            "__aeabi_f2d"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__aeabi_f2d": {
+        "called_functions": []
+    },
+    "sub_800046f": {
+        "called_functions": []
+    },
+    "sub_800047b": {
+        "called_functions": [
+            "sub_80001ed"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_800048b": {
+        "called_functions": [
+            "__floatundidf"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__floatundidf": {
+        "called_functions": []
+    },
+    "sub_8000495": {
+        "called_functions": [
+            "sub_80001ed"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "__aeabi_l2d": {
+        "called_functions": []
+    },
+    "sub_80004a5": {
+        "called_functions": [
+            "sub_8000495",
+            "sub_80001ed"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_80004f7": {
+        "called_functions": [
+            "__muldf3"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__muldf3": {
+        "called_functions": [
+            "sub_80006d5"
+        ],
+        "indegree": 10,
+        "outdegree": 10
+    },
+    "sub_80006d5": {
+        "called_functions": []
+    },
+    "sub_80005cd": {
+        "called_functions": [
+            "__muldf3"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_80005e9": {
+        "called_functions": []
+    },
+    "__divdf3": {
+        "called_functions": [
+            "sub_80008bb",
+            "__muldf3"
+        ],
+        "indegree": 4,
+        "outdegree": 4
+    },
+    "sub_80008bb": {
+        "called_functions": [
+            "sub_80006d5"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_80008a9": {
+        "called_functions": [
+            "__muldf3"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_80008b5": {
+        "called_functions": [
+            "__muldf3"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__gedf2": {
+        "called_functions": []
+    },
+    "sub_8000923": {
+        "called_functions": [
+            "__ledf2"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__ledf2": {
+        "called_functions": [
+            "__gedf2"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_800092b": {
+        "called_functions": [
+            "__eqdf2"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__eqdf2": {
+        "called_functions": [
+            "__gedf2"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_8000963": {
+        "called_functions": []
+    },
+    "sub_80009a7": {
+        "called_functions": [
+            "__aeabi_cdrcmple"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__aeabi_cdrcmple": {
+        "called_functions": [
+            "__aeabi_cdcmpeq"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "__aeabi_cdcmpeq": {
+        "called_functions": [
+            "__eqdf2"
+        ],
+        "indegree": 5,
+        "outdegree": 5
+    },
+    "sub_80009b7": {
+        "called_functions": [
+            "__aeabi_cdcmpeq"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__aeabi_dcmpeq": {
+        "called_functions": [
+            "__aeabi_cdcmpeq",
+            "UnresolvableJumpTarget"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_80009db": {
+        "called_functions": [
+            "__aeabi_dcmplt"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__aeabi_dcmplt": {
+        "called_functions": [
+            "__aeabi_cdcmpeq",
+            "UnresolvableJumpTarget"
+        ],
+        "indegree": 7,
+        "outdegree": 7
+    },
+    "sub_80009ef": {
+        "called_functions": [
+            "__aeabi_dcmple"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__aeabi_dcmple": {
+        "called_functions": [
+            "__aeabi_cdcmpeq",
+            "UnresolvableJumpTarget"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "sub_8000a03": {
+        "called_functions": [
+            "__aeabi_dcmpge"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__aeabi_dcmpge": {
+        "called_functions": [
+            "__aeabi_cdrcmple",
+            "UnresolvableJumpTarget"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "sub_8000a17": {
+        "called_functions": [
+            "__aeabi_dcmpgt"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__aeabi_dcmpgt": {
+        "called_functions": [
+            "__aeabi_cdrcmple",
+            "UnresolvableJumpTarget"
+        ],
+        "indegree": 6,
+        "outdegree": 6
+    },
+    "sub_8000a2b": {
+        "called_functions": [
+            "__unorddf2"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__unorddf2": {
+        "called_functions": []
+    },
+    "__fixdfsi": {
+        "called_functions": []
+    },
+    "sub_8000aa7": {
+        "called_functions": [
+            "__fixunsdfsi"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__fixunsdfsi": {
+        "called_functions": []
+    },
+    "_Z41__static_initialization_and_destruction_0ii": {
+        "called_functions": [
+            "_ZN3PIDC1EPdS0_S0_dddi",
+            "_ZN13LiquidCrystalC2Ehhhhhh",
+            "_ZN8MAX31855C1Ehhh",
+            "_ZN14HardwareSerialC1EPv",
+            "_ZN9IPAddressC1Ehhhh",
+            "__aeabi_atexit"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN3PIDC1EPdS0_S0_dddi": {
+        "called_functions": [
+            "_ZN3PIDC1EPdS0_S0_dddii"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN13LiquidCrystalC2Ehhhhhh": {
+        "called_functions": [
+            "_ZN13LiquidCrystal4initEhhhhhhhhhhhh"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN8MAX31855C1Ehhh": {
+        "called_functions": [
+            "pinMode",
+            "digitalWrite"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8000b63": {
+        "called_functions": []
+    },
+    "setup": {
+        "called_functions": [
+            "digitalWrite",
+            "pinMode",
+            "_ZN13LiquidCrystal5beginEhhh",
+            "_ZN13LiquidCrystal10createCharEhPh",
+            "_ZN13LiquidCrystal5clearEv",
+            "_ZN5Print5printEPKc",
+            "_ZN13LiquidCrystal9setCursorEhh",
+            "delay",
+            "_ZN14HardwareSerial5beginEmh",
+            "millis"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "digitalWrite": {
+        "called_functions": [
+            "is_pin_configured",
+            "get_GPIO_Port",
+            "digital_io_write"
+        ],
+        "indegree": 9,
+        "outdegree": 9
+    },
+    "pinMode": {
+        "called_functions": [
+            "is_pin_configured",
+            "pin_in_pinmap",
+            "set_pin_configured",
+            "pwm_stop",
+            "reset_pin_configured",
+            "digital_io_init"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "_ZN13LiquidCrystal5beginEhhh": {
+        "called_functions": [
+            "_ZN13LiquidCrystal13setRowOffsetsEiiii",
+            "pinMode",
+            "GetCurrentMicro",
+            "digitalWrite",
+            "_ZN13LiquidCrystal4sendEhh",
+            "_ZN13LiquidCrystal10write4bitsEh",
+            "_ZN13LiquidCrystal7displayEv",
+            "_ZN13LiquidCrystal5clearEv"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "_ZN13LiquidCrystal10createCharEhPh": {
+        "called_functions": [
+            "_ZN13LiquidCrystal4sendEhh",
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN13LiquidCrystal5clearEv": {
+        "called_functions": [
+            "_ZN13LiquidCrystal4sendEhh",
+            "GetCurrentMicro"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "_ZN5Print5printEPKc": {
+        "called_functions": [
+            "strlen",
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 4,
+        "outdegree": 4
+    },
+    "_ZN13LiquidCrystal9setCursorEhh": {
+        "called_functions": [
+            "_ZN13LiquidCrystal4sendEhh"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "delay": {
+        "called_functions": []
+    },
+    "_ZN14HardwareSerial5beginEmh": {
+        "called_functions": [
+            "__assert_func",
+            "uart_init",
+            "uart_attach_rx_callback"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "millis": {
+        "called_functions": [
+            "GetCurrentMilli"
+        ],
+        "indegree": 4,
+        "outdegree": 4
+    },
+    "_GLOBAL__sub_I_lcdMessagesReflowStatus": {
+        "called_functions": [
+            "_Z41__static_initialization_and_destruction_0ii"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "loop": {
+        "called_functions": [
+            "millis",
+            "_ZN8MAX3185516readThermocoupleE6unit_t",
+            "__aeabi_dcmpeq",
+            "digitalRead",
+            "digitalWrite",
+            "__aeabi_dcmpge",
+            "__aeabi_dcmplt",
+            "__aeabi_dcmple",
+            "_ZN13LiquidCrystal5clearEv",
+            "analogRead",
+            "_ZN5Print5printEii",
+            "_ZN5Print5printEPKc",
+            "_ZN3PID10SetTuningsEddd",
+            "_ZN13LiquidCrystal9setCursorEhh",
+            "__aeabi_dadd",
+            "_ZN5Print7printlnEPKc",
+            "_ZN5Print5printEdi",
+            "__aeabi_dcmpgt",
+            "_ZN3PID7ComputeEv",
+            "__floatsidf",
+            "_ZN13LiquidCrystal5writeEh",
+            "_ZN3PID15SetOutputLimitsEdd",
+            "__floatunsidf",
+            "_ZN3PID13SetSampleTimeEi",
+            "_ZN5Print7printlnEdi",
+            "_ZN3PID7SetModeEi"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN8MAX3185516readThermocoupleE6unit_t": {
+        "called_functions": [
+            "_ZN8MAX318558readDataEv",
+            "__floatunsidf",
+            "__muldf3",
+            "__aeabi_dadd",
+            "__divdf3"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "digitalRead": {
+        "called_functions": [
+            "is_pin_configured",
+            "get_GPIO_Port",
+            "digital_io_read"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "analogRead": {
+        "called_functions": [
+            "adc_read_value"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN5Print5printEii": {
+        "called_functions": [
+            "_ZN5Print5printEli"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "_ZN3PID10SetTuningsEddd": {
+        "called_functions": [
+            "_ZN3PID10SetTuningsEdddi"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN5Print7printlnEPKc": {
+        "called_functions": [
+            "_ZN5Print5printEPKc",
+            "_ZN5Print7printlnEv"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN5Print5printEdi": {
+        "called_functions": [
+            "_ZN5Print10printFloatEdh"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "_ZN3PID7ComputeEv": {
+        "called_functions": [
+            "millis",
+            "__subdf3",
+            "__muldf3",
+            "__aeabi_dadd",
+            "__aeabi_dcmpgt",
+            "__aeabi_dcmplt"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN13LiquidCrystal5writeEh": {
+        "called_functions": [
+            "_ZN13LiquidCrystal4sendEhh"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN3PID15SetOutputLimitsEdd": {
+        "called_functions": [
+            "__aeabi_dcmpge",
+            "__aeabi_dcmplt",
+            "__aeabi_dcmpgt"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "_ZN3PID13SetSampleTimeEi": {
+        "called_functions": [
+            "__floatsidf",
+            "__floatunsidf",
+            "__divdf3",
+            "__muldf3"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN5Print7printlnEdi": {
+        "called_functions": [
+            "_ZN5Print5printEdi",
+            "_ZN5Print7printlnEv"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN3PID7SetModeEi": {
+        "called_functions": [
+            "_ZN3PID10InitializeEv"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8000eeb": {
+        "called_functions": []
+    },
+    "sub_8000f11": {
+        "called_functions": []
+    },
+    "sub_80011dd": {
+        "called_functions": []
+    },
+    "sub_80011e9": {
+        "called_functions": []
+    },
+    "_ZN13LiquidCrystal13setRowOffsetsEiiii": {
+        "called_functions": []
+    },
+    "_ZN13LiquidCrystal11pulseEnableEv": {
+        "called_functions": [
+            "digitalWrite",
+            "GetCurrentMicro"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "GetCurrentMicro": {
+        "called_functions": [
+            "HAL_GetTick"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "_ZN13LiquidCrystal10write4bitsEh": {
+        "called_functions": [
+            "_ZN13LiquidCrystal11pulseEnableEv",
+            "digitalWrite"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "_ZN13LiquidCrystal10write8bitsEh": {
+        "called_functions": [
+            "_ZN13LiquidCrystal11pulseEnableEv",
+            "digitalWrite"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN13LiquidCrystal4sendEhh": {
+        "called_functions": [
+            "digitalWrite",
+            "_ZN13LiquidCrystal10write8bitsEh",
+            "_ZN13LiquidCrystal10write4bitsEh"
+        ],
+        "indegree": 6,
+        "outdegree": 6
+    },
+    "_ZN13LiquidCrystal7displayEv": {
+        "called_functions": [
+            "_ZN13LiquidCrystal4sendEhh"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN13LiquidCrystal4initEhhhhhhhhhhhh": {
+        "called_functions": [
+            "_ZN13LiquidCrystal5beginEhhh"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "UnresolvableCallTarget": {
+        "called_functions": []
+    },
+    "_ZN8MAX318558readDataEv": {
+        "called_functions": [
+            "digitalWrite",
+            "digitalRead"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8001713": {
+        "called_functions": []
+    },
+    "_ZN3PID10SetTuningsEdddi": {
+        "called_functions": [
+            "__aeabi_dcmplt",
+            "__floatunsidf",
+            "__divdf3",
+            "__muldf3",
+            "__subdf3"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_8001983": {
+        "called_functions": []
+    },
+    "_ZN3PID10InitializeEv": {
+        "called_functions": [
+            "__aeabi_dcmpgt",
+            "__aeabi_dcmplt"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN3PID22SetControllerDirectionEi": {
+        "called_functions": [
+            "__subdf3"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN3PIDC1EPdS0_S0_dddii": {
+        "called_functions": [
+            "_ZN3PID15SetOutputLimitsEdd",
+            "_ZN3PID22SetControllerDirectionEi",
+            "_ZN3PID10SetTuningsEdddi",
+            "millis"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8001b9f": {
+        "called_functions": []
+    },
+    "SystemClock_Config": {
+        "called_functions": [
+            "HAL_RCC_OscConfig",
+            "_Error_Handler",
+            "HAL_RCC_ClockConfig",
+            "HAL_RCCEx_PeriphCLKConfig",
+            "HAL_RCC_GetHCLKFreq",
+            "HAL_SYSTICK_Config",
+            "HAL_SYSTICK_CLKSourceConfig",
+            "HAL_NVIC_SetPriority"
+        ],
+        "indegree": 4,
+        "outdegree": 4
+    },
+    "HAL_RCC_OscConfig": {
+        "called_functions": [
+            "HAL_GetTick",
+            "RCC_Delay"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_Error_Handler": {
+        "called_functions": []
+    },
+    "HAL_RCC_ClockConfig": {
+        "called_functions": [
+            "HAL_GetTick",
+            "HAL_RCC_GetSysClockFreq",
+            "HAL_InitTick"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_RCCEx_PeriphCLKConfig": {
+        "called_functions": [
+            "HAL_GetTick"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_RCC_GetHCLKFreq": {
+        "called_functions": []
+    },
+    "HAL_SYSTICK_Config": {
+        "called_functions": []
+    },
+    "HAL_SYSTICK_CLKSourceConfig": {
+        "called_functions": []
+    },
+    "HAL_NVIC_SetPriority": {
+        "called_functions": []
+    },
+    "sub_8001c5b": {
+        "called_functions": [
+            "SystemClock_Config"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8001c65": {
+        "called_functions": [
+            "SystemClock_Config"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8001c6f": {
+        "called_functions": [
+            "SystemClock_Config"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "Reset_Handler": {
+        "called_functions": [
+            "SystemInit",
+            "__libc_init_array",
+            "main"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "SystemInit": {
+        "called_functions": []
+    },
+    "__libc_init_array": {
+        "called_functions": [
+            "UnresolvableCallTarget",
+            "_init"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "main": {
+        "called_functions": [
+            "_Z11initVariantv",
+            "setup",
+            "loop",
+            "_Z14serialEventRunv"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8001cab": {
+        "called_functions": []
+    },
+    "USB_HP_CAN1_TX_IRQHandler": {
+        "called_functions": []
+    },
+    "init": {
+        "called_functions": [
+            "hw_config_init"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "hw_config_init": {
+        "called_functions": [
+            "HAL_Init",
+            "SystemClock_Config"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_MspInit": {
+        "called_functions": []
+    },
+    "HAL_InitTick": {
+        "called_functions": [
+            "HAL_SYSTICK_Config",
+            "HAL_NVIC_SetPriority"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_8001d0b": {
+        "called_functions": []
+    },
+    "HAL_Init": {
+        "called_functions": [
+            "HAL_NVIC_SetPriorityGrouping",
+            "HAL_InitTick",
+            "HAL_MspInit"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_NVIC_SetPriorityGrouping": {
+        "called_functions": []
+    },
+    "HAL_IncTick": {
+        "called_functions": []
+    },
+    "sub_8001d4b": {
+        "called_functions": []
+    },
+    "HAL_GetTick": {
+        "called_functions": []
+    },
+    "sub_8001d5b": {
+        "called_functions": []
+    },
+    "HAL_ADC_PollForConversion": {
+        "called_functions": [
+            "HAL_GetTick",
+            "HAL_RCCEx_GetPeriphCLKFreq"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_RCCEx_GetPeriphCLKFreq": {
+        "called_functions": [
+            "HAL_RCC_GetPCLK2Freq"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "HAL_ADC_GetValue": {
+        "called_functions": []
+    },
+    "HAL_ADC_ConfigChannel": {
+        "called_functions": []
+    },
+    "HAL_ADC_GetState": {
+        "called_functions": []
+    },
+    "ADC_Enable": {
+        "called_functions": [
+            "HAL_GetTick"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_800208b": {
+        "called_functions": []
+    },
+    "HAL_ADC_Start": {
+        "called_functions": [
+            "ADC_Enable"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "ADC_ConversionStop_Disable": {
+        "called_functions": [
+            "HAL_GetTick"
+        ],
+        "indegree": 4,
+        "outdegree": 4
+    },
+    "HAL_ADC_Init": {
+        "called_functions": [
+            "HAL_ADC_MspInit",
+            "ADC_ConversionStop_Disable"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_ADC_MspInit": {
+        "called_functions": [
+            "set_GPIO_Port_Clock",
+            "HAL_GPIO_Init"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_ADC_DeInit": {
+        "called_functions": [
+            "ADC_ConversionStop_Disable",
+            "HAL_ADC_MspDeInit"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_ADC_MspDeInit": {
+        "called_functions": []
+    },
+    "HAL_ADC_Stop": {
+        "called_functions": [
+            "ADC_ConversionStop_Disable"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_ADCEx_Calibration_Start": {
+        "called_functions": [
+            "ADC_ConversionStop_Disable",
+            "HAL_RCCEx_GetPeriphCLKFreq",
+            "ADC_Enable",
+            "HAL_GetTick"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_80024fb": {
+        "called_functions": []
+    },
+    "HAL_NVIC_EnableIRQ": {
+        "called_functions": []
+    },
+    "sub_80025c7": {
+        "called_functions": []
+    },
+    "HAL_NVIC_ClearPendingIRQ": {
+        "called_functions": []
+    },
+    "sub_80025eb": {
+        "called_functions": []
+    },
+    "HAL_SYSTICK_Callback": {
+        "called_functions": []
+    },
+    "HAL_SYSTICK_IRQHandler": {
+        "called_functions": [
+            "HAL_SYSTICK_Callback"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_DMA_Abort_IT": {
+        "called_functions": [
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_80026ab": {
+        "called_functions": []
+    },
+    "HAL_GPIO_Init": {
+        "called_functions": []
+    },
+    "HAL_GPIO_ReadPin": {
+        "called_functions": []
+    },
+    "HAL_GPIO_WritePin": {
+        "called_functions": []
+    },
+    "HAL_GPIO_EXTI_IRQHandler": {
+        "called_functions": [
+            "HAL_GPIO_EXTI_Callback"
+        ],
+        "indegree": 7,
+        "outdegree": 7
+    },
+    "HAL_GPIO_EXTI_Callback": {
+        "called_functions": [
+            "_ZL10get_pin_idt",
+            "_ZNKSt8functionIFvvEEclEv"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_80028d3": {
+        "called_functions": []
+    },
+    "I2C_Master_SB": {
+        "called_functions": []
+    },
+    "I2C_Master_ADD10": {
+        "called_functions": []
+    },
+    "I2C_Master_ADDR": {
+        "called_functions": []
+    },
+    "I2C_SlaveTransmit_BTF": {
+        "called_functions": []
+    },
+    "I2C_SlaveReceive_BTF": {
+        "called_functions": []
+    },
+    "HAL_I2C_Slave_Sequential_Transmit_IT": {
+        "called_functions": []
+    },
+    "HAL_I2C_Slave_Sequential_Receive_IT": {
+        "called_functions": []
+    },
+    "HAL_I2C_EnableListen_IT": {
+        "called_functions": []
+    },
+    "HAL_I2C_MasterTxCpltCallback": {
+        "called_functions": []
+    },
+    "HAL_I2C_MasterRxCpltCallback": {
+        "called_functions": []
+    },
+    "HAL_I2C_SlaveTxCpltCallback": {
+        "called_functions": []
+    },
+    "I2C_SlaveTransmit_TXE": {
+        "called_functions": [
+            "HAL_I2C_SlaveTxCpltCallback"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_I2C_SlaveRxCpltCallback": {
+        "called_functions": []
+    },
+    "I2C_SlaveReceive_RXNE": {
+        "called_functions": [
+            "HAL_I2C_SlaveRxCpltCallback"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "I2C_Slave_ADDR": {
+        "called_functions": [
+            "HAL_I2C_AddrCallback"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_I2C_AddrCallback": {
+        "called_functions": [
+            "get_i2c_obj",
+            "HAL_I2C_Slave_Sequential_Receive_IT",
+            "HAL_I2C_Slave_Sequential_Transmit_IT",
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "I2C_Slave_AF": {
+        "called_functions": [
+            "HAL_I2C_ListenCpltCallback",
+            "HAL_I2C_SlaveTxCpltCallback"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_I2C_ListenCpltCallback": {
+        "called_functions": [
+            "get_i2c_obj",
+            "HAL_I2C_EnableListen_IT",
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "HAL_I2C_MemTxCpltCallback": {
+        "called_functions": []
+    },
+    "I2C_MasterTransmit_TXE": {
+        "called_functions": [
+            "HAL_I2C_MemTxCpltCallback",
+            "HAL_I2C_MasterTxCpltCallback"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "I2C_MasterTransmit_BTF": {
+        "called_functions": [
+            "HAL_I2C_MemTxCpltCallback",
+            "HAL_I2C_MasterTxCpltCallback"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_I2C_MemRxCpltCallback": {
+        "called_functions": []
+    },
+    "I2C_MasterReceive_RXNE": {
+        "called_functions": [
+            "HAL_I2C_MemRxCpltCallback",
+            "HAL_I2C_MasterRxCpltCallback"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "I2C_MasterReceive_BTF": {
+        "called_functions": [
+            "HAL_I2C_MemRxCpltCallback",
+            "HAL_I2C_MasterRxCpltCallback"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_I2C_AbortCpltCallback": {
+        "called_functions": []
+    },
+    "I2C_ITError": {
+        "called_functions": [
+            "HAL_DMA_Abort_IT",
+            "HAL_I2C_AbortCpltCallback",
+            "HAL_I2C_ErrorCallback",
+            "UnresolvableCallTarget",
+            "HAL_I2C_ListenCpltCallback"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "HAL_I2C_ErrorCallback": {
+        "called_functions": [
+            "get_i2c_obj",
+            "HAL_I2C_EnableListen_IT"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "I2C_Slave_STOPF": {
+        "called_functions": [
+            "I2C_ITError",
+            "HAL_I2C_ListenCpltCallback",
+            "HAL_I2C_SlaveRxCpltCallback"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8003443": {
+        "called_functions": []
+    },
+    "HAL_I2C_EV_IRQHandler": {
+        "called_functions": [
+            "I2C_Master_SB",
+            "I2C_Master_ADD10",
+            "I2C_Slave_ADDR",
+            "I2C_Master_ADDR",
+            "I2C_Slave_STOPF",
+            "I2C_MasterReceive_BTF",
+            "I2C_MasterReceive_RXNE",
+            "I2C_MasterTransmit_BTF",
+            "I2C_MasterTransmit_TXE",
+            "I2C_SlaveReceive_BTF",
+            "I2C_SlaveReceive_RXNE",
+            "I2C_SlaveTransmit_BTF",
+            "I2C_SlaveTransmit_TXE"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_8003593": {
+        "called_functions": []
+    },
+    "HAL_I2C_ER_IRQHandler": {
+        "called_functions": [
+            "I2C_ITError",
+            "I2C_Slave_AF"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "I2C_DMAAbort": {
+        "called_functions": [
+            "HAL_I2C_AbortCpltCallback",
+            "HAL_I2C_ErrorCallback"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "RCC_Delay": {
+        "called_functions": []
+    },
+    "sub_80039d7": {
+        "called_functions": []
+    },
+    "sub_8003aef": {
+        "called_functions": []
+    },
+    "HAL_RCC_GetSysClockFreq": {
+        "called_functions": []
+    },
+    "sub_8003cc3": {
+        "called_functions": []
+    },
+    "sub_8003cdb": {
+        "called_functions": []
+    },
+    "HAL_RCC_GetPCLK1Freq": {
+        "called_functions": [
+            "HAL_RCC_GetHCLKFreq"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8003cf7": {
+        "called_functions": []
+    },
+    "HAL_RCC_GetPCLK2Freq": {
+        "called_functions": [
+            "HAL_RCC_GetHCLKFreq"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_8003d17": {
+        "called_functions": []
+    },
+    "sub_8003e27": {
+        "called_functions": []
+    },
+    "HAL_RTC_AlarmIRQHandler": {
+        "called_functions": [
+            "HAL_RTC_AlarmAEventCallback"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_RTC_AlarmAEventCallback": {
+        "called_functions": [
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8003f63": {
+        "called_functions": []
+    },
+    "HAL_TIM_PWM_DeInit": {
+        "called_functions": [
+            "HAL_TIM_PWM_MspDeInit"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_TIM_PWM_MspDeInit": {
+        "called_functions": [
+            "timer_disable_clock"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_TIM_IC_CaptureCallback": {
+        "called_functions": []
+    },
+    "HAL_TIM_PWM_PulseFinishedCallback": {
+        "called_functions": []
+    },
+    "HAL_TIM_TriggerCallback": {
+        "called_functions": []
+    },
+    "HAL_TIM_IRQHandler": {
+        "called_functions": [
+            "HAL_TIM_OC_DelayElapsedCallback",
+            "HAL_TIM_IC_CaptureCallback",
+            "HAL_TIM_PWM_PulseFinishedCallback",
+            "HAL_TIM_PeriodElapsedCallback",
+            "HAL_TIMEx_BreakCallback",
+            "HAL_TIM_TriggerCallback",
+            "HAL_TIMEx_CommutationCallback"
+        ],
+        "indegree": 4,
+        "outdegree": 4
+    },
+    "HAL_TIM_OC_DelayElapsedCallback": {
+        "called_functions": [
+            "get_timer_obj",
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_TIM_PeriodElapsedCallback": {
+        "called_functions": [
+            "get_timer_obj",
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_TIMEx_BreakCallback": {
+        "called_functions": []
+    },
+    "HAL_TIMEx_CommutationCallback": {
+        "called_functions": []
+    },
+    "TIM_CCxChannelCmd": {
+        "called_functions": []
+    },
+    "HAL_TIM_PWM_Stop": {
+        "called_functions": [
+            "TIM_CCxChannelCmd"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_800419b": {
+        "called_functions": []
+    },
+    "TIM_CCxNChannelCmd": {
+        "called_functions": []
+    },
+    "HAL_TIMEx_PWMN_Stop": {
+        "called_functions": [
+            "TIM_CCxNChannelCmd"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "UART_EndRxTransfer": {
+        "called_functions": []
+    },
+    "UART_Transmit_IT": {
+        "called_functions": []
+    },
+    "UART_SetConfig": {
+        "called_functions": [
+            "HAL_RCC_GetPCLK2Freq",
+            "HAL_RCC_GetPCLK1Freq"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_800443b": {
+        "called_functions": []
+    },
+    "UART_WaitOnFlagUntilTimeout": {
+        "called_functions": [
+            "HAL_GetTick"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_UART_MspInit": {
+        "called_functions": []
+    },
+    "HAL_UART_Init": {
+        "called_functions": [
+            "HAL_UART_MspInit",
+            "UART_SetConfig"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_UART_Transmit": {
+        "called_functions": [
+            "HAL_GetTick",
+            "UART_WaitOnFlagUntilTimeout"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_UART_Transmit_IT": {
+        "called_functions": []
+    },
+    "HAL_UART_Receive_IT": {
+        "called_functions": []
+    },
+    "UART_EndTransmit_IT": {
+        "called_functions": [
+            "HAL_UART_TxCpltCallback"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_UART_TxCpltCallback": {
+        "called_functions": [
+            "uart_index",
+            "HAL_UART_Transmit_IT"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "UART_Receive_IT": {
+        "called_functions": [
+            "HAL_UART_RxCpltCallback"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_UART_RxCpltCallback": {
+        "called_functions": [
+            "uart_index"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "HAL_UART_IRQHandler": {
+        "called_functions": [
+            "UART_Receive_IT",
+            "UART_Transmit_IT",
+            "UART_EndTransmit_IT",
+            "UART_EndRxTransfer",
+            "HAL_UART_ErrorCallback",
+            "HAL_DMA_Abort_IT",
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "HAL_UART_ErrorCallback": {
+        "called_functions": []
+    },
+    "UART_DMAAbortOnError": {
+        "called_functions": [
+            "HAL_UART_ErrorCallback"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "HAL_UART_GetState": {
+        "called_functions": []
+    },
+    "is_pin_configured": {
+        "called_functions": []
+    },
+    "set_pin_configured": {
+        "called_functions": []
+    },
+    "reset_pin_configured": {
+        "called_functions": []
+    },
+    "get_GPIO_Port": {
+        "called_functions": []
+    },
+    "sub_80048ff": {
+        "called_functions": []
+    },
+    "set_GPIO_Port_Clock": {
+        "called_functions": []
+    },
+    "sub_80049a3": {
+        "called_functions": []
+    },
+    "get_adc_channel": {
+        "called_functions": [
+            "pinmap_function"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "pinmap_function": {
+        "called_functions": [
+            "pinmap_find_function"
+        ],
+        "indegree": 4,
+        "outdegree": 4
+    },
+    "sub_80049d3": {
+        "called_functions": []
+    },
+    "get_pwm_channel": {
+        "called_functions": [
+            "pinmap_function"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "adc_read_value": {
+        "called_functions": [
+            "memset",
+            "pinmap_peripheral",
+            "HAL_ADC_Init",
+            "get_adc_channel",
+            "HAL_ADC_ConfigChannel",
+            "HAL_ADCEx_Calibration_Start",
+            "HAL_ADC_Start",
+            "HAL_ADC_PollForConversion",
+            "HAL_ADC_GetState",
+            "HAL_ADC_GetValue",
+            "HAL_ADC_Stop",
+            "HAL_ADC_DeInit"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "memset": {
+        "called_functions": []
+    },
+    "pinmap_peripheral": {
+        "called_functions": [
+            "pinmap_find_peripheral"
+        ],
+        "indegree": 5,
+        "outdegree": 5
+    },
+    "sub_8004bbb": {
+        "called_functions": []
+    },
+    "timer_disable_clock": {
+        "called_functions": []
+    },
+    "pwm_stop": {
+        "called_functions": [
+            "pinmap_peripheral",
+            "get_pwm_channel",
+            "pinmap_function",
+            "HAL_TIM_PWM_Stop",
+            "HAL_TIMEx_PWMN_Stop",
+            "HAL_TIM_PWM_DeInit"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8004c5f": {
+        "called_functions": []
+    },
+    "GetCurrentMilli": {
+        "called_functions": [
+            "HAL_GetTick"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "noOsSystickHandler": {
+        "called_functions": []
+    },
+    "SysTick_Handler": {
+        "called_functions": [
+            "HAL_IncTick",
+            "HAL_SYSTICK_IRQHandler",
+            "noOsSystickHandler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "digital_io_init": {
+        "called_functions": [
+            "set_GPIO_Port_Clock",
+            "HAL_GPIO_Init"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "digital_io_write": {
+        "called_functions": [
+            "HAL_GPIO_WritePin"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "digital_io_read": {
+        "called_functions": [
+            "HAL_GPIO_ReadPin"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "pinmap_find_peripheral": {
+        "called_functions": []
+    },
+    "pinmap_find_pin": {
+        "called_functions": []
+    },
+    "pinmap_pin": {
+        "called_functions": [
+            "pinmap_find_pin"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "pinmap_find_function": {
+        "called_functions": []
+    },
+    "pin_in_pinmap": {
+        "called_functions": []
+    },
+    "pinmap_merge_peripheral": {
+        "called_functions": []
+    },
+    "RTC_Alarm_IRQHandler": {
+        "called_functions": [
+            "HAL_RTC_AlarmIRQHandler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8004e0b": {
+        "called_functions": []
+    },
+    "sub_8004e53": {
+        "called_functions": []
+    },
+    "sub_8004eb3": {
+        "called_functions": []
+    },
+    "get_timer_obj": {
+        "called_functions": []
+    },
+    "TIM1_UP_IRQHandler": {
+        "called_functions": [
+            "HAL_TIM_IRQHandler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8004eff": {
+        "called_functions": []
+    },
+    "TIM2_IRQHandler": {
+        "called_functions": [
+            "HAL_TIM_IRQHandler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8004f13": {
+        "called_functions": []
+    },
+    "TIM3_IRQHandler": {
+        "called_functions": [
+            "HAL_TIM_IRQHandler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8004f27": {
+        "called_functions": []
+    },
+    "TIM4_IRQHandler": {
+        "called_functions": [
+            "HAL_TIM_IRQHandler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8004f3b": {
+        "called_functions": []
+    },
+    "get_i2c_obj": {
+        "called_functions": []
+    },
+    "I2C1_EV_IRQHandler": {
+        "called_functions": [
+            "HAL_I2C_EV_IRQHandler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "I2C1_ER_IRQHandler": {
+        "called_functions": [
+            "HAL_I2C_ER_IRQHandler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "I2C2_EV_IRQHandler": {
+        "called_functions": [
+            "HAL_I2C_EV_IRQHandler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "I2C2_ER_IRQHandler": {
+        "called_functions": [
+            "HAL_I2C_ER_IRQHandler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "uart_init": {
+        "called_functions": [
+            "pinmap_peripheral",
+            "iprintf",
+            "pinmap_merge_peripheral",
+            "set_GPIO_Port_Clock",
+            "pinmap_function",
+            "HAL_GPIO_Init",
+            "HAL_UART_Init"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "iprintf": {
+        "called_functions": [
+            "_vfiprintf_r",
+            "__sinit"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_80052d3": {
+        "called_functions": []
+    },
+    "sub_800544f": {
+        "called_functions": []
+    },
+    "uart_debug_init": {
+        "called_functions": [
+            "pinmap_peripheral",
+            "pinmap_pin",
+            "uart_init"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "uart_debug_write": {
+        "called_functions": [
+            "HAL_GetTick",
+            "pinmap_peripheral",
+            "HAL_UART_Transmit",
+            "uart_debug_init"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_800554b": {
+        "called_functions": []
+    },
+    "serial_rx_active": {
+        "called_functions": [
+            "HAL_UART_GetState"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_800557b": {
+        "called_functions": []
+    },
+    "serial_tx_active": {
+        "called_functions": [
+            "HAL_UART_GetState"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_800559f": {
+        "called_functions": []
+    },
+    "uart_getc": {
+        "called_functions": [
+            "serial_rx_active",
+            "HAL_UART_Receive_IT"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "uart_attach_rx_callback": {
+        "called_functions": [
+            "serial_rx_active",
+            "HAL_NVIC_SetPriority",
+            "HAL_NVIC_EnableIRQ",
+            "HAL_UART_Receive_IT"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "uart_attach_tx_callback": {
+        "called_functions": [
+            "HAL_NVIC_SetPriority",
+            "HAL_NVIC_EnableIRQ",
+            "HAL_UART_Transmit_IT"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "uart_index": {
+        "called_functions": []
+    },
+    "sub_8005713": {
+        "called_functions": []
+    },
+    "USART1_IRQHandler": {
+        "called_functions": [
+            "HAL_NVIC_ClearPendingIRQ",
+            "HAL_UART_IRQHandler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8005773": {
+        "called_functions": []
+    },
+    "USART2_IRQHandler": {
+        "called_functions": [
+            "HAL_NVIC_ClearPendingIRQ",
+            "HAL_UART_IRQHandler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_800578b": {
+        "called_functions": []
+    },
+    "USART3_IRQHandler": {
+        "called_functions": [
+            "HAL_NVIC_ClearPendingIRQ",
+            "HAL_UART_IRQHandler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_sbrk": {
+        "called_functions": []
+    },
+    "sub_80057d7": {
+        "called_functions": []
+    },
+    "_close": {
+        "called_functions": []
+    },
+    "_fstat": {
+        "called_functions": []
+    },
+    "_isatty": {
+        "called_functions": []
+    },
+    "_lseek": {
+        "called_functions": []
+    },
+    "_read": {
+        "called_functions": []
+    },
+    "_write": {
+        "called_functions": [
+            "uart_debug_write"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_exit": {
+        "called_functions": []
+    },
+    "_kill": {
+        "called_functions": []
+    },
+    "_getpid": {
+        "called_functions": []
+    },
+    "sub_800587b": {
+        "called_functions": []
+    },
+    "sub_8005907": {
+        "called_functions": []
+    },
+    "sub_8005957": {
+        "called_functions": []
+    },
+    "_ZN14HardwareSerial16_tx_complete_irqEP8serial_s": {
+        "called_functions": []
+    },
+    "_ZN14HardwareSerial9availableEv": {
+        "called_functions": []
+    },
+    "_ZN14HardwareSerial4peekEv": {
+        "called_functions": []
+    },
+    "_ZN14HardwareSerial4readEv": {
+        "called_functions": []
+    },
+    "_ZN14HardwareSerial5flushEv": {
+        "called_functions": []
+    },
+    "_ZN14HardwareSerial16_rx_complete_irqEP8serial_s": {
+        "called_functions": [
+            "uart_getc"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_ZN14HardwareSerial5writeEh": {
+        "called_functions": [
+            "serial_tx_active",
+            "uart_attach_tx_callback"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_Z14serialEventRunv": {
+        "called_functions": [
+            "_ZN14HardwareSerial9availableEv"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8005b0b": {
+        "called_functions": []
+    },
+    "_ZN14HardwareSerial4initEv": {
+        "called_functions": []
+    },
+    "__assert_func": {
+        "called_functions": [
+            "fiprintf",
+            "abort"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN14HardwareSerial5setRxEm": {
+        "called_functions": []
+    },
+    "_ZN14HardwareSerial5setTxEm": {
+        "called_functions": []
+    },
+    "_ZN14HardwareSerialC1EPv": {
+        "called_functions": [
+            "_ZN14HardwareSerial5setRxEm",
+            "pinmap_pin",
+            "_ZN14HardwareSerial5setTxEm",
+            "_ZN14HardwareSerial4initEv"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_GLOBAL__sub_I_Serial2": {
+        "called_functions": [
+            "_Z41__static_initialization_and_destruction_0ii"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_ZNK9IPAddress7printToER5Print": {
+        "called_functions": [
+            "_ZN5Print5printEhi",
+            "_ZN5Print5printEc"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_ZN5Print5printEhi": {
+        "called_functions": [
+            "_ZN5Print5printEmi"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN5Print5printEc": {
+        "called_functions": [
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 3,
+        "outdegree": 3
+    },
+    "_ZN9IPAddressC1Ehhhh": {
+        "called_functions": []
+    },
+    "sub_8005d03": {
+        "called_functions": []
+    },
+    "sub_8005d2f": {
+        "called_functions": []
+    },
+    "_GLOBAL__sub_I__ZN9IPAddressC2Ev": {
+        "called_functions": [
+            "_Z41__static_initialization_and_destruction_0ii"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_ZN5Print5writeEPKhj": {
+        "called_functions": [
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_ZN5Print7printlnEv": {
+        "called_functions": [
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_8005d9f": {
+        "called_functions": []
+    },
+    "_ZN5Print11printNumberEmh": {
+        "called_functions": [
+            "strlen",
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "_ZN5Print5printEli": {
+        "called_functions": [
+            "UnresolvableCallTarget",
+            "_ZN5Print11printNumberEmh",
+            "_ZN5Print5printEc"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZN5Print5printEmi": {
+        "called_functions": [
+            "UnresolvableCallTarget",
+            "_ZN5Print11printNumberEmh"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "_ZN5Print10printFloatEdh": {
+        "called_functions": [
+            "__unorddf2",
+            "_ZN5Print5printEPKc",
+            "__aeabi_dcmpgt",
+            "__aeabi_dcmple",
+            "__aeabi_dcmplt",
+            "_ZN5Print5printEc",
+            "__aeabi_dadd",
+            "__divdf3",
+            "__fixunsdfsi",
+            "__floatunsidf",
+            "__subdf3",
+            "_ZN5Print5printEmi",
+            "__muldf3",
+            "__fixdfsi",
+            "_ZN5Print5printEii",
+            "__floatsidf"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8005fd7": {
+        "called_functions": []
+    },
+    "_Z11initVariantv": {
+        "called_functions": []
+    },
+    "_Z7premainv": {
+        "called_functions": [
+            "HAL_NVIC_SetPriorityGrouping",
+            "init"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_8006057": {
+        "called_functions": []
+    },
+    "_ZL10get_pin_idt": {
+        "called_functions": []
+    },
+    "__tcf_0": {
+        "called_functions": [
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "sub_800608f": {
+        "called_functions": []
+    },
+    "__aeabi_atexit": {
+        "called_functions": [
+            "__cxa_atexit"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8006137": {
+        "called_functions": []
+    },
+    "EXTI0_IRQHandler": {
+        "called_functions": [
+            "HAL_GPIO_EXTI_IRQHandler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "EXTI1_IRQHandler": {
+        "called_functions": [
+            "HAL_GPIO_EXTI_IRQHandler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "EXTI2_IRQHandler": {
+        "called_functions": [
+            "HAL_GPIO_EXTI_IRQHandler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "EXTI3_IRQHandler": {
+        "called_functions": [
+            "HAL_GPIO_EXTI_IRQHandler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "EXTI4_IRQHandler": {
+        "called_functions": [
+            "HAL_GPIO_EXTI_IRQHandler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "EXTI9_5_IRQHandler": {
+        "called_functions": [
+            "HAL_GPIO_EXTI_IRQHandler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "EXTI15_10_IRQHandler": {
+        "called_functions": [
+            "HAL_GPIO_EXTI_IRQHandler"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_ZNKSt8functionIFvvEEclEv": {
+        "called_functions": [
+            "_ZSt25__throw_bad_function_callv",
+            "_ZSt25__throw_bad_function_callv",
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_ZSt25__throw_bad_function_callv": {
+        "called_functions": [
+            "abort"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "_GLOBAL__sub_I__Z22stm32_interrupt_enableP12GPIO_TypeDeftSt8functionIFvvEEm": {
+        "called_functions": [
+            "_Z41__static_initialization_and_destruction_0ii"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__cxa_atexit": {
+        "called_functions": []
+    },
+    "fiprintf": {
+        "called_functions": [
+            "_vfiprintf_r"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "abort": {
+        "called_functions": [
+            "raise",
+            "_exit"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "sub_8006217": {
+        "called_functions": []
+    },
+    "_vfiprintf_r": {
+        "called_functions": [
+            "__sinit",
+            "__swsetup_r",
+            "__sfputs_r",
+            "memchr",
+            "_printf_i"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "_init": {
+        "called_functions": []
+    },
+    "_free_r": {
+        "called_functions": [
+            "__malloc_lock",
+            "__malloc_unlock"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "__malloc_lock": {
+        "called_functions": []
+    },
+    "__malloc_unlock": {
+        "called_functions": []
+    },
+    "sub_8006353": {
+        "called_functions": []
+    },
+    "_malloc_r": {
+        "called_functions": [
+            "__malloc_lock",
+            "_sbrk_r",
+            "__malloc_unlock"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "_sbrk_r": {
+        "called_functions": [
+            "_sbrk"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_800640b": {
+        "called_functions": []
+    },
+    "__sfputc_r": {
+        "called_functions": [
+            "__swbuf_r"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "__swbuf_r": {
+        "called_functions": [
+            "__sinit",
+            "__swsetup_r",
+            "_fflush_r"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "__sinit": {
+        "called_functions": [
+            "__sfp",
+            "std.isra.0"
+        ],
+        "indegree": 6,
+        "outdegree": 6
+    },
+    "__swsetup_r": {
+        "called_functions": [
+            "__sinit",
+            "__smakebuf_r",
+            "_free_r"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "_fflush_r": {
+        "called_functions": [
+            "__sinit",
+            "__sflush_r"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "__sfputs_r": {
+        "called_functions": [
+            "__sfputc_r"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "memchr": {
+        "called_functions": []
+    },
+    "_printf_i": {
+        "called_functions": [
+            "memchr",
+            "_printf_common",
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_800666f": {
+        "called_functions": []
+    },
+    "_printf_common": {
+        "called_functions": [
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8006aa7": {
+        "called_functions": []
+    },
+    "__smakebuf_r": {
+        "called_functions": [
+            "__swhatbuf_r",
+            "_malloc_r",
+            "_isatty_r"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8006b7f": {
+        "called_functions": []
+    },
+    "raise": {
+        "called_functions": [
+            "_raise_r"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "__sflush_r": {
+        "called_functions": [
+            "UnresolvableCallTarget",
+            "_free_r"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8006cf7": {
+        "called_functions": []
+    },
+    "_cleanup_r": {
+        "called_functions": [
+            "_fwalk_reent"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_fwalk_reent": {
+        "called_functions": [
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8006d0b": {
+        "called_functions": []
+    },
+    "std.isra.0": {
+        "called_functions": [
+            "memset"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8006d47": {
+        "called_functions": []
+    },
+    "__sfmoreglue": {
+        "called_functions": [
+            "_malloc_r",
+            "memset"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "__sfp": {
+        "called_functions": [
+            "__sinit",
+            "memset",
+            "__sfmoreglue"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "__swhatbuf_r": {
+        "called_functions": [
+            "_fstat_r"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_fstat_r": {
+        "called_functions": [
+            "_fstat"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_isatty_r": {
+        "called_functions": [
+            "_isatty"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_raise_r": {
+        "called_functions": [
+            "_getpid_r",
+            "_kill_r",
+            "UnresolvableCallTarget"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_getpid_r": {
+        "called_functions": [
+            "_getpid"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_kill_r": {
+        "called_functions": [
+            "_kill"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_8006fdb": {
+        "called_functions": []
+    },
+    "sub_8006fff": {
+        "called_functions": []
+    },
+    "__sread": {
+        "called_functions": [
+            "_read_r"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_read_r": {
+        "called_functions": [
+            "_read"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "__swrite": {
+        "called_functions": [
+            "_write_r",
+            "_lseek_r"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_write_r": {
+        "called_functions": [
+            "_write"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "_lseek_r": {
+        "called_functions": [
+            "_lseek"
+        ],
+        "indegree": 2,
+        "outdegree": 2
+    },
+    "__sseek": {
+        "called_functions": [
+            "_lseek_r"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "__sclose": {
+        "called_functions": [
+            "_close_r"
+        ],
+        "indegree": 0,
+        "outdegree": 0
+    },
+    "_close_r": {
+        "called_functions": [
+            "_close"
+        ],
+        "indegree": 1,
+        "outdegree": 1
+    },
+    "sub_80070f3": {
+        "called_functions": []
+    },
+    "_GLOBAL__sub_I__ZNSt12ctype_bynameIcEC2ERKSsj": {
+        "called_functions": []
+    },
+    "sub_80071fb": {
+        "called_functions": []
+    },
+    "_GLOBAL__sub_I__ZNSt12ctype_bynameIwEC2ERKSsj": {
+        "called_functions": []
+    },
+    "sub_80072bf": {
+        "called_functions": []
+    },
+    "_GLOBAL__sub_I__ZNSt12ctype_bynameIwEC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEj": {
+        "called_functions": []
+    },
+    "sub_8007353": {
+        "called_functions": []
+    },
+    "_GLOBAL__sub_I__ZNSt12ctype_bynameIcEC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEj": {
+        "called_functions": []
+    },
+    "sub_80073d7": {
+        "called_functions": []
+    },
+    "_fini": {
+        "called_functions": []
+    }
+}
