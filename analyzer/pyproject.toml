@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "analyzer"
+version = "0.1.0"
+description = ""
+authors = ["Mahesh <gmahesh9391@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyvex = "^9.2.162"
+angr = "9.2.162"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+#
